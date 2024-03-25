@@ -1,3 +1,8 @@
+setupFlagClickHandler();
+
+let correctCount = 0;
+let incorrectCount = 0;
+
 document.getElementById('guessForm').onsubmit = function(event) {
         event.preventDefault(); // Запобігти стандартному відправленню форми
 
@@ -21,6 +26,15 @@ document.getElementById('guessForm').onsubmit = function(event) {
             feedback.className = data.isCorrect ? 'correct' : 'incorrect'; // Змінити клас для встановлення кольору
             feedback.style.display = 'block'; // Показати фідбек
 
+    if (data.isCorrect) {
+        correctCount++;
+        document.getElementById('correctCount').textContent = `${correctCount}`;
+    } else {
+        incorrectCount++;
+        document.getElementById('incorrectCount').textContent = `${incorrectCount}`;
+    }
+
+
             // Сховати фідбек і показати новий флаг через секунду
             setTimeout(function() {
                 feedback.style.display = 'none'; // Сховати фідбек
@@ -32,10 +46,21 @@ document.getElementById('guessForm').onsubmit = function(event) {
                         document.getElementById('flagImage').src = newFlagData.imageUrl;
                         document.getElementById('countryName').value = newFlagData.countryName;
                         document.getElementById('flagImage').title = newFlagData.countryName;
-                        document.getElementById('timesGuessedCorrectly').textContent = newFlagData.timesGuessedCorrectly;
-                        document.getElementById('timesGuessedIncorrectly').textContent = newFlagData.timesGuessedIncorrectly;
                 });
             }, 2000); // Затримка 2 секунди
         })
         .catch(error => console.error('Error:', error));
     };
+
+    function setupFlagClickHandler() {
+        var flagContainer = document.getElementById('flagContainer');
+        var feedbackElement = document.getElementById('feedback');
+
+        flagContainer.addEventListener('click', function() {
+            var countryName = document.getElementById('countryName').value;
+
+            feedbackElement.textContent = countryName;
+            feedbackElement.className = 'incorrect';
+            feedback.style.display = 'block';
+        });
+    }

@@ -16,12 +16,12 @@
 <div class="container d-flex flex-column align-items-center justify-content-center">
     <div class="row">
         <div class="col text-center">
-            <div class="image-container">
+            <div id="flagContainer" class="image-container" style="cursor: pointer;">
                 <img id="flagImage" th:src="${flag.imageUrl}" alt="Flag" th:title="${flag.countryName}" class="img-fluid my-3">
             </div>
             <div id="stats">
-                <p class="correct">Правильно: <span id="timesGuessedCorrectly" th:text="${flag.timesGuessedCorrectly}"></span></p>
-                <p class="incorrect">Неправильно: <span id="timesGuessedIncorrectly" th:text="${flag.timesGuessedIncorrectly}"></span></p>
+                <p class="correct">Правильно: <span id="correctCount" th:text="0"></span></p>
+                <p class="incorrect">Неправильно: <span id="incorrectCount" th:text="0"></span></p>
             </div>
             <form id="guessForm" class="form-inline justify-content-center my-2">
                 <input type="hidden" id="countryName" th:value="${flag.countryName}">
