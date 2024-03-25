@@ -16,8 +16,8 @@ import java.util.Map;
 @Service
 public class UserDataService {
 
-    private final Path templateFilePath = Path.of("src", "main", "resources", "data", "flags.json");
-    private final Path dataDirectory = Path.of("src", "main", "resources", "data", "users");
+    private final Path templateFilePath = Path.of( "data", "flags.json");
+    private final Path dataDirectory = Path.of("data", "users");
     private final ObjectMapper objectMapper = new ObjectMapper();
 
     public void createUserFlagsFile(String username) {
