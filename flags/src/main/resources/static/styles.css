@@ -1,0 +1,21 @@
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 400px;
+}
+
+#flagImage {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.correct {
+    color: green;
+}
+
+.incorrect {
+    color: red;
+}
