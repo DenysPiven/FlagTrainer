@@ -19,3 +19,7 @@
 .incorrect {
     color: red;
 }
+
+p {
+    font-size: 16pt;
+}
