@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Guess the Flag!</title>
+    <!-- Включення Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" th:href="@{/styles.css}" />
+</head>
+<body class="bg-dark text-white">
+<div class="header bg-secondary py-2 px-3 shadow">
+    <div class="container d-flex justify-content-between align-items-center">
+        <span th:text="${user != null ? user.username : 'Guest'}"></span>
+        <a href="/logout" th:if="${user != null}" class="btn btn-danger btn-sm">Logout</a>
+    </div>
+</div>
+<div class="container d-flex flex-column align-items-center justify-content-center">
+    <div class="row">
+        <div class="col text-center">
+            <div class="image-container">
+                <img id="flagImage" th:src="${flag.imageUrl}" alt="Flag" th:title="${flag.countryName}" class="img-fluid my-3">
+            </div>
+            <div id="stats">
+                <p class="correct">Правильно: <span id="timesGuessedCorrectly" th:text="${flag.timesGuessedCorrectly}"></span></p>
+                <p class="incorrect">Неправильно: <span id="timesGuessedIncorrectly" th:text="${flag.timesGuessedIncorrectly}"></span></p>
+            </div>
+            <form id="guessForm" class="form-inline justify-content-center my-2">
+                <input type="hidden" id="countryName" th:value="${flag.countryName}">
+                <div class="form-group">
+                    <input type="text" id="userGuess" name="userGuess" class="form-control" autocomplete="off" placeholder="Enter guess">
+                </div>
+                <button type="submit" class="btn btn-primary ml-2">Guess</button>
+            </form>
+            <p id="feedback" class="d-none"></p>
+        </div>
+    </div>
+</div>
+
+<!-- Bootstrap JS, Popper.js, and jQuery -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+<script src="/js/main.js"></script>
+</body>
+</html>
