@@ -1,12 +1,5 @@
 [
     {
-        "countryName": "Аруба",
-        "imageUrl": "https://flagcdn.com/w320/aw.png",
-        "timesShown": 0,
-        "timesGuessedCorrectly": 0,
-        "timesGuessedIncorrectly": 0
-    },
-    {
         "countryName": "Афганістан",
         "imageUrl": "https://flagcdn.com/w320/af.png",
         "timesShown": 0,
@@ -14,22 +7,64 @@
         "timesGuessedIncorrectly": 0
     },
     {
+        "countryName": "Демократична Республіка Конго",
+        "imageUrl": "https://flagcdn.com/w320/cd.png",
+        "timesShown": 0,
+        "timesGuessedCorrectly": 0,
+        "timesGuessedIncorrectly": 0
+    },
+    {
+        "countryName": "Ватикан",
+        "imageUrl": "https://flagcdn.com/w320/va.png",
+        "timesShown": 0,
+        "timesGuessedCorrectly": 0,
+        "timesGuessedIncorrectly": 0
+    },
+    {
+        "countryName": "Норвегія",
+        "imageUrl": "https://flagcdn.com/w320/no.png",
+        "timesShown": 0,
+        "timesGuessedCorrectly": 0,
+        "timesGuessedIncorrectly": 0
+    },
+    {
+        "countryName": "Федеративні Штати Мікронезії",
+        "imageUrl": "https://flagcdn.com/w320/fm.png",
+        "timesShown": 0,
+        "timesGuessedCorrectly": 0,
+        "timesGuessedIncorrectly": 0
+    },
+    {
+        "countryName": "Франція",
+        "imageUrl": "https://flagcdn.com/w320/fr.png",
+        "timesShown": 0,
+        "timesGuessedCorrectly": 0,
+        "timesGuessedIncorrectly": 0
+    },
+    {
+        "countryName": "Південно-Африканська Республіка",
+        "imageUrl": "https://flagcdn.com/w320/za.png",
+        "timesShown": 0,
+        "timesGuessedCorrectly": 0,
+        "timesGuessedIncorrectly": 0
+    },
+    {
+        "countryName": "Китай",
+        "imageUrl": "https://flagcdn.com/w320/cn.png",
+        "timesShown": 0,
+        "timesGuessedCorrectly": 0,
+        "timesGuessedIncorrectly": 0
+    },
+    {
+        "countryName": "Обʼєднані Арабські Емірати",
+        "imageUrl": "https://flagcdn.com/w320/ae.png",
+        "timesShown": 0,
+        "timesGuessedCorrectly": 0,
+        "timesGuessedIncorrectly": 0
+    },
+    {
         "countryName": "Ангола",
         "imageUrl": "https://flagcdn.com/w320/ao.png",
-        "timesShown": 0,
-        "timesGuessedCorrectly": 0,
-        "timesGuessedIncorrectly": 0
-    },
-    {
-        "countryName": "Ангілья",
-        "imageUrl": "https://flagcdn.com/w320/ai.png",
-        "timesShown": 0,
-        "timesGuessedCorrectly": 0,
-        "timesGuessedIncorrectly": 0
-    },
-    {
-        "countryName": "Аландські острови",
-        "imageUrl": "https://flagcdn.com/w320/ax.png",
         "timesShown": 0,
         "timesGuessedCorrectly": 0,
         "timesGuessedIncorrectly": 0
@@ -49,13 +84,6 @@
         "timesGuessedIncorrectly": 0
     },
     {
-        "countryName": "Об'єднані Арабські Емірати",
-        "imageUrl": "https://flagcdn.com/w320/ae.png",
-        "timesShown": 0,
-        "timesGuessedCorrectly": 0,
-        "timesGuessedIncorrectly": 0
-    },
-    {
         "countryName": "Аргентина",
         "imageUrl": "https://flagcdn.com/w320/ar.png",
         "timesShown": 0,
@@ -70,36 +98,8 @@
         "timesGuessedIncorrectly": 0
     },
     {
-        "countryName": "Американське Самоа",
-        "imageUrl": "https://flagcdn.com/w320/as.png",
-        "timesShown": 0,
-        "timesGuessedCorrectly": 0,
-        "timesGuessedIncorrectly": 0
-    },
-    {
-        "countryName": "Антарктида",
-        "imageUrl": "https://flagcdn.com/w320/aq.png",
-        "timesShown": 0,
-        "timesGuessedCorrectly": 0,
-        "timesGuessedIncorrectly": 0
-    },
-    {
-        "countryName": "Французькі Південні і Антарктичні Території",
-        "imageUrl": "https://flagcdn.com/w320/tf.png",
-        "timesShown": 0,
-        "timesGuessedCorrectly": 0,
-        "timesGuessedIncorrectly": 0
-    },
-    {
         "countryName": "Антигуа і Барбуда",
         "imageUrl": "https://flagcdn.com/w320/ag.png",
-        "timesShown": 0,
-        "timesGuessedCorrectly": 0,
-        "timesGuessedIncorrectly": 0
-    },
-    {
-        "countryName": "Австралія",
-        "imageUrl": "https://flagcdn.com/w320/au.png",
         "timesShown": 0,
         "timesGuessedCorrectly": 0,
         "timesGuessedIncorrectly": 0
@@ -140,13 +140,6 @@
         "timesGuessedIncorrectly": 0
     },
     {
-        "countryName": "Карибські Нідерланди",
-        "imageUrl": "https://flagcdn.com/w320/bq.png",
-        "timesShown": 0,
-        "timesGuessedCorrectly": 0,
-        "timesGuessedIncorrectly": 0
-    },
-    {
         "countryName": "Буркіна-Фасо",
         "imageUrl": "https://flagcdn.com/w320/bf.png",
         "timesShown": 0,
@@ -175,22 +168,8 @@
         "timesGuessedIncorrectly": 0
     },
     {
-        "countryName": "Багамські Острови",
+        "countryName": "Багами",
         "imageUrl": "https://flagcdn.com/w320/bs.png",
-        "timesShown": 0,
-        "timesGuessedCorrectly": 0,
-        "timesGuessedIncorrectly": 0
-    },
-    {
-        "countryName": "Боснія і Герцеговина",
-        "imageUrl": "https://flagcdn.com/w320/ba.png",
-        "timesShown": 0,
-        "timesGuessedCorrectly": 0,
-        "timesGuessedIncorrectly": 0
-    },
-    {
-        "countryName": "Сен-Бартелемі",
-        "imageUrl": "https://flagcdn.com/w320/bl.png",
         "timesShown": 0,
         "timesGuessedCorrectly": 0,
         "timesGuessedIncorrectly": 0
@@ -205,13 +184,6 @@
     {
         "countryName": "Беліз",
         "imageUrl": "https://flagcdn.com/w320/bz.png",
-        "timesShown": 0,
-        "timesGuessedCorrectly": 0,
-        "timesGuessedIncorrectly": 0
-    },
-    {
-        "countryName": "Бермудські Острови",
-        "imageUrl": "https://flagcdn.com/w320/bm.png",
         "timesShown": 0,
         "timesGuessedCorrectly": 0,
         "timesGuessedIncorrectly": 0
@@ -273,13 +245,6 @@
         "timesGuessedIncorrectly": 0
     },
     {
-        "countryName": "Кокосові острови",
-        "imageUrl": "https://flagcdn.com/w320/cc.png",
-        "timesShown": 0,
-        "timesGuessedCorrectly": 0,
-        "timesGuessedIncorrectly": 0
-    },
-    {
         "countryName": "Швейцарія",
         "imageUrl": "https://flagcdn.com/w320/ch.png",
         "timesShown": 0,
@@ -289,13 +254,6 @@
     {
         "countryName": "Чилі",
         "imageUrl": "https://flagcdn.com/w320/cl.png",
-        "timesShown": 0,
-        "timesGuessedCorrectly": 0,
-        "timesGuessedIncorrectly": 0
-    },
-    {
-        "countryName": "Китай",
-        "imageUrl": "https://flagcdn.com/w320/cn.png",
         "timesShown": 0,
         "timesGuessedCorrectly": 0,
         "timesGuessedIncorrectly": 0
@@ -315,22 +273,8 @@
         "timesGuessedIncorrectly": 0
     },
     {
-        "countryName": "Демократична Республіка Конго",
-        "imageUrl": "https://flagcdn.com/w320/cd.png",
-        "timesShown": 0,
-        "timesGuessedCorrectly": 0,
-        "timesGuessedIncorrectly": 0
-    },
-    {
         "countryName": "Республіка Конго",
         "imageUrl": "https://flagcdn.com/w320/cg.png",
-        "timesShown": 0,
-        "timesGuessedCorrectly": 0,
-        "timesGuessedIncorrectly": 0
-    },
-    {
-        "countryName": "Острови Кука",
-        "imageUrl": "https://flagcdn.com/w320/ck.png",
         "timesShown": 0,
         "timesGuessedCorrectly": 0,
         "timesGuessedIncorrectly": 0
@@ -357,7 +301,7 @@
         "timesGuessedIncorrectly": 0
     },
     {
-        "countryName": "Коста-Рика",
+        "countryName": "Коста-Ріка",
         "imageUrl": "https://flagcdn.com/w320/cr.png",
         "timesShown": 0,
         "timesGuessedCorrectly": 0,
@@ -366,27 +310,6 @@
     {
         "countryName": "Куба",
         "imageUrl": "https://flagcdn.com/w320/cu.png",
-        "timesShown": 0,
-        "timesGuessedCorrectly": 0,
-        "timesGuessedIncorrectly": 0
-    },
-    {
-        "countryName": "Кюрасао",
-        "imageUrl": "https://flagcdn.com/w320/cw.png",
-        "timesShown": 0,
-        "timesGuessedCorrectly": 0,
-        "timesGuessedIncorrectly": 0
-    },
-    {
-        "countryName": "Острів Різдва",
-        "imageUrl": "https://flagcdn.com/w320/cx.png",
-        "timesShown": 0,
-        "timesGuessedCorrectly": 0,
-        "timesGuessedIncorrectly": 0
-    },
-    {
-        "countryName": "Кайманові острови",
-        "imageUrl": "https://flagcdn.com/w320/ky.png",
         "timesShown": 0,
         "timesGuessedCorrectly": 0,
         "timesGuessedIncorrectly": 0
@@ -469,13 +392,6 @@
         "timesGuessedIncorrectly": 0
     },
     {
-        "countryName": "Західна Сахара",
-        "imageUrl": "https://flagcdn.com/w320/eh.png",
-        "timesShown": 0,
-        "timesGuessedCorrectly": 0,
-        "timesGuessedIncorrectly": 0
-    },
-    {
         "countryName": "Іспанія",
         "imageUrl": "https://flagcdn.com/w320/es.png",
         "timesShown": 0,
@@ -504,41 +420,6 @@
         "timesGuessedIncorrectly": 0
     },
     {
-        "countryName": "Фіджі",
-        "imageUrl": "https://flagcdn.com/w320/fj.png",
-        "timesShown": 0,
-        "timesGuessedCorrectly": 0,
-        "timesGuessedIncorrectly": 0
-    },
-    {
-        "countryName": "Фолклендські острови",
-        "imageUrl": "https://flagcdn.com/w320/fk.png",
-        "timesShown": 0,
-        "timesGuessedCorrectly": 0,
-        "timesGuessedIncorrectly": 0
-    },
-    {
-        "countryName": "Франція",
-        "imageUrl": "https://flagcdn.com/w320/fr.png",
-        "timesShown": 0,
-        "timesGuessedCorrectly": 0,
-        "timesGuessedIncorrectly": 0
-    },
-    {
-        "countryName": "Фарерські острови",
-        "imageUrl": "https://flagcdn.com/w320/fo.png",
-        "timesShown": 0,
-        "timesGuessedCorrectly": 0,
-        "timesGuessedIncorrectly": 0
-    },
-    {
-        "countryName": "Мікронезія",
-        "imageUrl": "https://flagcdn.com/w320/fm.png",
-        "timesShown": 0,
-        "timesGuessedCorrectly": 0,
-        "timesGuessedIncorrectly": 0
-    },
-    {
         "countryName": "Габон",
         "imageUrl": "https://flagcdn.com/w320/ga.png",
         "timesShown": 0,
@@ -560,13 +441,6 @@
         "timesGuessedIncorrectly": 0
     },
     {
-        "countryName": "Гернсі",
-        "imageUrl": "https://flagcdn.com/w320/gg.png",
-        "timesShown": 0,
-        "timesGuessedCorrectly": 0,
-        "timesGuessedIncorrectly": 0
-    },
-    {
         "countryName": "Гана",
         "imageUrl": "https://flagcdn.com/w320/gh.png",
         "timesShown": 0,
@@ -574,22 +448,8 @@
         "timesGuessedIncorrectly": 0
     },
     {
-        "countryName": "Гібралтар",
-        "imageUrl": "https://flagcdn.com/w320/gi.png",
-        "timesShown": 0,
-        "timesGuessedCorrectly": 0,
-        "timesGuessedIncorrectly": 0
-    },
-    {
         "countryName": "Гвінея",
         "imageUrl": "https://flagcdn.com/w320/gn.png",
-        "timesShown": 0,
-        "timesGuessedCorrectly": 0,
-        "timesGuessedIncorrectly": 0
-    },
-    {
-        "countryName": "Гваделупа",
-        "imageUrl": "https://flagcdn.com/w320/gp.png",
         "timesShown": 0,
         "timesGuessedCorrectly": 0,
         "timesGuessedIncorrectly": 0
@@ -630,29 +490,8 @@
         "timesGuessedIncorrectly": 0
     },
     {
-        "countryName": "Гренландія",
-        "imageUrl": "https://flagcdn.com/w320/gl.png",
-        "timesShown": 0,
-        "timesGuessedCorrectly": 0,
-        "timesGuessedIncorrectly": 0
-    },
-    {
         "countryName": "Гватемала",
         "imageUrl": "https://flagcdn.com/w320/gt.png",
-        "timesShown": 0,
-        "timesGuessedCorrectly": 0,
-        "timesGuessedIncorrectly": 0
-    },
-    {
-        "countryName": "Гвіана",
-        "imageUrl": "https://flagcdn.com/w320/gf.png",
-        "timesShown": 0,
-        "timesGuessedCorrectly": 0,
-        "timesGuessedIncorrectly": 0
-    },
-    {
-        "countryName": "Гуам",
-        "imageUrl": "https://flagcdn.com/w320/gu.png",
         "timesShown": 0,
         "timesGuessedCorrectly": 0,
         "timesGuessedIncorrectly": 0
@@ -665,33 +504,13 @@
         "timesGuessedIncorrectly": 0
     },
     {
-        "countryName": "Гонконг",
-        "imageUrl": "https://flagcdn.com/w320/hk.png",
-        "timesShown": 0,
-        "timesGuessedCorrectly": 0,
-        "timesGuessedIncorrectly": 0
-    },
-    {
-        "countryName": "Острів Герд і острови Макдональд",
-        "imageUrl": "https://flagcdn.com/w320/hm.png",
-        "timesShown": 0,
-        "timesGuessedCorrectly": 0,
-        "timesGuessedIncorrectly": 0
-    },
-    {
         "countryName": "Гондурас",
         "imageUrl": "https://flagcdn.com/w320/hn.png",
         "timesShown": 0,
         "timesGuessedCorrectly": 0,
         "timesGuessedIncorrectly": 0
     },
-    {
-        "countryName": "Хорватія",
-        "imageUrl": "https://flagcdn.com/w320/hr.png",
-        "timesShown": 0,
-        "timesGuessedCorrectly": 0,
-        "timesGuessedIncorrectly": 0
-    },
+
     {
         "countryName": "Гаїті",
         "imageUrl": "https://flagcdn.com/w320/ht.png",
@@ -714,22 +533,8 @@
         "timesGuessedIncorrectly": 0
     },
     {
-        "countryName": "Острів Мен",
-        "imageUrl": "https://flagcdn.com/w320/im.png",
-        "timesShown": 0,
-        "timesGuessedCorrectly": 0,
-        "timesGuessedIncorrectly": 0
-    },
-    {
         "countryName": "Індія",
         "imageUrl": "https://flagcdn.com/w320/in.png",
-        "timesShown": 0,
-        "timesGuessedCorrectly": 0,
-        "timesGuessedIncorrectly": 0
-    },
-    {
-        "countryName": "Британська Територія в Індійському Океані",
-        "imageUrl": "https://flagcdn.com/w320/io.png",
         "timesShown": 0,
         "timesGuessedCorrectly": 0,
         "timesGuessedIncorrectly": 0
@@ -779,13 +584,6 @@
     {
         "countryName": "Ямайка",
         "imageUrl": "https://flagcdn.com/w320/jm.png",
-        "timesShown": 0,
-        "timesGuessedCorrectly": 0,
-        "timesGuessedIncorrectly": 0
-    },
-    {
-        "countryName": "Джерсі",
-        "imageUrl": "https://flagcdn.com/w320/je.png",
         "timesShown": 0,
         "timesGuessedCorrectly": 0,
         "timesGuessedIncorrectly": 0
@@ -938,13 +736,6 @@
         "timesGuessedIncorrectly": 0
     },
     {
-        "countryName": "Макао",
-        "imageUrl": "https://flagcdn.com/w320/mo.png",
-        "timesShown": 0,
-        "timesGuessedCorrectly": 0,
-        "timesGuessedIncorrectly": 0
-    },
-    {
         "countryName": "Марокко",
         "imageUrl": "https://flagcdn.com/w320/ma.png",
         "timesShown": 0,
@@ -1022,6 +813,27 @@
         "timesGuessedIncorrectly": 0
     },
     {
+        "countryName": "Україна",
+        "imageUrl": "https://flagcdn.com/w320/ua.png",
+        "timesShown": 0,
+        "timesGuessedCorrectly": 0,
+        "timesGuessedIncorrectly": 0
+    },
+    {
+        "countryName": "Хорватія",
+        "imageUrl": "https://flagcdn.com/w320/hr.png",
+        "timesShown": 0,
+        "timesGuessedCorrectly": 0,
+        "timesGuessedIncorrectly": 0
+    },
+    {
+        "countryName": "Боснія і Герцеговина",
+        "imageUrl": "https://flagcdn.com/w320/ba.png",
+        "timesShown": 0,
+        "timesGuessedCorrectly": 0,
+        "timesGuessedIncorrectly": 0
+    },
+    {
         "countryName": "Чорногорія",
         "imageUrl": "https://flagcdn.com/w320/me.png",
         "timesShown": 0,
@@ -1029,15 +841,71 @@
         "timesGuessedIncorrectly": 0
     },
     {
-        "countryName": "Монголія",
-        "imageUrl": "https://flagcdn.com/w320/mn.png",
+        "countryName": "Самоа",
+        "imageUrl": "https://flagcdn.com/w320/ws.png",
         "timesShown": 0,
         "timesGuessedCorrectly": 0,
         "timesGuessedIncorrectly": 0
     },
     {
-        "countryName": "Північні Маріани",
-        "imageUrl": "https://flagcdn.com/w320/mp.png",
+        "countryName": "Тувалу",
+        "imageUrl": "https://flagcdn.com/w320/tv.png",
+        "timesShown": 0,
+        "timesGuessedCorrectly": 0,
+        "timesGuessedIncorrectly": 0
+    },
+    {
+        "countryName": "Тонга",
+        "imageUrl": "https://flagcdn.com/w320/to.png",
+        "timesShown": 0,
+        "timesGuessedCorrectly": 0,
+        "timesGuessedIncorrectly": 0
+    },
+    {
+        "countryName": "Фіджі",
+        "imageUrl": "https://flagcdn.com/w320/fj.png",
+        "timesShown": 0,
+        "timesGuessedCorrectly": 0,
+        "timesGuessedIncorrectly": 0
+    },
+    {
+        "countryName": "Вануату",
+        "imageUrl": "https://flagcdn.com/w320/vu.png",
+        "timesShown": 0,
+        "timesGuessedCorrectly": 0,
+        "timesGuessedIncorrectly": 0
+    },
+    {
+        "countryName": "Соломонові Острови",
+        "imageUrl": "https://flagcdn.com/w320/sb.png",
+        "timesShown": 0,
+        "timesGuessedCorrectly": 0,
+        "timesGuessedIncorrectly": 0
+    },
+    {
+        "countryName": "Папуа Нова Гвінея",
+        "imageUrl": "https://flagcdn.com/w320/pg.png",
+        "timesShown": 0,
+        "timesGuessedCorrectly": 0,
+        "timesGuessedIncorrectly": 0
+    },
+    {
+        "countryName": "Австралія",
+        "imageUrl": "https://flagcdn.com/w320/au.png",
+        "timesShown": 0,
+        "timesGuessedCorrectly": 0,
+        "timesGuessedIncorrectly": 0
+    },
+    {
+        "countryName": "Нова Зеландія",
+        "imageUrl": "https://flagcdn.com/w320/nz.png",
+        "timesShown": 0,
+        "timesGuessedCorrectly": 0,
+        "timesGuessedIncorrectly": 0
+    },
+    {
+        "countryName": "Монголія",
+        "imageUrl": "https://flagcdn.com/w320/mn.png",
         "timesShown": 0,
         "timesGuessedCorrectly": 0,
         "timesGuessedIncorrectly": 0
@@ -1052,13 +920,6 @@
     {
         "countryName": "Мавританія",
         "imageUrl": "https://flagcdn.com/w320/mr.png",
-        "timesShown": 0,
-        "timesGuessedCorrectly": 0,
-        "timesGuessedIncorrectly": 0
-    },
-    {
-        "countryName": "Монтсеррат",
-        "imageUrl": "https://flagcdn.com/w320/ms.png",
         "timesShown": 0,
         "timesGuessedCorrectly": 0,
         "timesGuessedIncorrectly": 0
@@ -1092,22 +953,8 @@
         "timesGuessedIncorrectly": 0
     },
     {
-        "countryName": "Нова Каледонія",
-        "imageUrl": "https://flagcdn.com/w320/nc.png",
-        "timesShown": 0,
-        "timesGuessedCorrectly": 0,
-        "timesGuessedIncorrectly": 0
-    },
-    {
         "countryName": "Нігер",
         "imageUrl": "https://flagcdn.com/w320/ne.png",
-        "timesShown": 0,
-        "timesGuessedCorrectly": 0,
-        "timesGuessedIncorrectly": 0
-    },
-    {
-        "countryName": "Острів Норфолк",
-        "imageUrl": "https://flagcdn.com/w320/nf.png",
         "timesShown": 0,
         "timesGuessedCorrectly": 0,
         "timesGuessedIncorrectly": 0
@@ -1127,22 +974,8 @@
         "timesGuessedIncorrectly": 0
     },
     {
-        "countryName": "Ніуе",
-        "imageUrl": "https://flagcdn.com/w320/nu.png",
-        "timesShown": 0,
-        "timesGuessedCorrectly": 0,
-        "timesGuessedIncorrectly": 0
-    },
-    {
         "countryName": "Нідерланди",
         "imageUrl": "https://flagcdn.com/w320/nl.png",
-        "timesShown": 0,
-        "timesGuessedCorrectly": 0,
-        "timesGuessedIncorrectly": 0
-    },
-    {
-        "countryName": "Норвегія",
-        "imageUrl": "https://flagcdn.com/w320/no.png",
         "timesShown": 0,
         "timesGuessedCorrectly": 0,
         "timesGuessedIncorrectly": 0
@@ -1157,13 +990,6 @@
     {
         "countryName": "Науру",
         "imageUrl": "https://flagcdn.com/w320/nr.png",
-        "timesShown": 0,
-        "timesGuessedCorrectly": 0,
-        "timesGuessedIncorrectly": 0
-    },
-    {
-        "countryName": "Нова Зеландія",
-        "imageUrl": "https://flagcdn.com/w320/nz.png",
         "timesShown": 0,
         "timesGuessedCorrectly": 0,
         "timesGuessedIncorrectly": 0
@@ -1190,13 +1016,6 @@
         "timesGuessedIncorrectly": 0
     },
     {
-        "countryName": "Піткерн",
-        "imageUrl": "https://flagcdn.com/w320/pn.png",
-        "timesShown": 0,
-        "timesGuessedCorrectly": 0,
-        "timesGuessedIncorrectly": 0
-    },
-    {
         "countryName": "Перу",
         "imageUrl": "https://flagcdn.com/w320/pe.png",
         "timesShown": 0,
@@ -1218,22 +1037,8 @@
         "timesGuessedIncorrectly": 0
     },
     {
-        "countryName": "Папуа Нова Гвінея",
-        "imageUrl": "https://flagcdn.com/w320/pg.png",
-        "timesShown": 0,
-        "timesGuessedCorrectly": 0,
-        "timesGuessedIncorrectly": 0
-    },
-    {
         "countryName": "Польща",
         "imageUrl": "https://flagcdn.com/w320/pl.png",
-        "timesShown": 0,
-        "timesGuessedCorrectly": 0,
-        "timesGuessedIncorrectly": 0
-    },
-    {
-        "countryName": "Пуерто-Рико",
-        "imageUrl": "https://flagcdn.com/w320/pr.png",
         "timesShown": 0,
         "timesGuessedCorrectly": 0,
         "timesGuessedIncorrectly": 0
@@ -1255,20 +1060,6 @@
     {
         "countryName": "Парагвай",
         "imageUrl": "https://flagcdn.com/w320/py.png",
-        "timesShown": 0,
-        "timesGuessedCorrectly": 0,
-        "timesGuessedIncorrectly": 0
-    },
-    {
-        "countryName": "Палестина",
-        "imageUrl": "https://flagcdn.com/w320/ps.png",
-        "timesShown": 0,
-        "timesGuessedCorrectly": 0,
-        "timesGuessedIncorrectly": 0
-    },
-    {
-        "countryName": "Французька Полінезія",
-        "imageUrl": "https://flagcdn.com/w320/pf.png",
         "timesShown": 0,
         "timesGuessedCorrectly": 0,
         "timesGuessedIncorrectly": 0
@@ -1322,27 +1113,7 @@
         "timesGuessedCorrectly": 0,
         "timesGuessedIncorrectly": 0
     },
-    {
-        "countryName": "Південна Джорджія і Південні Сандвічеві Острови",
-        "imageUrl": "https://flagcdn.com/w320/gs.png",
-        "timesShown": 0,
-        "timesGuessedCorrectly": 0,
-        "timesGuessedIncorrectly": 0
-    },
-    {
-        "countryName": "Острови Святої Єлени, Вознесіння і Тристан-да-Кунья",
-        "imageUrl": "https://flagcdn.com/w320/sh.png",
-        "timesShown": 0,
-        "timesGuessedCorrectly": 0,
-        "timesGuessedIncorrectly": 0
-    },
-    {
-        "countryName": "Соломонові Острови",
-        "imageUrl": "https://flagcdn.com/w320/sb.png",
-        "timesShown": 0,
-        "timesGuessedCorrectly": 0,
-        "timesGuessedIncorrectly": 0
-    },
+
     {
         "countryName": "Сьєрра-Леоне",
         "imageUrl": "https://flagcdn.com/w320/sl.png",
@@ -1367,13 +1138,6 @@
     {
         "countryName": "Сомалі",
         "imageUrl": "https://flagcdn.com/w320/so.png",
-        "timesShown": 0,
-        "timesGuessedCorrectly": 0,
-        "timesGuessedIncorrectly": 0
-    },
-    {
-        "countryName": "Сен-П'єр і Мікелон",
-        "imageUrl": "https://flagcdn.com/w320/pm.png",
         "timesShown": 0,
         "timesGuessedCorrectly": 0,
         "timesGuessedIncorrectly": 0
@@ -1435,13 +1199,6 @@
         "timesGuessedIncorrectly": 0
     },
     {
-        "countryName": "Сінт-Мартен",
-        "imageUrl": "https://flagcdn.com/w320/sx.png",
-        "timesShown": 0,
-        "timesGuessedCorrectly": 0,
-        "timesGuessedIncorrectly": 0
-    },
-    {
         "countryName": "Сейшельські Острови",
         "imageUrl": "https://flagcdn.com/w320/sc.png",
         "timesShown": 0,
@@ -1451,13 +1208,6 @@
     {
         "countryName": "Сирія",
         "imageUrl": "https://flagcdn.com/w320/sy.png",
-        "timesShown": 0,
-        "timesGuessedCorrectly": 0,
-        "timesGuessedIncorrectly": 0
-    },
-    {
-        "countryName": "Теркс і Кайкос",
-        "imageUrl": "https://flagcdn.com/w320/tc.png",
         "timesShown": 0,
         "timesGuessedCorrectly": 0,
         "timesGuessedIncorrectly": 0
@@ -1491,13 +1241,6 @@
         "timesGuessedIncorrectly": 0
     },
     {
-        "countryName": "Токелау",
-        "imageUrl": "https://flagcdn.com/w320/tk.png",
-        "timesShown": 0,
-        "timesGuessedCorrectly": 0,
-        "timesGuessedIncorrectly": 0
-    },
-    {
         "countryName": "Туркменістан",
         "imageUrl": "https://flagcdn.com/w320/tm.png",
         "timesShown": 0,
@@ -1507,13 +1250,6 @@
     {
         "countryName": "Східний Тимор",
         "imageUrl": "https://flagcdn.com/w320/tl.png",
-        "timesShown": 0,
-        "timesGuessedCorrectly": 0,
-        "timesGuessedIncorrectly": 0
-    },
-    {
-        "countryName": "Тонга",
-        "imageUrl": "https://flagcdn.com/w320/to.png",
         "timesShown": 0,
         "timesGuessedCorrectly": 0,
         "timesGuessedIncorrectly": 0
@@ -1539,20 +1275,7 @@
         "timesGuessedCorrectly": 0,
         "timesGuessedIncorrectly": 0
     },
-    {
-        "countryName": "Тувалу",
-        "imageUrl": "https://flagcdn.com/w320/tv.png",
-        "timesShown": 0,
-        "timesGuessedCorrectly": 0,
-        "timesGuessedIncorrectly": 0
-    },
-    {
-        "countryName": "Тайвань",
-        "imageUrl": "https://flagcdn.com/w320/tw.png",
-        "timesShown": 0,
-        "timesGuessedCorrectly": 0,
-        "timesGuessedIncorrectly": 0
-    },
+
     {
         "countryName": "Танзанія",
         "imageUrl": "https://flagcdn.com/w320/tz.png",
@@ -1567,13 +1290,7 @@
         "timesGuessedCorrectly": 0,
         "timesGuessedIncorrectly": 0
     },
-    {
-        "countryName": "Україна",
-        "imageUrl": "https://flagcdn.com/w320/ua.png",
-        "timesShown": 0,
-        "timesGuessedCorrectly": 0,
-        "timesGuessedIncorrectly": 0
-    },
+
     {
         "countryName": "Уругвай",
         "imageUrl": "https://flagcdn.com/w320/uy.png",
@@ -1596,13 +1313,6 @@
         "timesGuessedIncorrectly": 0
     },
     {
-        "countryName": "Ватикан",
-        "imageUrl": "https://flagcdn.com/w320/va.png",
-        "timesShown": 0,
-        "timesGuessedCorrectly": 0,
-        "timesGuessedIncorrectly": 0
-    },
-    {
         "countryName": "Сент-Вінсент і Гренадини",
         "imageUrl": "https://flagcdn.com/w320/vc.png",
         "timesShown": 0,
@@ -1617,57 +1327,17 @@
         "timesGuessedIncorrectly": 0
     },
     {
-        "countryName": "Британські Віргіни",
-        "imageUrl": "https://flagcdn.com/w320/vg.png",
-        "timesShown": 0,
-        "timesGuessedCorrectly": 0,
-        "timesGuessedIncorrectly": 0
-    },
-    {
-        "countryName": "Американські Віргіни",
-        "imageUrl": "https://flagcdn.com/w320/vi.png",
-        "timesShown": 0,
-        "timesGuessedCorrectly": 0,
-        "timesGuessedIncorrectly": 0
-    },
-    {
         "countryName": "В'єтнам",
         "imageUrl": "https://flagcdn.com/w320/vn.png",
         "timesShown": 0,
         "timesGuessedCorrectly": 0,
         "timesGuessedIncorrectly": 0
     },
-    {
-        "countryName": "Вануату",
-        "imageUrl": "https://flagcdn.com/w320/vu.png",
-        "timesShown": 0,
-        "timesGuessedCorrectly": 0,
-        "timesGuessedIncorrectly": 0
-    },
-    {
-        "countryName": "Волліс і Футуна",
-        "imageUrl": "https://flagcdn.com/w320/wf.png",
-        "timesShown": 0,
-        "timesGuessedCorrectly": 0,
-        "timesGuessedIncorrectly": 0
-    },
-    {
-        "countryName": "Самоа",
-        "imageUrl": "https://flagcdn.com/w320/ws.png",
-        "timesShown": 0,
-        "timesGuessedCorrectly": 0,
-        "timesGuessedIncorrectly": 0
-    },
+
+
     {
         "countryName": "Ємен",
         "imageUrl": "https://flagcdn.com/w320/ye.png",
-        "timesShown": 0,
-        "timesGuessedCorrectly": 0,
-        "timesGuessedIncorrectly": 0
-    },
-    {
-        "countryName": "Південно-Африканська Республіка",
-        "imageUrl": "https://flagcdn.com/w320/za.png",
         "timesShown": 0,
         "timesGuessedCorrectly": 0,
         "timesGuessedIncorrectly": 0
