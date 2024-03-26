@@ -1,7 +1,7 @@
-/Users/pivden2000/Documents/GitHub/FlagTrainer/src/main/java/com/game/flags/FlagsApplication.java
-/Users/pivden2000/Documents/GitHub/FlagTrainer/src/main/java/com/game/flags/flag/FlagService.java
-/Users/pivden2000/Documents/GitHub/FlagTrainer/src/main/java/com/game/flags/user/UserDataService.java
-/Users/pivden2000/Documents/GitHub/FlagTrainer/src/main/java/com/game/flags/user/User.java
-/Users/pivden2000/Documents/GitHub/FlagTrainer/src/main/java/com/game/flags/flag/Flag.java
-/Users/pivden2000/Documents/GitHub/FlagTrainer/src/main/java/com/game/flags/user/LoginController.java
-/Users/pivden2000/Documents/GitHub/FlagTrainer/src/main/java/com/game/flags/flag/FlagController.java
+/Users/pivden2000/Documents/GitHub/FlagTrainer/src/main/java/com/game/FlagTrainer/FlagTrainerApplication.java
+/Users/pivden2000/Documents/GitHub/FlagTrainer/src/main/java/com/game/FlagTrainer/flag/FlagService.java
+/Users/pivden2000/Documents/GitHub/FlagTrainer/src/main/java/com/game/FlagTrainer/user/UserDataService.java
+/Users/pivden2000/Documents/GitHub/FlagTrainer/src/main/java/com/game/FlagTrainer/user/LoginController.java
+/Users/pivden2000/Documents/GitHub/FlagTrainer/src/main/java/com/game/FlagTrainer/user/User.java
+/Users/pivden2000/Documents/GitHub/FlagTrainer/src/main/java/com/game/FlagTrainer/flag/FlagController.java
+/Users/pivden2000/Documents/GitHub/FlagTrainer/src/main/java/com/game/FlagTrainer/flag/Flag.java
