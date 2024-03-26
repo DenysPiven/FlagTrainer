@@ -1,4 +1,7 @@
-FROM maven:3.8.4-openjdk-21 AS build
+# docker build -t flagtrainer-app .
+# docker run -p 8080:8080 flagtrainer-app
+
+FROM maven:3.9.6-amazoncorretto-21 AS build
 WORKDIR /build
 COPY src /build/src
 COPY pom.xml /build/
