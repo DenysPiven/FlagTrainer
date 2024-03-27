@@ -19,21 +19,23 @@ public class FlagService {
         // 1. Завантажити флаги
         List<Flag> flags = userDataService.loadUserFlags(username);
 
+        // Видаляємо останній показаний прапор, щоб він не показувався двічі підряд
         if (lastShownFlag != null) {
             flags.remove(lastShownFlag);
         }
 
         // 2. Розрахунок ваги для кожного прапора
         Map<Flag, Double> flagWeights = new HashMap<>();
-        double totalWeight = 0.0;
         for (Flag flag : flags) {
             double T_total = flag.getTimesShown() + 1; // Додавання 1 для уникнення ділення на нуль
-            double weight = (1 + flag.getTimesGuessedIncorrectly() / T_total) * (1 - flag.getTimesGuessedCorrectly() / T_total) / 2;
+            double weight = (1.0 / T_total) +
+                    ((double) flag.getTimesGuessedIncorrectly() / T_total) -
+                    ((double) flag.getTimesGuessedCorrectly() / T_total);
             flagWeights.put(flag, weight);
-            totalWeight += weight;
         }
 
         // 3. Нормалізація ваг для отримання ймовірностей
+        double totalWeight = flagWeights.values().stream().mapToDouble(Double::doubleValue).sum();
         for (Flag flag : flags) {
             flagWeights.put(flag, flagWeights.get(flag) / totalWeight);
         }
@@ -49,7 +51,8 @@ public class FlagService {
             }
         }
 
-        return flags.get(new Random().nextInt(flags.size())); // Повертаємо випадковий прапор у разі невдачі
+        // В якості запасного варіанту повертаємо випадковий прапор
+        return flags.get(new Random().nextInt(flags.size()));
     }
 
     public void setAnswer(String username, String countryName, Boolean isCorrect) {
