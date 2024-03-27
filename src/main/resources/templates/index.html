@@ -1,43 +1,33 @@
 <!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org">
 <head>
-    <title>Guess the Flag!</title>
-    <!-- Включення Bootstrap CSS -->
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" th:href="@{/styles.css}" />
+    <title>FlagTrainer</title>
+    <link rel="stylesheet" th:href="@{/css/styles.css}">
+    <link rel="stylesheet" th:href="@{/css/index.css}">
 </head>
-<body class="bg-dark text-white">
-<div class="header bg-secondary py-2 px-3 shadow">
-    <div class="container d-flex justify-content-between align-items-center">
-        <div>
-            <span class="text-white small" th:text="${user != null ? user.username : 'Guest'}"></span>
-            <div id="stats" class="text-white">
-                <p class="small m-0">Правильно: <span id="correctCount" th:text="0"></span></p>
-                <p class="small m-0">Неправильно: <span id="incorrectCount" th:text="0"></span></p>
-            </div>
-        </div>
-        <a href="/logout" th:if="${user != null}" class="btn btn-danger btn-sm">Logout</a>
+<body>
+<div class="header">
+    <div id="stats">
+        <p><span th:text="${user != null ? user.username : 'Guest'}">Guest</span></p>
+        <p>Правильно: <span id="correctCount" th:text="0">0</span></p>
+        <p>Неправильно: <span id="incorrectCount" th:text="0">0</span></p>
+    </div>
+    <div id="logout">
+        <a href="/logout" th:if="${user != null}">Logout</a>
     </div>
 </div>
-<div class="container d-flex flex-column align-items-center justify-content-center">
-    <div class="row">
-        <div class="col text-center">
-            <div id="flagContainer" class="image-container" style="cursor: pointer;">
-                <img id="flagImage" th:src="${flag.imageUrl}" alt="Flag" th:title="${flag.countryName}" class="img-fluid my-3">
-            </div>
-            <div class="d-flex justify-content-between my-2">
-                <button id="incorrectBtn" type="button" class="btn btn-danger btn-lg">Неправильно</button>
-                <button id="correctBtn" type="button" class="btn btn-success btn-lg">Правильно</button>
-            </div>
-            <p id="countryName" class="h1" th:text="${flag.countryName}" style="display: none;"></p>
-        </div>
+<div id="container-main">
+    <div id="flagContainer">
+        <img id="flagImage" th:src="${flag.imageUrl}" alt="Flag" th:title="${flag.countryName}">
+    </div>
+    <div id="countryNameContainer">
+        <p id="countryName" th:text="${flag.countryName}" style="display: none;">Country Name</p>
+    </div>
+    <div class="buttonsContainer">
+        <button id="incorrectBtn">✗</button>
+        <button id="correctBtn">✓</button>
     </div>
 </div>
-
-<!-- Bootstrap JS, Popper.js, and jQuery -->
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
 <script src="/js/main.js"></script>
 </body>

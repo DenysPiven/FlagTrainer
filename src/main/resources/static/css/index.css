@@ -1,0 +1,110 @@
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body {
+  background-color: #343a40; /* Dark background color */
+  color: white;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.header {
+  height: 10%;
+  display: flex;
+  justify-content: space-between;
+  background-color: #6c757d; /* Light dark background */
+  padding: 0px 30px; /* Py-2 px-3 equivalent */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+#logout {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  padding: 5px 10px; /* Btn-sm equivalent */
+  background-color: #dc3545; /* Danger color */
+  border-radius: 5px; /* Rounded pill shape */
+}
+
+p {
+  margin: 5px;
+}
+
+#container-main {
+  width: 100%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#flagContainer {
+  display: flex;
+  justify-content: center;
+  align-items: top;
+  overflow: hidden;
+  cursor: pointer;
+
+  width: 100%;
+  max-width: 800px;
+  height: 45%;
+}
+
+#flagImage {
+  margin-top: 10px;
+  width: 100%;
+  object-fit: contain;
+}
+
+#countryNameContainer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 25%;
+  font-size: 3rem;
+}
+
+#countryName {
+  text-align: center;
+}
+
+.buttonsContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 30%;
+}
+
+button {
+  width: 50%;
+  height: 100%;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 5rem;
+}
+
+#incorrectBtn {
+  background-color: #dc3545; /* Danger color */
+  color: white;
+}
+
+#correctBtn {
+  background-color: #28a745; /* Success color */
+  color: white;
+}
+

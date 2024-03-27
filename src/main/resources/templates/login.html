@@ -2,20 +2,18 @@
 <html xmlns:th="http://www.thymeleaf.org">
 <head>
   <title>FlagTrainer</title>
-  <link rel="stylesheet" th:href="@{/css/login.css}">
   <link rel="stylesheet" th:href="@{/css/styles.css}">
+  <link rel="stylesheet" th:href="@{/css/login.css}">
 </head>
 <body>
 <div id="login-container">
-  <div id="login-content">
-    <form id="login-form" th:action="@{/login}" method="post">
-      <div id="username-group">
-        <label for="username" class="visually-hidden">Username</label>
-        <input type="text" id="username" name="username" placeholder="Enter" required autocomplete="off">
-      </div>
-      <button type="submit" id="login-button">Login</button>
-    </form>
-  </div>
+  <form id="login-form" th:action="@{/login}" method="post">
+    <div id="username-group">
+      <label for="username" class="visually-hidden">Username</label>
+      <input id="username" type="text" name="username" placeholder="Enter" required autocomplete="off">
+    </div>
+    <button type="submit" id="login-button">Login</button>
+  </form>
 </div>
 </body>
 </html>
