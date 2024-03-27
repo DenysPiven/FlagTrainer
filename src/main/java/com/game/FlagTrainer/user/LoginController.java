@@ -26,13 +26,13 @@ public class LoginController {
         model.addAttribute("user", new User(username));
 
         try {
-            Thread.sleep(100);
             userDataService.createUserFlagsFile(username);
+            Thread.sleep(100);
         } catch (InterruptedException e) {
             Thread.currentThread().interrupt();
         }
 
-        return "redirect:/";
+        return "redirect:/" + username;
     }
 
     @GetMapping("/logout")
