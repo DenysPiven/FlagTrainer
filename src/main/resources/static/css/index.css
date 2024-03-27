@@ -25,6 +25,17 @@ body {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
 }
 
+#stats {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+p {
+  font-size: 2vh;
+  margin: 5px;
+}
+
 #logout {
   display: flex;
   justify-content: center;
@@ -37,10 +48,7 @@ a {
   padding: 5px 10px; /* Btn-sm equivalent */
   background-color: #dc3545; /* Danger color */
   border-radius: 5px; /* Rounded pill shape */
-}
-
-p {
-  margin: 5px;
+  font-size: 2vh;
 }
 
 #container-main {
@@ -75,11 +83,11 @@ p {
   justify-content: center;
   width: 100%;
   height: 25%;
-  font-size: 3rem;
 }
 
 #countryName {
   text-align: center;
+  font-size: 6vh;
 }
 
 .buttonsContainer {
@@ -95,7 +103,7 @@ button {
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  font-size: 5rem;
+  font-size: 20vh;
 }
 
 #incorrectBtn {
