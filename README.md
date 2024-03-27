@@ -1,33 +1,35 @@
-# Guess the Flag Game
+# FlagTrainer
 
-Це веб-додаток на Spring Boot, який дозволяє користувачам тренуватися впізнавати прапори різних країн.
+FlagTrainer is a web-based application designed to help users learn and recognize flags of different countries.
 
-## Функціональність
+## Data Files
 
-- Користувачі можуть вгадувати прапори країн, вводячи назву країни у текстове поле.
-- Якщо відповідь правильна, виводиться відповідне повідомлення; у випадку помилки - показується правильна відповідь.
-- Для кожного користувача ведеться статистика вгаданих і не вгаданих прапорів.
-- Прапори з найменшою кількістю показів вибираються для вгадування частіше.
+- `flags.json`: Contains the list of countries with their respective flag image URLs and statistics for display and answer tracking.
 
-## Технології
+## Key Components
 
-- **Spring Boot** для створення веб-додатку.
-- **Thymeleaf** для шаблонізації сторінок.
-- **Bootstrap** для стилізації інтерфейсу.
-- **Jackson** для роботи з JSON.
+- `Flag`: Represents a country flag with metadata for tracking display and answer statistics.
+- `FlagController`: Manages web requests related to flag display and user responses.
+- `FlagService`: Contains the logic to randomly select flags and record user responses.
+- `User`: Represents a user of the application.
+- `UserDataService`: Manages the reading and writing of user-specific data files.
+- `LoginController`: Manages the login and logout process.
+- `FlagTrainerApplication`: The entry point of the Spring Boot application.
 
-## Встановлення та запуск
+## Cloning and Running the Application
 
-1. Клонуйте репозиторій на локальний комп'ютер.
-   ```
-   git clone https://example.com/your-repository.git
-   ```
-2. Перейдіть до каталогу проекту.
-   ```
-   cd your-repository
-   ```
-3. Запустіть проект за допомогою Maven.
-   ```
-   ./mvnw spring-boot:run
-   ```
-4. Відкрийте в браузері `http://localhost:8080`.
+To clone the repository and run the application using Docker, follow these steps:
+
+```bash
+# Clone the repository
+git clone https://github.com/PivDen2000/FlagTrainer.git
+cd FlagTrainer
+
+# Build the Docker image
+docker build -t flagtrainer-app .
+
+# Run the application
+docker run -p 8080:8080 flagtrainer-app
+```
+
+The application will be accessible on `http://localhost:8080`.
