@@ -1,5 +1,7 @@
 setupFlagClickHandler();
 
+checkUserStatus();
+
 let correctCount = 0;
 let incorrectCount = 0;
 
@@ -55,6 +57,8 @@ function handleAnswer(isCorrect) {
 }
 
 function setupFlagClickHandler() {
+    checkUserStatus();
+
     var containerMain = document.getElementById('containerMain');
     var countryName = document.getElementById('countryName');
 
@@ -71,4 +75,10 @@ function setupFlagClickHandler() {
             incorrectBtn.remove("disabled");
         }
     });
+}
+
+function checkUserStatus() {
+    if (document.getElementById('usernameDisplay').textContent.trim() === 'Guest') {
+        window.location.href = '/login';
+    }
 }

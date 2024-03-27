@@ -8,12 +8,12 @@
 <body>
 <div class="header">
     <div id="stats">
-        <p><span th:text="${user != null ? user.username : 'Guest'}">Guest</span></p>
+        <p><span id="usernameDisplay" th:text="${user != null ? user.username : 'Guest'}">Guest</span></p>
         <p>Правильно: <span id="correctCount" th:text="0">0</span></p>
         <p>Неправильно: <span id="incorrectCount" th:text="0">0</span></p>
     </div>
     <div id="logout">
-        <a href="/logout" th:if="${user != null}">Logout</a>
+        <a href="/logout">Logout</a>
     </div>
 </div>
 <div id="containerMain">
