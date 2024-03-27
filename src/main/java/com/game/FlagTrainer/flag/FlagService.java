@@ -1,6 +1,5 @@
 package com.game.FlagTrainer.flag;
 
-import com.fasterxml.jackson.databind.ObjectMapper;
 import com.game.FlagTrainer.user.UserDataService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -13,8 +12,6 @@ public class FlagService {
 
     @Autowired
     private UserDataService userDataService;
-    private final ObjectMapper objectMapper = new ObjectMapper();
-    private final Random random = new Random();
 
     public Flag getRandomFlag(String username) {
         // 1. Відсортувати флаги за кількістю показів
@@ -51,19 +48,14 @@ public class FlagService {
     }
 
 
-    public boolean checkAnswer(String username, String countryName, String userGuess) {
+    public void setAnswer(String username, String countryName, Boolean isCorrect) {
         List<Flag> userFlags = userDataService.loadUserFlags(username);
         Map<String, Flag> flagsMap = userFlags.stream().collect(Collectors.toMap(Flag::getCountryName, flag -> flag));
 
         Flag flag = flagsMap.get(countryName);
         if (flag == null) {
-            return false;
+            return;
         }
-
-        String normalizedCountryName = normalizeString(flag.getCountryName());
-        String normalizedUserGuess = normalizeString(userGuess);
-
-        boolean isCorrect = normalizedCountryName.equalsIgnoreCase(normalizedUserGuess);
 
         if (isCorrect) {
             flag.incrementTimesGuessedCorrectly();
@@ -73,11 +65,5 @@ public class FlagService {
 
         flag.incrementTimesShown();
         userDataService.updateFlagFile(username, flagsMap);
-
-        return isCorrect;
-    }
-
-    private String normalizeString(String input) {
-        return input.replaceAll("[^\\p{L}]", "").toLowerCase();
     }
 }

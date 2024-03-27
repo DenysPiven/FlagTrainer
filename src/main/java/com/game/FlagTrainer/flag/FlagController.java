@@ -35,9 +35,9 @@ public class FlagController {
         return "index";
     }
 
-    @PostMapping("/check")
-    public ResponseEntity<?> checkFlagAnswer(@RequestParam String username, @RequestParam String countryName, @RequestParam String userGuess) {
-        boolean isCorrect = flagService.checkAnswer(username, countryName, userGuess);
+    @PostMapping("/set")
+    public ResponseEntity<?> setFlagAnswer(@RequestParam String username, @RequestParam String countryName, @RequestParam Boolean isCorrect) {
+        flagService.setAnswer(username, countryName, isCorrect);
         return ResponseEntity.ok(Map.of("isCorrect", isCorrect));
     }
 
