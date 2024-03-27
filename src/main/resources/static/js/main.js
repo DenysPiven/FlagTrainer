@@ -61,7 +61,9 @@ function setupFlagClickHandler() {
     var incorrectBtn = document.getElementById('incorrectBtn').classList;
     var correctBtn = document.getElementById('correctBtn').classList;
 
-    containerMain.addEventListener('click', function() {
+    containerMain.addEventListener('click', function(e) {
+        e.preventDefault();
+
         countryName.style.display = 'block';
 
         if(correctBtn.contains("disabled")){
