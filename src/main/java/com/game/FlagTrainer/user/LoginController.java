@@ -25,13 +25,6 @@ public class LoginController {
     public String loginUser(@RequestParam String username, Model model) {
         model.addAttribute("user", new User(username));
 
-        try {
-            Thread.sleep(100);
-            userDataService.createUserFlagsFile(username);
-        } catch (InterruptedException e) {
-            Thread.currentThread().interrupt();
-        }
-
         return "redirect:/";
     }
 
