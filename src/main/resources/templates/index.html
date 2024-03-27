@@ -16,7 +16,7 @@
         <a href="/logout" th:if="${user != null}">Logout</a>
     </div>
 </div>
-<div id="container-main">
+<div id="containerMain">
     <div id="flagContainer">
         <img id="flagImage" th:src="${flag.imageUrl}" alt="Flag" th:title="${flag.countryName}">
     </div>
@@ -24,8 +24,8 @@
         <p id="countryName" th:text="${flag.countryName}" style="display: none;">Country Name</p>
     </div>
     <div class="buttonsContainer">
-        <button id="incorrectBtn">✗</button>
-        <button id="correctBtn">✓</button>
+        <div id="incorrectBtn" class="disabled" onclick="setupFlagClickHandler()">✗</div>
+        <div id="correctBtn" class="disabled" onclick="setupFlagClickHandler()">✓</div>
     </div>
 </div>
 

@@ -12,6 +12,10 @@ document.getElementById('incorrectBtn').addEventListener('click', function(event
 });
 
 function handleAnswer(isCorrect) {
+    if(document.getElementById('correctBtn').classList.contains("disabled")){
+        return;
+    }
+
     var username = document.querySelector('.header span').textContent;
     var countryName = document.getElementById('countryName').textContent;
 
@@ -43,15 +47,26 @@ function handleAnswer(isCorrect) {
                 document.getElementById('countryName').textContent = newFlagData.countryName;
                 document.getElementById('flagImage').title = newFlagData.countryName;
             });
+
+                document.getElementById('incorrectBtn').classList.add("disabled");
+                document.getElementById('correctBtn').classList.add("disabled");
     })
     .catch(error => console.error('Error:', error));
 }
 
 function setupFlagClickHandler() {
-    var flagContainer = document.getElementById('flagContainer');
+    var containerMain = document.getElementById('containerMain');
     var countryName = document.getElementById('countryName');
 
-    flagContainer.addEventListener('click', function() {
+    var incorrectBtn = document.getElementById('incorrectBtn').classList;
+    var correctBtn = document.getElementById('correctBtn').classList;
+
+    containerMain.addEventListener('click', function() {
         countryName.style.display = 'block';
+
+        if(correctBtn.contains("disabled")){
+            correctBtn.remove("disabled");
+            incorrectBtn.remove("disabled");
+        }
     });
 }
