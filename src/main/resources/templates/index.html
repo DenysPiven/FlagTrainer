@@ -18,10 +18,10 @@
 </div>
 <div id="containerMain">
     <div id="flagContainer">
-        <img id="flagImage" th:src="${flag.imageUrl}" alt="Flag" th:title="${flag.countryName}">
+        <img id="flagImage" th:src="${flag != null ? flag.imageUrl : 'https://flagcdn.com/w320/ua.png'}" alt="Flag" th:title="${flag != null ? flag.countryName : 'Україна'}">
     </div>
     <div id="countryNameContainer">
-        <p id="countryName" th:text="${flag.countryName}" style="display: none;">Country Name</p>
+        <p id="countryName" th:text="${flag != null ? flag.countryName : 'Україна'}" style="display: none;">Україна</p>
     </div>
     <div class="buttonsContainer">
         <div id="incorrectBtn" class="disabled" onclick="setupFlagClickHandler()">✗</div>
