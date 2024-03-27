@@ -13,40 +13,44 @@ public class FlagService {
     @Autowired
     private UserDataService userDataService;
 
+    private Flag lastShownFlag = null;
+
     public Flag getRandomFlag(String username) {
-        // 1. Відсортувати флаги за кількістю показів
-        List<Flag> sortedFlags = userDataService.loadUserFlags(username);
-        sortedFlags.sort(Comparator.comparingInt(Flag::getTimesShown));
+        // 1. Завантажити флаги
+        List<Flag> flags = userDataService.loadUserFlags(username);
 
-        // 2. Визначити мінімальну кількість показів
-        int minShows = sortedFlags.get(0).getTimesShown();
-
-        // 3. Обрати флаги з мінімальною кількістю показів
-        List<Flag> leastShownFlags = sortedFlags.stream()
-                .filter(flag -> flag.getTimesShown() == minShows)
-                .collect(Collectors.toList());
-
-        // 4. Збільшувати шанс вибору флага на основі кількості помилок
-        Map<Flag, Double> flagWeights = new HashMap<>();
-        for (Flag flag : leastShownFlags) {
-            double weight = 1.0 + flag.getTimesGuessedIncorrectly();
-            flagWeights.put(flag, weight);
+        if (lastShownFlag != null) {
+            flags.remove(lastShownFlag);
         }
 
-        // 5. Вибрати флаг рандомно, враховуючи вагу
-        double totalWeight = flagWeights.values().stream().mapToDouble(Double::doubleValue).sum();
-        double randomValue = Math.random() * totalWeight;
-        double cumulativeWeight = 0.0;
+        // 2. Розрахунок ваги для кожного прапора
+        Map<Flag, Double> flagWeights = new HashMap<>();
+        double totalWeight = 0.0;
+        for (Flag flag : flags) {
+            double T_total = flag.getTimesShown() + 1; // Додавання 1 для уникнення ділення на нуль
+            double weight = (1 + flag.getTimesGuessedIncorrectly() / T_total) * (1 - flag.getTimesGuessedCorrectly() / T_total) / 2;
+            flagWeights.put(flag, weight);
+            totalWeight += weight;
+        }
+
+        // 3. Нормалізація ваг для отримання ймовірностей
+        for (Flag flag : flags) {
+            flagWeights.put(flag, flagWeights.get(flag) / totalWeight);
+        }
+
+        // 4. Вибір прапора з урахуванням ймовірності
+        double randomValue = Math.random();
+        double cumulativeProbability = 0.0;
         for (Map.Entry<Flag, Double> entry : flagWeights.entrySet()) {
-            cumulativeWeight += entry.getValue();
-            if (randomValue <= cumulativeWeight) {
-                return entry.getKey();
+            cumulativeProbability += entry.getValue();
+            if (randomValue <= cumulativeProbability) {
+                lastShownFlag = entry.getKey();
+                return lastShownFlag;
             }
         }
 
-        return leastShownFlags.get(new Random().nextInt(leastShownFlags.size())); // На випадок, якщо щось пішло не так
+        return flags.get(new Random().nextInt(flags.size())); // Повертаємо випадковий прапор у разі невдачі
     }
-
 
     public void setAnswer(String username, String countryName, Boolean isCorrect) {
         List<Flag> userFlags = userDataService.loadUserFlags(username);
