@@ -9,12 +9,12 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.game</groupId>
-	<artifactId>FlagTrainer</artifactId>
+	<artifactId>flagTrainer</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>FlagTrainer</name>
+	<name>flagTrainer</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
-		<java.version>21</java.version>
+		<java.version>17</java.version>
 	</properties>
 	<dependencies>
 		<dependency>

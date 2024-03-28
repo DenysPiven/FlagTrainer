@@ -1,6 +1,6 @@
-package com.game.FlagTrainer.flag;
+package com.game.flagTrainer.flag;
 
-import com.game.FlagTrainer.user.UserDataService;
+import com.game.flagTrainer.user.UserDataService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

@@ -1,6 +1,6 @@
-package com.game.FlagTrainer.flag;
+package com.game.flagTrainer.flag;
 
-import com.game.FlagTrainer.user.User;
+import com.game.flagTrainer.user.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;

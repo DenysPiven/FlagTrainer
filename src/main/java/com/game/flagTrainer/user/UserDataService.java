@@ -1,8 +1,8 @@
-package com.game.FlagTrainer.user;
+package com.game.flagTrainer.user;
 
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.game.FlagTrainer.flag.Flag;
+import com.game.flagTrainer.flag.Flag;
 import org.springframework.stereotype.Service;
 
 import java.io.File;

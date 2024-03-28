@@ -1,4 +1,4 @@
-package com.game.FlagTrainer;
+package com.game.flagTrainer;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -1,4 +1,4 @@
-package com.game.FlagTrainer.user;
+package com.game.flagTrainer.user;
 
 import lombok.Data;
 
