@@ -36,7 +36,7 @@ build/
 *.class
 *~
 *.hprof
-*.jar
+# *.jar
 *.war
 *.nar
 *.ear
