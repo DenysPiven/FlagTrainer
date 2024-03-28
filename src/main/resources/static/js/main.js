@@ -33,25 +33,20 @@ function handleAnswer(isCorrect) {
         var countryName = document.getElementById('countryName');
         countryName.style.display = 'none'; // Показати фідбек
 
-        if (data.isCorrect) {
-            correctCount++;
-            document.getElementById('correctCount').textContent = `${correctCount}`;
-        } else {
-            incorrectCount++;
-            document.getElementById('incorrectCount').textContent = `${incorrectCount}`;
-        }
+        const countElementId = data.isCorrect ? 'correctCount' : 'incorrectCount';
+        const count = data.isCorrect ? ++correctCount : ++incorrectCount;
+        document.getElementById(countElementId).textContent = `${count}`;
 
-        // Оновити флаг
         fetch('/flag')
             .then(response => response.json())
             .then(newFlagData => {
                 document.getElementById('flagImage').src = newFlagData.imageUrl;
-                document.getElementById('countryName').textContent = newFlagData.countryName;
                 document.getElementById('flagImage').title = newFlagData.countryName;
+                document.getElementById('countryName').textContent = newFlagData.countryName;
             });
 
-                document.getElementById('incorrectBtn').classList.add("disabled");
-                document.getElementById('correctBtn').classList.add("disabled");
+        document.getElementById('correctBtn').classList.add("disabled");
+        document.getElementById('incorrectBtn').classList.add("disabled");
     })
     .catch(error => console.error('Error:', error));
 }
@@ -62,8 +57,8 @@ function setupFlagClickHandler() {
     var containerMain = document.getElementById('containerMain');
     var countryName = document.getElementById('countryName');
 
-    var incorrectBtn = document.getElementById('incorrectBtn').classList;
     var correctBtn = document.getElementById('correctBtn').classList;
+    var incorrectBtn = document.getElementById('incorrectBtn').classList;
 
     containerMain.addEventListener('click', function(e) {
         e.preventDefault();

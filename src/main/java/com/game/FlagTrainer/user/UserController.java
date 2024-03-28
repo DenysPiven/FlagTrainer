@@ -11,7 +11,7 @@ import org.springframework.ui.Model;
 
 @Controller
 @SessionAttributes("user")
-public class LoginController {
+public class UserController {
 
     @Autowired
     private UserDataService userDataService;

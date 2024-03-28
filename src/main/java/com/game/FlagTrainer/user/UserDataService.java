@@ -24,10 +24,8 @@ public class UserDataService {
         try {
             Path userFilePath = getUserPath(username);
 
-            // Створення директорії користувачів, якщо вона не існує
             Files.createDirectories(dataDirectory);
 
-            // Копіювання файлу з заміною існуючого, якщо він вже є
             Files.copy(templateFilePath, userFilePath, StandardCopyOption.REPLACE_EXISTING);
         } catch (IOException e) {
             e.printStackTrace();
