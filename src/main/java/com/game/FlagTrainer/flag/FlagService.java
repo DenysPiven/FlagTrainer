@@ -22,34 +22,21 @@ public class FlagService {
             flags.remove(lastShownFlag);
         }
 
-        double totalWeight = 0.0;
-        Map<Flag, Double> flagWeights = new HashMap<>();
-        for (Flag flag : flags) {
-            double T_total = flag.getTimesShown() + 1;
-            double weight = (1 + (double)flag.getTimesGuessedIncorrectly() / T_total) /
-                    (1 + (double)flag.getTimesGuessedCorrectly() / T_total);
-            weight *= (1.0 / T_total); // Збільшення ваги для прапорів, що показувались менше
-            flagWeights.put(flag, weight);
-            totalWeight += weight;
-        }
+        double totalWeight = flags.stream()
+                .mapToDouble(Flag::getProbability)
+                .sum();
 
-        // Нормалізація ваги
-        for (Flag flag : flagWeights.keySet()) {
-            flagWeights.put(flag, flagWeights.get(flag) / totalWeight);
-        }
-
-        // Вибір прапора з урахуванням ймовірності
-        double randomValue = Math.random();
+        double randomValue = Math.random() * totalWeight;
         double cumulativeWeight = 0.0;
-        for (Map.Entry<Flag, Double> entry : flagWeights.entrySet()) {
-            cumulativeWeight += entry.getValue();
+        for (Flag flag : flags) {
+            cumulativeWeight += flag.getProbability();
             if (randomValue <= cumulativeWeight) {
-                lastShownFlag = entry.getKey();
+                lastShownFlag = flag;
                 return lastShownFlag;
             }
         }
 
-        return flags.get(new Random().nextInt(flags.size()));
+        return flags.get(new Random().nextInt(flags.size())); // Повертаємо випадковий прапор у разі невдачі
     }
 
 
