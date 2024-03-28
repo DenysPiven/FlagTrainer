@@ -5,12 +5,9 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.SessionAttributes;
-import org.springframework.web.bind.support.SessionStatus;
 import org.springframework.ui.Model;
 
 @Controller
-@SessionAttributes("user")
 public class UserController {
 
     @Autowired
@@ -23,14 +20,13 @@ public class UserController {
 
     @PostMapping("/login")
     public String loginUser(@RequestParam String username, Model model) {
-        model.addAttribute("user", new User(username));
+        model.addAttribute("user", username);
 
-        return "redirect:/";
+        return "redirect:/" + username;
     }
 
     @GetMapping("/logout")
-    public String logoutUser(SessionStatus status) {
-        status.setComplete();
+    public String logoutUser() {
         return "redirect:/login";
     }
 }

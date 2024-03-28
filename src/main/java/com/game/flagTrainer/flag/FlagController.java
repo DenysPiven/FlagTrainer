@@ -1,14 +1,10 @@
 package com.game.flagTrainer.flag;
 
-import com.game.flagTrainer.user.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.SessionAttribute;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.Map;
 
@@ -23,27 +19,32 @@ public class FlagController {
     }
 
     @GetMapping("/")
-    public String showFlag(@SessionAttribute(name = "user", required = false) User user, Model model) {
-        if (user == null) {
-            return "redirect:/login";
+    public String redirectToLogin() {
+        return "redirect:/login";
+    }
+
+    @GetMapping("/{username}")
+    public String showFlag(@PathVariable("username") String username, Model model) {
+
+        if(model.getAttribute("user") == null) {
+            model.addAttribute("user", username);
         }
 
-        Flag flag = flagService.getRandomFlag(user.getUsername());
+        Flag flag = flagService.getRandomFlag(username);
         model.addAttribute("flag", flag);
-        model.addAttribute("user", user);
 
         return "index";
     }
 
-    @PostMapping("/set")
-    public ResponseEntity<?> setFlagAnswer(@RequestParam String username, @RequestParam String countryName, @RequestParam Boolean isCorrect) {
+    @PostMapping("/{username}/set")
+    public ResponseEntity<?> setFlagAnswer(@PathVariable String username, @RequestParam String countryName, @RequestParam Boolean isCorrect) {
         flagService.setAnswer(username, countryName, isCorrect);
         return ResponseEntity.ok(Map.of("isCorrect", isCorrect));
     }
 
-    @GetMapping("/flag")
-    public ResponseEntity<?> getRandomFlag(@SessionAttribute("user") User user) {
-        String username = user.getUsername();
+    @GetMapping("/{username}/flag")
+    public ResponseEntity<?> getRandomFlag(@PathVariable String username) {
+
         Flag flag = flagService.getRandomFlag(username);
         Map<String, Object> flagData = Map.of(
                 "countryName", flag.getCountryName(),

@@ -10,7 +10,7 @@
   <form id="login-form" th:action="@{/login}" method="post">
     <div id="username-group">
       <label for="username" class="visually-hidden">Username</label>
-      <input id="username" type="text" name="username" placeholder="Enter" required autocomplete="off">
+      <input id="username" type="text" name="username" placeholder="Enter" pattern="[A-Za-z]+" title="Username should only contain Latin letters. No spaces allowed." required autocomplete="off">
     </div>
     <button type="submit" id="login-button">Login</button>
   </form>

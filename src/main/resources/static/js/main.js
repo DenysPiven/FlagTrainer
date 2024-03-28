@@ -18,26 +18,28 @@ function handleAnswer(isCorrect) {
         return;
     }
 
-    var username = document.querySelector('.header span').textContent;
-    var countryName = document.getElementById('countryName').textContent;
+    var countryNameElement = document.getElementById('countryName');
+    var countryName = countryNameElement.textContent;
 
-    fetch('/set', {
+    var username = document.querySelector('.header span').textContent;
+
+    fetch('/' + encodeURIComponent(username) + '/set', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/x-www-form-urlencoded',
         },
-        body: `username=${encodeURIComponent(username)}&countryName=${countryName}&isCorrect=${isCorrect}`
+        body: `countryName=${countryName}&isCorrect=${isCorrect}`
     })
-    .then(response => response.json()) // Перетворити відповідь у JSON
+    .then(response => response.json())
     .then(data => {
-        var countryName = document.getElementById('countryName');
-        countryName.style.display = 'none'; // Показати фідбек
+
+        countryNameElement.style.display = 'none';
 
         const countElementId = data.isCorrect ? 'correctCount' : 'incorrectCount';
         const count = data.isCorrect ? ++correctCount : ++incorrectCount;
         document.getElementById(countElementId).textContent = `${count}`;
 
-        fetch('/flag')
+        fetch('/' + encodeURIComponent(username) + '/flag')
             .then(response => response.json())
             .then(newFlagData => {
                 document.getElementById('flagImage').src = newFlagData.imageUrl;
