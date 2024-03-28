@@ -23,13 +23,13 @@ public class FlagService {
         }
 
         double totalWeight = flags.stream()
-                .mapToDouble(Flag::getProbability)
+                .mapToDouble(Flag::getWeight)
                 .sum();
 
         double randomValue = Math.random() * totalWeight;
         double cumulativeWeight = 0.0;
         for (Flag flag : flags) {
-            cumulativeWeight += flag.getProbability();
+            cumulativeWeight += flag.getWeight();
             if (randomValue <= cumulativeWeight) {
                 lastShownFlag = flag;
                 return lastShownFlag;

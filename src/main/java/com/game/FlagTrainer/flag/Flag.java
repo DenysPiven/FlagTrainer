@@ -11,34 +11,37 @@ public class Flag {
     private int timesShown;
     private int timesGuessedCorrectly;
     private int timesGuessedIncorrectly;
-    private Double probability = null; // Ймовірність, яка кешується
+    private Double weight = null;
 
     public void incrementTimesShown() {
         this.timesShown++;
-        this.probability = null; // Скидання кешованої ймовірності
+        this.weight = null;
     }
 
     public void incrementTimesGuessedCorrectly() {
         this.timesGuessedCorrectly++;
-        this.probability = null; // Скидання кешованої ймовірності
+        this.weight = null;
     }
 
     public void incrementTimesGuessedIncorrectly() {
         this.timesGuessedIncorrectly++;
-        this.probability = null; // Скидання кешованої ймовірності
+        this.weight = null;
     }
 
-    public double getProbability() {
-        if (probability == null) {
-            probability = calculateProbability();
+    public double getWeight() {
+        if (weight == null) {
+            weight = calculateWeight();
         }
-        return probability;
+        return weight;
     }
 
-    private double calculateProbability() {
-        return (1 + (double) timesGuessedIncorrectly / (1 + timesShown)) /
-                (1 + (double) timesGuessedCorrectly / (1 + timesShown)) / (1 + timesShown);
+    private double calculateWeight() {
+        double x = timesGuessedIncorrectly;
+        double y = timesGuessedCorrectly;
+
+        return 0.5 * (1 / (1 + x + y) + 1 / (1 + x) + 1 - 1 / (1 + y));
     }
+
 
     @Override
     public boolean equals(Object o) {
