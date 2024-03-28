@@ -1,11 +1,5 @@
-# docker build -t flagtrainer-app .
+# docker build -f Dockerfile.run -t flagtrainer-app .
 # docker run -p 8080:8080 flagtrainer-app
-
-FROM maven:3.8.7-amazoncorretto-17 AS build
-WORKDIR /build
-COPY src /build/src
-COPY pom.xml /build/
-RUN mvn package
 
 FROM openjdk:17-jdk-slim
 WORKDIR /app
