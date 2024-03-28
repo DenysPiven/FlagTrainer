@@ -1,0 +1,8 @@
+com/game/flagTrainer/flag/Flag.class
+com/game/flagTrainer/flag/FlagService.class
+com/game/flagTrainer/user/UserController.class
+com/game/flagTrainer/flag/FlagController.class
+com/game/flagTrainer/FlagTrainerApplication.class
+com/game/flagTrainer/user/UserDataService$1.class
+com/game/flagTrainer/user/UserDataService.class
+com/game/flagTrainer/user/User.class

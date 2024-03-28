@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>FlagTrainer</title>
+    <link rel="stylesheet" th:href="@{/css/styles.css}">
+    <link rel="stylesheet" th:href="@{/css/index.css}">
+</head>
+<body>
+<div class="header">
+    <div id="stats">
+        <p><span id="usernameDisplay" th:text="${username}"></span></p>
+        <p>Правильно: <span id="correctCount" th:text="0">0</span></p>
+        <p>Неправильно: <span id="incorrectCount" th:text="0">0</span></p>
+    </div>
+    <div id="logout">
+        <a href="/logout">Logout</a>
+    </div>
+</div>
+<div id="containerMain">
+    <div id="flagContainer">
+        <img id="flagImage" th:src="${flag.imageUrl}" alt="Flag" th:title="${flag.countryName}">
+    </div>
+    <div id="countryNameContainer">
+        <p id="countryName" th:text="${flag.countryName}" style="display: none;">Україна</p>
+    </div>
+    <div class="buttonsContainer">
+        <div id="incorrectBtn" class="disabled" onclick="setupFlagClickHandler()">✗</div>
+        <div id="correctBtn" class="disabled" onclick="setupFlagClickHandler()">✓</div>
+    </div>
+</div>
+
+<script src="/js/main.js"></script>
+</body>
+</html>
