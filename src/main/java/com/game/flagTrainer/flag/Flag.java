@@ -37,7 +37,7 @@ public class Flag {
 
     private double calculateWeight() {
 
-        if(shown <= 2){
+        if(shown < 1){
             return 10;
         }
         if(correct < incorrect){

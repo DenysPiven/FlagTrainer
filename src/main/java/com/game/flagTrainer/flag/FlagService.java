@@ -36,7 +36,7 @@ public class FlagService {
             }
         }
 
-        return flags.get(new Random().nextInt(flags.size())); // Повертаємо випадковий прапор у разі невдачі
+        return flags.get(new Random().nextInt(flags.size()));
     }
 
 
