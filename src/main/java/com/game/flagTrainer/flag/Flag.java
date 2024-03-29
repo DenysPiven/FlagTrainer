@@ -36,14 +36,10 @@ public class Flag {
     }
 
     private double calculateWeight() {
-
         if(shown < 1){
-            return 10;
+            return 1000;
         }
-        if(correct < incorrect){
-            return 1 - (double) 1 /(2 + incorrect - correct);
-        }
-        return (double) 1 / (2 + correct - incorrect);
+        return 1 / (1 + Math.exp(correct - incorrect));
     }
 
     @Override
