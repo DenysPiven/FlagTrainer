@@ -19,9 +19,7 @@ public class UserController {
     }
 
     @PostMapping("/login")
-    public String loginUser(@RequestParam String username, Model model) {
-        model.addAttribute("user", username);
-
+    public String loginUser(@RequestParam String username) {
         return "redirect:/" + username;
     }
 

@@ -50,12 +50,12 @@ public class FlagService {
         }
 
         if (isCorrect) {
-            flag.incrementTimesGuessedCorrectly();
+            flag.incrementCorrect();
         } else {
-            flag.incrementTimesGuessedIncorrectly();
+            flag.incrementIncorrect();
         }
 
-        flag.incrementTimesShown();
+        flag.incrementShown();
         userDataService.updateFlagFile(username, flagsMap);
     }
 }

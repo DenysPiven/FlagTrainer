@@ -8,23 +8,23 @@ import java.util.Objects;
 public class Flag {
     private String countryName;
     private String imageUrl;
-    private int timesShown;
-    private int timesGuessedCorrectly;
-    private int timesGuessedIncorrectly;
+    private int shown;
+    private int correct;
+    private int incorrect;
     private Double weight = null;
 
-    public void incrementTimesShown() {
-        this.timesShown++;
+    public void incrementShown() {
+        this.shown++;
         this.weight = null;
     }
 
-    public void incrementTimesGuessedCorrectly() {
-        this.timesGuessedCorrectly++;
+    public void incrementCorrect() {
+        this.correct++;
         this.weight = null;
     }
 
-    public void incrementTimesGuessedIncorrectly() {
-        this.timesGuessedIncorrectly++;
+    public void incrementIncorrect() {
+        this.incorrect++;
         this.weight = null;
     }
 
@@ -36,12 +36,15 @@ public class Flag {
     }
 
     private double calculateWeight() {
-        double x = timesGuessedIncorrectly;
-        double y = timesGuessedCorrectly;
 
-        return 0.5 * (1 / (1 + x + y) + 1 / (1 + x) + 1 - 1 / (1 + y));
+        if(shown <= 2){
+            return 10;
+        }
+        if(correct < incorrect){
+            return 1 - (double) 1 /(2 + incorrect - correct);
+        }
+        return (double) 1 / (2 + correct - incorrect);
     }
-
 
     @Override
     public boolean equals(Object o) {

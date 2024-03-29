@@ -25,9 +25,12 @@ public class FlagController {
 
     @GetMapping("/{username}")
     public String showFlag(@PathVariable("username") String username, Model model) {
+        if(username == null || username.trim().isEmpty() || !username.matches("[A-Za-z]+")) {
+            return redirectToLogin();
+        }
 
-        if(model.getAttribute("user") == null) {
-            model.addAttribute("user", username);
+        if(model.getAttribute("username") == null) {
+            model.addAttribute("username", username);
         }
 
         Flag flag = flagService.getRandomFlag(username);
@@ -49,9 +52,9 @@ public class FlagController {
         Map<String, Object> flagData = Map.of(
                 "countryName", flag.getCountryName(),
                 "imageUrl", flag.getImageUrl(),
-                "timesShown", flag.getTimesShown(),
-                "timesGuessedCorrectly", flag.getTimesGuessedCorrectly(),
-                "timesGuessedIncorrectly", flag.getTimesGuessedIncorrectly()
+                "timesShown", flag.getShown(),
+                "timesGuessedCorrectly", flag.getCorrect(),
+                "timesGuessedIncorrectly", flag.getIncorrect()
         );
         return ResponseEntity.ok(flagData);
     }
