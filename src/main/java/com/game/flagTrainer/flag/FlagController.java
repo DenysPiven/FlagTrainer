@@ -59,4 +59,10 @@ public class FlagController {
         return ResponseEntity.ok(flagData);
     }
 
+    @GetMapping("/{username}/flags")
+    public String showFlags(@PathVariable String username, Model model) {
+        model.addAttribute("flags", flagService.getAllFlags());
+        return "flags";
+    }
+
 }

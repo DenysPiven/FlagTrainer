@@ -1,0 +1,30 @@
+version: '3.8'
+services:
+  flags-app:
+    build: .
+    ports:
+      - "8080:8080"
+    environment:
+      SPRING_APPLICATION_NAME: flags
+      FLAGS_JSON_PATH: /app/data/flags.json
+      SPRING_DATASOURCE_URL: jdbc:mysql://mysql-db:3306/flag_trainer_db
+      SPRING_DATASOURCE_USERNAME: root
+      SPRING_DATASOURCE_PASSWORD: password
+      SPRING_JPA_HIBERNATE_DDL_AUTO: update
+      SPRING_JPA_PROPERTIES_HIBERNATE_DIALECT: org.hibernate.dialect.MySQL8Dialect
+    depends_on:
+      - mysql-db
+
+  mysql-db:
+    image: mysql
+    restart: always
+    environment:
+      MYSQL_DATABASE: flag_trainer_db
+      MYSQL_ROOT_PASSWORD: password
+    ports:
+      - "3307:3306"
+    volumes:
+      - mysql-data:/var/lib/mysql
+
+volumes:
+  mysql-data:

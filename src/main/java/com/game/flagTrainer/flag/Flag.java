@@ -1,11 +1,23 @@
 package com.game.flagTrainer.flag;
 
+import com.game.flagTrainer.user.User;
+import jakarta.persistence.*;
 import lombok.Data;
 
 import java.util.Objects;
 
+@Entity
 @Data
+@Table(name = "flags")
 public class Flag {
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
+
+    @ManyToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "user_id")
+    private User user;
+
     private String countryName;
     private String imageUrl;
     private int shown;

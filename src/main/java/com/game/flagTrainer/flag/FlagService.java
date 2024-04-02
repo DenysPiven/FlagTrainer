@@ -13,6 +13,13 @@ public class FlagService {
     @Autowired
     private UserDataService userDataService;
 
+    @Autowired
+    private FlagRepository flagRepository;
+
+    public List<Flag> getAllFlags() {
+        return flagRepository.findAll();
+    }
+
     private Flag lastShownFlag = null;
 
     public Flag getRandomFlag(String username) {
@@ -38,7 +45,6 @@ public class FlagService {
 
         return flags.get(new Random().nextInt(flags.size()));
     }
-
 
     public void setAnswer(String username, String countryName, Boolean isCorrect) {
         List<Flag> userFlags = userDataService.loadUserFlags(username);
