@@ -1,11 +1,25 @@
 version: '3.8'
 services:
+  flags-app:
+    build: .
+    ports:
+      - "8081:8080"
+    environment:
+      SPRING_APPLICATION_NAME: flags
+      FLAGS_JSON_PATH: /app/data/flags.json
+      SPRING_DATA_MONGODB_URI: mongodb://mongo-db:27017/flag_trainer
+    depends_on:
+      - mongo-db
 
-  mysql-db:
-    image: mysql
+  mongo-db:
+    image: mongo
     restart: always
     environment:
-      MYSQL_DATABASE: flag_trainer_db
-      MYSQL_ROOT_PASSWORD: password
+      MONGO_INITDB_DATABASE: flag_trainer
     ports:
-      - "3307:3306"
+      - "27017:27017"
+    volumes:
+      - mongo-data:/data/db
+
+volumes:
+  mongo-data:

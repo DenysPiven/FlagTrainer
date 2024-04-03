@@ -10,7 +10,6 @@ RUN mvn clean package
 FROM openjdk:17-jdk-slim
 WORKDIR /app
 COPY --from=build /build/target/flagTrainer-0.0.1-SNAPSHOT.jar /app/app.jar
-COPY data/flags.json /app/data/flags.json
 
 CMD ["java", "-jar", "app.jar"]
 

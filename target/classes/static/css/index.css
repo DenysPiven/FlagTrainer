@@ -79,14 +79,14 @@ a {
   object-fit: contain;
 }
 
-#countryNameContainer {
+#flagIdContainer {
   display: flex;
   justify-content: center;
   width: 100%;
   height: 25%;
 }
 
-#countryName {
+#flagId {
   text-align: center;
   font-size: 6vh;
 }

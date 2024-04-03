@@ -18,33 +18,33 @@ function handleAnswer(isCorrect) {
         return;
     }
 
-    var countryNameElement = document.getElementById('countryName');
-    var countryName = countryNameElement.textContent;
+    var flagIdElement = document.getElementById('flagId');
+    var flagId = flagIdElement.textContent;
 
-    var username = document.querySelector('.header span').textContent;
+    var userId = document.querySelector('.header span').textContent;
 
-    fetch('/' + encodeURIComponent(username) + '/set', {
+    fetch('/' + encodeURIComponent(userId) + '/set', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/x-www-form-urlencoded',
         },
-        body: `countryName=${countryName}&isCorrect=${isCorrect}`
+        body: `flagId=${flagId}&isCorrect=${isCorrect}`
     })
     .then(response => response.json())
     .then(data => {
 
-        countryNameElement.style.display = 'none';
+        flagIdElement.style.display = 'none';
 
         const countElementId = data.isCorrect ? 'correctCount' : 'incorrectCount';
         const count = data.isCorrect ? ++correctCount : ++incorrectCount;
         document.getElementById(countElementId).textContent = `${count}`;
 
-        fetch('/' + encodeURIComponent(username) + '/flag')
+        fetch('/' + encodeURIComponent(userId) + '/flag')
             .then(response => response.json())
             .then(newFlagData => {
                 document.getElementById('flagImage').src = newFlagData.imageUrl;
-                document.getElementById('flagImage').title = newFlagData.countryName;
-                document.getElementById('countryName').textContent = newFlagData.countryName;
+                document.getElementById('flagImage').title = newFlagData.flagId;
+                document.getElementById('flagId').textContent = newFlagData.flagId;
             });
 
         document.getElementById('correctBtn').classList.add("disabled");
@@ -57,7 +57,7 @@ function setupFlagClickHandler() {
     checkUserStatus();
 
     var containerMain = document.getElementById('containerMain');
-    var countryName = document.getElementById('countryName');
+    var flagId = document.getElementById('flagId');
 
     var correctBtn = document.getElementById('correctBtn').classList;
     var incorrectBtn = document.getElementById('incorrectBtn').classList;
@@ -65,7 +65,7 @@ function setupFlagClickHandler() {
     containerMain.addEventListener('click', function(e) {
         e.preventDefault();
 
-        countryName.style.display = 'block';
+        flagId.style.display = 'block';
 
         if(correctBtn.contains("disabled")){
             correctBtn.remove("disabled");
@@ -75,7 +75,13 @@ function setupFlagClickHandler() {
 }
 
 function checkUserStatus() {
-    if (document.getElementById('usernameDisplay').textContent.trim() === 'Guest') {
+    if (document.getElementById('userIdDisplay').textContent.trim() === 'Guest') {
         window.location.href = '/login';
     }
 }
+
+window.addEventListener('beforeunload', function(event) {
+    navigator.sendBeacon('/save');
+});
+
+

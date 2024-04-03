@@ -8,7 +8,7 @@
 <body>
 <div class="header">
     <div id="stats">
-        <p><span id="usernameDisplay" th:text="${username}"></span></p>
+        <p><span id="userIdDisplay" th:text="${userId}"></span></p>
         <p>Правильно: <span id="correctCount" th:text="0">0</span></p>
         <p>Неправильно: <span id="incorrectCount" th:text="0">0</span></p>
     </div>
@@ -18,10 +18,10 @@
 </div>
 <div id="containerMain">
     <div id="flagContainer">
-        <img id="flagImage" th:src="${flag.imageUrl}" alt="Flag" th:title="${flag.countryName}">
+        <img id="flagImage" th:src="${flag.imageUrl}" alt="Flag" th:title="${flag.flagId}">
     </div>
-    <div id="countryNameContainer">
-        <p id="countryName" th:text="${flag.countryName}" style="display: none;">Україна</p>
+    <div id="flagIdContainer">
+        <p id="flagId" th:text="${flag.flagId}" style="display: none;">Україна</p>
     </div>
     <div class="buttonsContainer">
         <div id="incorrectBtn" class="disabled" onclick="setupFlagClickHandler()">✗</div>

@@ -24,11 +24,11 @@ body {
   flex-direction: column;
 }
 
-#username-group {
+#userId-group {
   margin-bottom: 15px;
 }
 
-#username {
+#userId {
   width:100%;
   padding: 10px;
   margin-bottom: 15px;

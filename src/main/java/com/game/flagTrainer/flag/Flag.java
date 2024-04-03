@@ -1,42 +1,43 @@
 package com.game.flagTrainer.flag;
 
-import com.game.flagTrainer.user.User;
-import jakarta.persistence.*;
 import lombok.Data;
+import org.springframework.data.mongodb.core.index.CompoundIndex;
 
 import java.util.Objects;
 
-@Entity
 @Data
-@Table(name = "flags")
+@CompoundIndex(def = "{'userId': 1, 'flagId': 1}", unique = true)
 public class Flag {
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
+    private String userId;
+    private String flagId;
 
-    @ManyToOne(fetch = FetchType.LAZY)
-    @JoinColumn(name = "user_id")
-    private User user;
-
-    private String countryName;
     private String imageUrl;
+
     private int shown;
     private int correct;
     private int incorrect;
-    private Double weight = null;
+    private Double weight;
+
+    public Flag() {
+        this.weight = null;
+    }
 
     public void incrementShown() {
         this.shown++;
-        this.weight = null;
+        invalidateWeight();
     }
 
     public void incrementCorrect() {
         this.correct++;
-        this.weight = null;
+        invalidateWeight();
     }
 
     public void incrementIncorrect() {
         this.incorrect++;
+        invalidateWeight();
+    }
+
+    private void invalidateWeight() {
         this.weight = null;
     }
 
@@ -48,24 +49,23 @@ public class Flag {
     }
 
     private double calculateWeight() {
-        if(shown < 1){
-            return 1000;
+        if (shown == 0) {
+            return 1000.0;
         }
-        return 1 / (1 + Math.exp(correct - incorrect));
+        return 1.0 / (1 + Math.exp(correct - incorrect));
     }
 
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-
         Flag flag = (Flag) o;
-
-        return Objects.equals(countryName, flag.countryName);
+        return Objects.equals(userId, flag.userId) &&
+                Objects.equals(flagId, flag.flagId);
     }
 
     @Override
     public int hashCode() {
-        return countryName != null ? countryName.hashCode() : 0;
+        return Objects.hash(userId, flagId);
     }
 }
