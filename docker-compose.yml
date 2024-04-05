@@ -7,3 +7,8 @@ services:
     environment:
       SPRING_APPLICATION_NAME: flags
       FLAGS_JSON_PATH: /app/data/flags.json
+    volumes:
+      - data_volume:/app/data
+
+volumes:
+  data_volume:
