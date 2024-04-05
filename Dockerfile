@@ -1,5 +1,6 @@
 FROM maven:3.8.7-amazoncorretto-17 AS build
 WORKDIR /build
+COPY data /build/data
 COPY src /build/src
 COPY pom.xml /build/
 RUN mvn clean package
