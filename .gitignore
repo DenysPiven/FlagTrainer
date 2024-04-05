@@ -27,7 +27,7 @@ build/
 .vscode/
 
 ### Maven ###
-# target/
+target/
 *.log
 
 ### Java ###
