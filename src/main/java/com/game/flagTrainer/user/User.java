@@ -3,19 +3,21 @@ package com.game.flagTrainer.user;
 import com.game.flagTrainer.flag.Flag;
 import lombok.Data;
 
-import java.util.HashSet;
-import java.util.Objects;
-import java.util.Set;
+import java.util.*;
 
 @Data
 public class User {
     private String userId;
-    private Set<Flag> flags = new HashSet<>();
+    private Map<String, Flag> flags = new HashMap<>();
 
     public User() {}
 
     public User(String userId) {
         this.userId = userId;
+    }
+
+    public void addOrUpdateFlag(Flag flag) {
+        flags.put(flag.getFlagId(), flag);
     }
 
     @Override

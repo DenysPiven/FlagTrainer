@@ -5,50 +5,48 @@ import com.game.flagTrainer.user.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Map;
 import java.util.Set;
 
 @Service
 public class FlagService {
     private final UserService userService;
-    private Flag lastShownFlag = null;
+    private String lastShownFlag;
 
     @Autowired
     public FlagService(UserService userService) {
         this.userService = userService;
+        this.lastShownFlag = null;
     }
 
     public Flag getRandomFlag(String userId) {
         User user = userService.getByUserId(userId);
-        Set<Flag> flags = user.getFlags();
+        Map<String, Flag> flags = new HashMap<>(user.getFlags());
 
-        if (lastShownFlag != null) {
-            flags.removeIf(f -> f.getFlagId().equals(lastShownFlag.getFlagId()));
-        }
+        flags.remove(lastShownFlag);
 
-        double totalWeight = flags.stream()
+        double totalWeight = flags.values().stream()
                 .mapToDouble(Flag::getWeight)
                 .sum();
-
         double randomValue = Math.random() * totalWeight;
         double cumulativeWeight = 0.0;
-        Flag chosenFlag = null;
-        for (Flag flag : flags) {
+
+        for (Flag flag : flags.values()) {
             cumulativeWeight += flag.getWeight();
             if (randomValue <= cumulativeWeight) {
-                chosenFlag = flag;
-                break;
+                lastShownFlag = flag.getFlagId();
+                return flag;
             }
         }
 
-        return chosenFlag;
+        return null;
     }
 
     public void setAnswer(String userId, String flagId, Boolean isCorrect) {
         User user = userService.getByUserId(userId);
-        Flag flag = user.getFlags().stream()
-                .filter(f -> f.getFlagId().equals(flagId))
-                .findFirst()
-                .orElse(null);
+        Flag flag = user.getFlags().get(flagId);
 
         if (isCorrect) {
             flag.incrementCorrect();
@@ -57,7 +55,8 @@ public class FlagService {
         }
         flag.incrementShown();
 
-        userService.updateUserFlags(userId, user.getFlags());
+        Set<Flag> flagSet = new HashSet<>(user.getFlags().values());
+        userService.updateUserFlags(userId, flagSet);
     }
 }
 

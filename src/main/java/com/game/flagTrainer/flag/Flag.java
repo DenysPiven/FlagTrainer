@@ -6,51 +6,33 @@ import java.util.Objects;
 
 @Data
 public class Flag {
-    private String userId;
     private String flagId;
-
     private String imageUrl;
 
     private int shown;
     private int correct;
     private int incorrect;
-    private Double weight;
+    private double weight;
 
     public Flag() {
-        this.weight = null;
+        weight = 1000.0;
     }
 
     public void incrementShown() {
         this.shown++;
-        invalidateWeight();
+        calculateWeight();
     }
 
     public void incrementCorrect() {
         this.correct++;
-        invalidateWeight();
     }
 
     public void incrementIncorrect() {
         this.incorrect++;
-        invalidateWeight();
     }
 
-    private void invalidateWeight() {
-        this.weight = null;
-    }
-
-    public double getWeight() {
-        if (weight == null) {
-            weight = calculateWeight();
-        }
-        return weight;
-    }
-
-    private double calculateWeight() {
-        if (shown == 0) {
-            return 1000.0;
-        }
-        return 1.0 / (1 + Math.exp(correct - incorrect));
+    private void calculateWeight() {
+        weight = 1.0 / (1 + Math.exp(correct - incorrect));
     }
 
     @Override
@@ -58,12 +40,11 @@ public class Flag {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         Flag flag = (Flag) o;
-        return Objects.equals(userId, flag.userId) &&
-                Objects.equals(flagId, flag.flagId);
+        return Objects.equals(flagId, flag.flagId);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(userId, flagId);
+        return Objects.hash(flagId);
     }
 }
