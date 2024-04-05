@@ -1,27 +1,9 @@
 version: '3.8'
 services:
   flags-app:
-    build:
-      context: .
-      dockerfile: run.Dockerfile
+    build: .
     ports:
       - "8080:8080"
     environment:
       SPRING_APPLICATION_NAME: flags
       FLAGS_JSON_PATH: /app/data/flags.json
-      SPRING_DATA_MONGODB_URI: mongodb://mongo-db:27017/flag_trainer
-    depends_on:
-      - mongo-db
-
-  mongo-db:
-    image: mongo
-    restart: always
-    environment:
-      MONGO_INITDB_DATABASE: flag_trainer
-    ports:
-      - "27017:27017"
-    volumes:
-      - mongo-data:/data/db
-
-volumes:
-  mongo-data:

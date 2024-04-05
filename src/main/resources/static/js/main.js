@@ -1,7 +1,5 @@
 setupFlagClickHandler();
 
-checkUserStatus();
-
 let correctCount = 0;
 let incorrectCount = 0;
 
@@ -18,17 +16,17 @@ function handleAnswer(isCorrect) {
         return;
     }
 
-    var flagIdElement = document.getElementById('flagId');
-    var flagId = flagIdElement.textContent;
+    const flagIdElement = document.getElementById('flagId');
+    const flagId = flagIdElement.textContent;
 
-    var userId = document.querySelector('.header span').textContent;
+    const userId = document.querySelector('.header span').textContent;
 
-    fetch('/' + encodeURIComponent(userId) + '/set', {
+    fetch('/set', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/x-www-form-urlencoded',
         },
-        body: `flagId=${flagId}&isCorrect=${isCorrect}`
+        body: `userId=${userId}&flagId=${flagId}&isCorrect=${isCorrect}`
     })
     .then(response => response.json())
     .then(data => {
@@ -39,7 +37,13 @@ function handleAnswer(isCorrect) {
         const count = data.isCorrect ? ++correctCount : ++incorrectCount;
         document.getElementById(countElementId).textContent = `${count}`;
 
-        fetch('/' + encodeURIComponent(userId) + '/flag')
+        fetch('/flag', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/x-www-form-urlencoded',
+            },
+            body: `userId=${userId}`
+        })
             .then(response => response.json())
             .then(newFlagData => {
                 document.getElementById('flagImage').src = newFlagData.imageUrl;
@@ -54,13 +58,12 @@ function handleAnswer(isCorrect) {
 }
 
 function setupFlagClickHandler() {
-    checkUserStatus();
 
-    var containerMain = document.getElementById('containerMain');
-    var flagId = document.getElementById('flagId');
+    const containerMain = document.getElementById('containerMain');
+    const flagId = document.getElementById('flagId');
 
-    var correctBtn = document.getElementById('correctBtn').classList;
-    var incorrectBtn = document.getElementById('incorrectBtn').classList;
+    const correctBtn = document.getElementById('correctBtn').classList;
+    const incorrectBtn = document.getElementById('incorrectBtn').classList;
 
     containerMain.addEventListener('click', function(e) {
         e.preventDefault();
@@ -73,15 +76,3 @@ function setupFlagClickHandler() {
         }
     });
 }
-
-function checkUserStatus() {
-    if (document.getElementById('userIdDisplay').textContent.trim() === 'Guest') {
-        window.location.href = '/login';
-    }
-}
-
-window.addEventListener('beforeunload', function(event) {
-    navigator.sendBeacon('/save');
-});
-
-

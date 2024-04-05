@@ -1,6 +1,3 @@
-# docker build -t flagtrainer-app .
-# docker run -p 8080:8080 flagtrainer-app
-
 FROM maven:3.8.7-amazoncorretto-17 AS build
 WORKDIR /build
 COPY src /build/src

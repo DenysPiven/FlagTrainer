@@ -1,12 +1,10 @@
 package com.game.flagTrainer.flag;
 
 import lombok.Data;
-import org.springframework.data.mongodb.core.index.CompoundIndex;
 
 import java.util.Objects;
 
 @Data
-@CompoundIndex(def = "{'userId': 1, 'flagId': 1}", unique = true)
 public class Flag {
     private String userId;
     private String flagId;

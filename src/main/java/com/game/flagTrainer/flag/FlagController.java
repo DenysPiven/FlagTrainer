@@ -1,5 +1,6 @@
 package com.game.flagTrainer.flag;
 
+import com.game.flagTrainer.user.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
@@ -25,8 +26,8 @@ public class FlagController {
         return "redirect:/login";
     }
 
-    @GetMapping("/{userId}")
-    public String showFlag(@PathVariable("userId") String userId, Model model) {
+    @PostMapping("/")
+    public String showFlag(@RequestParam("userId") String userId, Model model) {
         if(userId == null || userId.trim().isEmpty() || !userId.matches("[A-Za-z]+")) {
             return redirectToLogin();
         }
@@ -41,14 +42,14 @@ public class FlagController {
         return "index";
     }
 
-    @PostMapping("/{userId}/set")
-    public ResponseEntity<?> setFlagAnswer(@PathVariable String userId, @RequestParam String flagId, @RequestParam Boolean isCorrect) {
+    @PostMapping("/set")
+    public ResponseEntity<?> setFlagAnswer(@RequestParam String userId, @RequestParam String flagId, @RequestParam Boolean isCorrect) {
         flagService.setAnswer(userId, flagId, isCorrect);
         return ResponseEntity.ok(Map.of("isCorrect", isCorrect));
     }
 
-    @GetMapping("/{userId}/flag")
-    public ResponseEntity<?> getRandomFlag(@PathVariable String userId) {
+    @PostMapping("/flag")
+    public ResponseEntity<?> getRandomFlag(@RequestParam String userId) {
 
         Flag flag = flagService.getRandomFlag(userId);
         Map<String, Object> flagData = Map.of(
