@@ -7,8 +7,7 @@ RUN mvn clean package
 FROM openjdk:17-jdk-slim
 WORKDIR /app
 COPY --from=build /build/target/flagTrainer-0.0.1-SNAPSHOT.jar /app/app.jar
-
-VOLUME /app/data
+COPY data /app/data
 
 CMD ["java", "-jar", "app.jar"]
 
