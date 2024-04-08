@@ -52,7 +52,6 @@ function handleAnswer(isCorrect) {
             .then(response => response.json())
             .then(newFlagData => {
                 document.getElementById('flagImage').src = newFlagData.imageUrl;
-                document.getElementById('flagImage').title = newFlagData.flagId;
                 document.getElementById('flagId').textContent = newFlagData.flagId + ',';
                 document.getElementById('flagCapital').textContent = newFlagData.capital + ',';
                 document.getElementById('flagContinent').textContent = newFlagData.continent;
