@@ -19,8 +19,7 @@ function handleAnswer(isCorrect) {
     const flagIdElement = document.getElementById('flagId');
     const flagCapital = document.getElementById('flagCapital');
     const flagContinent = document.getElementById('flagContinent');
-    const flagImageElement = document.getElementById('flagImage');
-    const flagId = flagImageElement.title;
+    const flagId = flagIdElement.textContent;
 
     const userId = document.querySelector('.header span').textContent;
 
@@ -52,8 +51,8 @@ function handleAnswer(isCorrect) {
             .then(response => response.json())
             .then(newFlagData => {
                 document.getElementById('flagImage').src = newFlagData.imageUrl;
-                document.getElementById('flagId').textContent = newFlagData.flagId + ',';
-                document.getElementById('flagCapital').textContent = newFlagData.capital + ',';
+                document.getElementById('flagId').textContent = newFlagData.flagId;
+                document.getElementById('flagCapital').textContent = newFlagData.capital;
                 document.getElementById('flagContinent').textContent = newFlagData.continent;
             });
 

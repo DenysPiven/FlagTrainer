@@ -277,7 +277,9 @@
     },
     {
         "flagId": "Демократична Республіка Конго",
-        "imageUrl": "https://flagcdn.com/w320/cd.png"
+        "imageUrl": "https://flagcdn.com/w320/cd.png",
+        "capital": "Кіншаса",
+        "continent": "Африка"
     },
     {
         "flagId": "Джибуті",
