@@ -17,7 +17,10 @@ function handleAnswer(isCorrect) {
     }
 
     const flagIdElement = document.getElementById('flagId');
-    const flagId = flagIdElement.textContent;
+    const flagCapital = document.getElementById('flagCapital');
+    const flagContinent = document.getElementById('flagContinent');
+    const flagImageElement = document.getElementById('flagImage');
+    const flagId = flagImageElement.title;
 
     const userId = document.querySelector('.header span').textContent;
 
@@ -32,6 +35,8 @@ function handleAnswer(isCorrect) {
     .then(data => {
 
         flagIdElement.style.display = 'none';
+        flagCapital.style.display = 'none';
+        flagContinent.style.display = 'none';
 
         const countElementId = data.isCorrect ? 'correctCount' : 'incorrectCount';
         const count = data.isCorrect ? ++correctCount : ++incorrectCount;
@@ -48,7 +53,9 @@ function handleAnswer(isCorrect) {
             .then(newFlagData => {
                 document.getElementById('flagImage').src = newFlagData.imageUrl;
                 document.getElementById('flagImage').title = newFlagData.flagId;
-                document.getElementById('flagId').textContent = newFlagData.flagId;
+                document.getElementById('flagId').textContent = newFlagData.flagId + ',';
+                document.getElementById('flagCapital').textContent = newFlagData.capital + ',';
+                document.getElementById('flagContinent').textContent = newFlagData.continent;
             });
 
         document.getElementById('correctBtn').classList.add("disabled");
@@ -61,6 +68,8 @@ function setupFlagClickHandler() {
 
     const containerMain = document.getElementById('containerMain');
     const flagId = document.getElementById('flagId');
+    const flagCapital = document.getElementById('flagCapital');
+    const flagContinent = document.getElementById('flagContinent');
 
     const correctBtn = document.getElementById('correctBtn').classList;
     const incorrectBtn = document.getElementById('incorrectBtn').classList;
@@ -69,6 +78,8 @@ function setupFlagClickHandler() {
         e.preventDefault();
 
         flagId.style.display = 'block';
+        flagCapital.style.display = 'block';
+        flagContinent.style.display = 'block';
 
         if(correctBtn.contains("disabled")){
             correctBtn.remove("disabled");

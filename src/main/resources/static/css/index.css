@@ -82,13 +82,14 @@ a {
 #flagIdContainer {
   display: flex;
   justify-content: center;
+  flex-direction: column;
   width: 100%;
   height: 25%;
 }
 
-#flagId {
+#flagId, #flagCapital, #flagContinent {
   text-align: center;
-  font-size: 6vh;
+  font-size: 5vh;
 }
 
 .buttonsContainer {

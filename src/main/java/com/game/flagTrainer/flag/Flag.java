@@ -8,6 +8,8 @@ import java.util.Objects;
 public class Flag {
     private String flagId;
     private String imageUrl;
+    private String capital;
+    private String continent;
 
     private int shown;
     private int correct;

@@ -22,7 +22,9 @@
         <img id="flagImage" th:src="${flag.imageUrl}" alt="Flag" th:title="${flag.flagId}">
     </div>
     <div id="flagIdContainer">
-        <p id="flagId" th:text="${flag.flagId}" style="display: none;">Україна</p>
+        <p id="flagId" th:text="${flag.flagId} + ','" style="display: none;"></p>
+        <p id="flagCapital" th:text="${flag.capital} + ','" style="display: none;"></p>
+        <p id="flagContinent" th:text="${flag.continent} + ','" style="display: none;"></p>
     </div>
     <div class="buttonsContainer">
         <div id="incorrectBtn" class="disabled" onclick="setupFlagClickHandler()">✗</div>

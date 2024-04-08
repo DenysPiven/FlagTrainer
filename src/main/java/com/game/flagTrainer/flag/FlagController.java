@@ -56,7 +56,9 @@ public class FlagController {
         Flag flag = flagService.getRandomFlag(userId);
         Map<String, Object> flagData = Map.of(
                 "flagId", flag.getFlagId(),
-                "imageUrl", flag.getImageUrl()
+                "imageUrl", flag.getImageUrl(),
+                "capital", flag.getCapital(),
+                "continent", flag.getContinent()
         );
         return ResponseEntity.ok(flagData);
     }
