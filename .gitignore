@@ -1,3 +1,5 @@
+data/users
+
 ### STS ###
 .apt_generated
 .classpath
@@ -34,7 +36,7 @@ target/
 *.class
 *~
 *.hprof
-# *.jar
+*.jar
 *.war
 *.nar
 *.ear

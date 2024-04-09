@@ -5,7 +5,7 @@ html {
 }
 
 body {
-  background-color: #343a40; /* Dark background color */
+  background-color: #343a40;
   color: white;
   font-family: Arial, sans-serif;
   margin: 0;
@@ -20,8 +20,8 @@ body {
   height: 10%;
   display: flex;
   justify-content: space-between;
-  background-color: #6c757d; /* Light dark background */
-  padding: 0px 30px; /* Py-2 px-3 equivalent */
+  background-color: #6c757d;
+  padding: 0px 30px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
 }
 
@@ -45,9 +45,9 @@ p {
 a {
   color: white;
   text-decoration: none;
-  padding: 5px 10px; /* Btn-sm equivalent */
-  background-color: #dc3545; /* Danger color */
-  border-radius: 5px; /* Rounded pill shape */
+  padding: 5px 10px;
+  background-color: #dc3545;
+  border-radius: 5px;
   font-size: 2vh;
 }
 
@@ -68,27 +68,33 @@ a {
 
   width: 100%;
   max-width: 800px;
-  height: 45%;
-
-  cursor: auto;
+  height: 40%;
+  margin-top: 10px;
 }
 
 #flagImage {
-  margin-top: 10px;
   width: 100%;
   object-fit: contain;
 }
 
 #flagIdContainer {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   flex-direction: column;
   width: 100%;
-  height: 25%;
+  height: 30%;
+
+  padding: 50px 0;
 }
 
 #flagId, #flagCapital, #flagContinent {
   text-align: center;
+  font-size: 4vh;
+  margin: 20px 0;
+}
+
+#flagId {
+  font-weight: bold;
   font-size: 5vh;
 }
 
@@ -102,39 +108,37 @@ a {
 #correctBtn, #incorrectBtn {
   width: 50%;
   height: 100%;
-  border: none;
   border-radius: 5px;
   cursor: pointer;
   font-size: 20vh;
   text-align: center;
   border: 2px solid #343a40;
-  cursor: auto;
 }
 
 #incorrectBtn {
-  background-color: #dc3545; /* Danger color */
+  background-color: #dc3545;
   color: white;
 }
 
 #correctBtn {
-  background-color: #28a745; /* Success color */
+  background-color: #28a745;
   color: white;
 }
 
 #correctBtn.disabled,
 #incorrectBtn.disabled {
-  background-color: #6c757d; /* Серый цвет для неактивного состояния */
-  color: #aaa; /* Бледный текст для неактивного состояния */
-  pointer-events: none; /* Отключение событий мыши */
+  background-color: #6c757d;
+  color: #aaa;
+  pointer-events: none;
 }
 
 #correctBtn:active, #incorrectBtn:active {
-  background-color: inherit; /* Убираем изменение фона при активации */
-  outline: none; /* Убираем контур, если он есть */
+  background-color: inherit;
+  outline: none;
 }
 
 #correctBtn:focus, #incorrectBtn:focus {
-  outline: none; /* Убираем контур при фокусе */
+  outline: none;
 }
 
 
