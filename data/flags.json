@@ -314,7 +314,7 @@
     {
         "flagId": "Еритрея",
         "imageUrl": "https://flagcdn.com/w320/er.png",
-        "capital": "Асмера",
+        "capital": "Асмара",
         "continent": "Африка"
     },
     {
@@ -344,7 +344,7 @@
     {
         "flagId": "Ємен",
         "imageUrl": "https://flagcdn.com/w320/ye.png",
-        "capital": "Аден",
+        "capital": "Сана",
         "continent": "Азія"
     },
     {
@@ -368,7 +368,7 @@
     {
         "flagId": "Індія",
         "imageUrl": "https://flagcdn.com/w320/in.png",
-        "capital": "Делі",
+        "capital": "Нью-Делі",
         "continent": "Азія"
     },
     {
@@ -506,7 +506,7 @@
     {
         "flagId": "Кот-д'Івуар",
         "imageUrl": "https://flagcdn.com/w320/ci.png",
-        "capital": "Ямусукро",
+        "capital": "Ямусукро/Абіджан",
         "continent": "Африка"
     },
     {
@@ -794,7 +794,7 @@
     {
         "flagId": "ПАР",
         "imageUrl": "https://flagcdn.com/w320/za.png",
-        "capital": "Кейптаун",
+        "capital": "Кейптаун/Преторія",
         "continent": "Африка"
     },
     {
@@ -1062,7 +1062,7 @@
         "continent": "Пд. Америка"
     },
     {
-        "flagId": "Федеративні Штати Мікронезії",
+        "flagId": "Мікронезія",
         "imageUrl": "https://flagcdn.com/w320/fm.png",
         "capital": "Палікір",
         "continent": "Океанія"
@@ -1142,7 +1142,7 @@
     {
         "flagId": "Шрі-Ланка",
         "imageUrl": "https://flagcdn.com/w320/lk.png",
-        "capital": "Коломбо",
+        "capital": "Коломбо, Шрі-Джаяварденепура-Котте",
         "continent": "Азія"
     },
     {
