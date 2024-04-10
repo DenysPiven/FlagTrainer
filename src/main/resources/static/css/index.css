@@ -83,14 +83,13 @@ a {
   flex-direction: column;
   width: 100%;
   height: 30%;
-
-  padding: 50px 0;
+  margin: 10px 0;
 }
 
 #flagId, #flagCapital, #flagContinent {
   text-align: center;
   font-size: 4vh;
-  margin: 20px 0;
+  margin: 10px 1px;
 }
 
 #flagId {
