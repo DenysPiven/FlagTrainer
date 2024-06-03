@@ -23,11 +23,9 @@ public class FlagService {
         User user = userService.getByUserId(userId);
         Map<String, Flag> flags = new HashMap<>(user.getFlags());
 
-        boolean isAllShown = flags.values().stream()
-                .noneMatch(flag -> flag.getWeight() == 1000.0);
-
-        if (!isAllShown) {
-            flags.values().removeIf(flag -> flag.getWeight() != 1000.0);
+        if (user.getShownCount() < flags.size()) {
+            flags.values().removeIf(flag -> flag.getShown() > 0);
+            user.shownCountIncrement();
         }
 
         double totalWeight = flags.values().stream()

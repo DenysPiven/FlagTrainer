@@ -8,16 +8,25 @@ import java.util.*;
 @Data
 public class User {
     private String userId;
+
+    private long shownCount = 0;
     private Map<String, Flag> flags = new HashMap<>();
 
     public User() {}
 
     public User(String userId) {
         this.userId = userId;
+        shownCountCalculate();
     }
 
-    public void addOrUpdateFlag(Flag flag) {
-        flags.put(flag.getFlagId(), flag);
+    public void shownCountCalculate() {
+        shownCount = flags.values().stream()
+                .filter(flag -> flag.getShown() > 0)
+                .count();
+    }
+
+    public void shownCountIncrement(){
+        shownCount++;
     }
 
     @Override
