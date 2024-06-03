@@ -13,19 +13,22 @@ import java.util.Set;
 @Service
 public class FlagService {
     private final UserService userService;
-    private String lastShownFlag;
 
     @Autowired
     public FlagService(UserService userService) {
         this.userService = userService;
-        this.lastShownFlag = null;
     }
 
     public Flag getRandomFlag(String userId) {
         User user = userService.getByUserId(userId);
         Map<String, Flag> flags = new HashMap<>(user.getFlags());
 
-        flags.remove(lastShownFlag);
+        boolean isAllShown = flags.values().stream()
+                .noneMatch(flag -> flag.getWeight() == 1000.0);
+
+        if (!isAllShown) {
+            flags.values().removeIf(flag -> flag.getWeight() != 1000.0);
+        }
 
         double totalWeight = flags.values().stream()
                 .mapToDouble(Flag::getWeight)
@@ -36,13 +39,13 @@ public class FlagService {
         for (Flag flag : flags.values()) {
             cumulativeWeight += flag.getWeight();
             if (randomValue <= cumulativeWeight) {
-                lastShownFlag = flag.getFlagId();
                 return flag;
             }
         }
 
         return null;
     }
+
 
     public void setAnswer(String userId, String flagId, Boolean isCorrect) {
         User user = userService.getByUserId(userId);
