@@ -1,1160 +1,1160 @@
 [
     {
-        "flagId": "Австралія",
+        "flagId": "Australia",
         "imageUrl": "https://flagcdn.com/w320/au.png",
-        "capital": "Канберра",
-        "continent": "Океанія"
+        "capital": "Canberra",
+        "continent": "Oceania"
     },
     {
-        "flagId": "Австрія",
+        "flagId": "Austria",
         "imageUrl": "https://flagcdn.com/w320/at.png",
-        "capital": "Відень",
-        "continent": "Європа"
+        "capital": "Vienna",
+        "continent": "Europe"
     },
     {
-        "flagId": "Азербайджан",
+        "flagId": "Azerbaijan",
         "imageUrl": "https://flagcdn.com/w320/az.png",
-        "capital": "Баку",
-        "continent": "Азія"
+        "capital": "Baku",
+        "continent": "Asia"
     },
     {
-        "flagId": "Албанія",
+        "flagId": "Albania",
         "imageUrl": "https://flagcdn.com/w320/al.png",
-        "capital": "Тирана",
-        "continent": "Європа"
+        "capital": "Tirana",
+        "continent": "Europe"
     },
     {
-        "flagId": "Алжир",
+        "flagId": "Algeria",
         "imageUrl": "https://flagcdn.com/w320/dz.png",
-        "capital": "Алжир",
-        "continent": "Африка"
+        "capital": "Algeria",
+        "continent": "Africa"
     },
     {
         "flagId": "Ангола",
         "imageUrl": "https://flagcdn.com/w320/ao.png",
-        "capital": "Луанда",
-        "continent": "Африка"
+        "capital": "Luanda",
+        "continent": "Africa"
     },
     {
-        "flagId": "Андорра",
+        "flagId": "Andorra",
         "imageUrl": "https://flagcdn.com/w320/ad.png",
-        "capital": "Андорра-ла-Велья",
-        "continent": "Європа"
+        "capital": "Andorra la Vella",
+        "continent": "Europe"
     },
     {
-        "flagId": "Антигуа і Барбуда",
+        "flagId": "Antigua and Barbuda",
         "imageUrl": "https://flagcdn.com/w320/ag.png",
-        "capital": "Сент-Джонс",
-        "continent": "Пн. Америка"
+        "capital": "St. John's",
+        "continent": "North America"
     },
     {
-        "flagId": "Аргентина",
+        "flagId": "Argentina",
         "imageUrl": "https://flagcdn.com/w320/ar.png",
-        "capital": "Буенос-Айрес",
-        "continent": "Пд. Америка"
+        "capital": "Buenos Aires",
+        "continent": "South America"
     },
     {
-        "flagId": "Афганістан",
+        "flagId": "Afghanistan",
         "imageUrl": "https://flagcdn.com/w320/af.png",
-        "capital": "Кабул",
-        "continent": "Азія"
+        "capital": "Kabul",
+        "continent": "Asia"
     },
     {
-        "flagId": "Багами",
+        "flagId": "Bahamas",
         "imageUrl": "https://flagcdn.com/w320/bs.png",
-        "capital": "Нассау",
-        "continent": "Пн. Америка"
+        "capital": "Nassau",
+        "continent": "North America"
     },
     {
-        "flagId": "Бангладеш",
+        "flagId": "Bangladesh",
         "imageUrl": "https://flagcdn.com/w320/bd.png",
-        "capital": "Дакка",
-        "continent": "Азія"
+        "capital": "Dhaka",
+        "continent": "Asia"
     },
     {
-        "flagId": "Барбадос",
+        "flagId": "Barbados",
         "imageUrl": "https://flagcdn.com/w320/bb.png",
-        "capital": "Бриджтаун",
-        "continent": "Пн. Америка"
+        "capital": "Bridgetown",
+        "continent": "North America"
     },
     {
-        "flagId": "Бахрейн",
+        "flagId": "Bahrain",
         "imageUrl": "https://flagcdn.com/w320/bh.png",
-        "capital": "Манама",
-        "continent": "Азія"
+        "capital": "Manama",
+        "continent": "Asia"
     },
     {
-        "flagId": "Беліз",
+        "flagId": "Belize",
         "imageUrl": "https://flagcdn.com/w320/bz.png",
-        "capital": "Бельмопан",
-        "continent": "Пн. Америка"
+        "capital": "Belmopan",
+        "continent": "North America"
     },
     {
-        "flagId": "Бельгія",
+        "flagId": "Belgium",
         "imageUrl": "https://flagcdn.com/w320/be.png",
-        "capital": "Брюссель",
-        "continent": "Європа"
+        "capital": "Brussels",
+        "continent": "Europe"
     },
     {
-        "flagId": "Бенін",
+        "flagId": "Benin",
         "imageUrl": "https://flagcdn.com/w320/bj.png",
-        "capital": "Порто-Ново",
-        "continent": "Африка"
+        "capital": "Porto-Novo",
+        "continent": "Africa"
     },
     {
-        "flagId": "Білорусь",
+        "flagId": "Belarus",
         "imageUrl": "https://flagcdn.com/w320/by.png",
-        "capital": "Мінськ",
-        "continent": "Європа"
+        "capital": "Minsk",
+        "continent": "Europe"
     },
     {
-        "flagId": "Болгарія",
+        "flagId": "Bulgaria",
         "imageUrl": "https://flagcdn.com/w320/bg.png",
-        "capital": "Софія",
-        "continent": "Європа"
+        "capital": "Sofia",
+        "continent": "Europe"
     },
     {
-        "flagId": "Болівія",
+        "flagId": "Bolivia",
         "imageUrl": "https://flagcdn.com/w320/bo.png",
-        "capital": "Сукре",
-        "continent": "Пд. Америка"
+        "capital": "Sucre",
+        "continent": "South America"
     },
     {
-        "flagId": "Боснія і Герцеговина",
+        "flagId": "Bosnia and Herzegovina",
         "imageUrl": "https://flagcdn.com/w320/ba.png",
-        "capital": "Сараєво",
-        "continent": "Європа"
+        "capital": "Sarajevo",
+        "continent": "Europe"
     },
     {
-        "flagId": "Ботсвана",
+        "flagId": "Botswana",
         "imageUrl": "https://flagcdn.com/w320/bw.png",
-        "capital": "Габороне",
-        "continent": "Африка"
+        "capital": "Gaborone",
+        "continent": "Africa"
     },
     {
-        "flagId": "Бразилія",
+        "flagId": "Brazil",
         "imageUrl": "https://flagcdn.com/w320/br.png",
-        "capital": "Бразиліа",
-        "continent": "Пд. Америка"
+        "capital": "Brasilia",
+        "continent": "South America"
     },
     {
-        "flagId": "Бруней",
+        "flagId": "Brunei",
         "imageUrl": "https://flagcdn.com/w320/bn.png",
-        "capital": "Бандар-Сері-Бегаван",
-        "continent": "Азія"
+        "capital": "Bandar Seri Begawan",
+        "continent": "Asia"
     },
     {
-        "flagId": "Буркіна-Фасо",
+        "flagId": "Burkina Faso",
         "imageUrl": "https://flagcdn.com/w320/bf.png",
-        "capital": "Уагадугу",
-        "continent": "Африка"
+        "capital": "Ouagadougou",
+        "continent": "Africa"
     },
     {
-        "flagId": "Бурунді",
+        "flagId": "Burundi",
         "imageUrl": "https://flagcdn.com/w320/bi.png",
-        "capital": "Гітега",
-        "continent": "Африка"
+        "capital": "Gitega",
+        "continent": "Africa"
     },
     {
-        "flagId": "Бутан",
+        "flagId": "Bhutan",
         "imageUrl": "https://flagcdn.com/w320/bt.png",
-        "capital": "Тхімпху",
-        "continent": "Азія"
+        "capital": "Thimphu",
+        "continent": "Asia"
     },
     {
-        "flagId": "В'єтнам",
+        "flagId": "Vietnam",
         "imageUrl": "https://flagcdn.com/w320/vn.png",
-        "capital": "Ханой",
-        "continent": "Азія"
+        "capital": "Hanoi",
+        "continent": "Asia"
     },
     {
-        "flagId": "Вануату",
+        "flagId": "Vanuatu",
         "imageUrl": "https://flagcdn.com/w320/vu.png",
-        "capital": "Порт-Віла",
-        "continent": "Океанія"
+        "capital": "Port Vila",
+        "continent": "Oceania"
     },
     {
-        "flagId": "Ватикан",
+        "flagId": "Vatican",
         "imageUrl": "https://flagcdn.com/w320/va.png",
-        "capital": "Ватикан",
-        "continent": "Європа"
+        "capital": "Vatican",
+        "continent": "Europe"
     },
     {
-        "flagId": "Велика Британія",
+        "flagId": "United Kingdom",
         "imageUrl": "https://flagcdn.com/w320/gb.png",
-        "capital": "Лондон",
-        "continent": "Європа"
+        "capital": "London",
+        "continent": "Europe"
     },
     {
-        "flagId": "Венесуела",
+        "flagId": "Venezuela",
         "imageUrl": "https://flagcdn.com/w320/ve.png",
-        "capital": "Каракас",
-        "continent": "Пд. Америка"
+        "capital": "Caracas",
+        "continent": "South America"
     },
     {
-        "flagId": "Вірменія",
+        "flagId": "Armenia",
         "imageUrl": "https://flagcdn.com/w320/am.png",
-        "capital": "Єреван",
-        "continent": "Азія"
+        "capital": "Yerevan",
+        "continent": "Asia"
     },
     {
-        "flagId": "Габон",
+        "flagId": "Gabon",
         "imageUrl": "https://flagcdn.com/w320/ga.png",
-        "capital": "Лібревіль",
-        "continent": "Африка"
+        "capital": "Libreville",
+        "continent": "Africa"
     },
     {
-        "flagId": "Гаїті",
+        "flagId": "Haiti",
         "imageUrl": "https://flagcdn.com/w320/ht.png",
-        "capital": "Порт-о-Пренс",
-        "continent": "Пн. Америка"
+        "capital": "Port-au-Prince",
+        "continent": "North America"
     },
     {
-        "flagId": "Гамбія",
+        "flagId": "Gambia",
         "imageUrl": "https://flagcdn.com/w320/gm.png",
-        "capital": "Банжул",
-        "continent": "Африка"
+        "capital": "Banjul",
+        "continent": "Africa"
     },
     {
-        "flagId": "Гана",
+        "flagId": "Ghana",
         "imageUrl": "https://flagcdn.com/w320/gh.png",
-        "capital": "Аккра",
-        "continent": "Африка"
+        "capital": "Accra",
+        "continent": "Africa"
     },
     {
-        "flagId": "Гаяна",
+        "flagId": "Guyana",
         "imageUrl": "https://flagcdn.com/w320/gy.png",
-        "capital": "Джорджтаун",
-        "continent": "Пд. Америка"
+        "capital": "Georgetown",
+        "continent": "South America"
     },
     {
-        "flagId": "Гватемала",
+        "flagId": "Guatemala",
         "imageUrl": "https://flagcdn.com/w320/gt.png",
-        "capital": "Гватемала",
-        "continent": "Пн. Америка"
+        "capital": "Guatemala",
+        "continent": "North America"
     },
     {
-        "flagId": "Гвінея",
+        "flagId": "Guinea",
         "imageUrl": "https://flagcdn.com/w320/gn.png",
-        "capital": "Конакрі",
-        "continent": "Африка"
+        "capital": "Conakry",
+        "continent": "Africa"
     },
     {
-        "flagId": "Гвінея-Бісау",
+        "flagId": "Guinea-Bissau",
         "imageUrl": "https://flagcdn.com/w320/gw.png",
-        "capital": "Бісау",
-        "continent": "Африка"
+        "capital": "Bissau",
+        "continent": "Africa"
     },
     {
-        "flagId": "Гондурас",
+        "flagId": "Honduras",
         "imageUrl": "https://flagcdn.com/w320/hn.png",
-        "capital": "Тегусігальпа",
-        "continent": "Пн. Америка"
+        "capital": "Tegucigalpa",
+        "continent": "North America"
     },
     {
-        "flagId": "Гренада",
+        "flagId": "Grenada",
         "imageUrl": "https://flagcdn.com/w320/gd.png",
-        "capital": "Сент-Джорджес",
-        "continent": "Пн. Америка"
+        "capital": "St. George's",
+        "continent": "North America"
     },
     {
-        "flagId": "Греція",
+        "flagId": "Greece",
         "imageUrl": "https://flagcdn.com/w320/gr.png",
-        "capital": "Афіни",
-        "continent": "Європа"
+        "capital": "Athens",
+        "continent": "Europe"
     },
     {
-        "flagId": "Грузія",
+        "flagId": "Georgia",
         "imageUrl": "https://flagcdn.com/w320/ge.png",
-        "capital": "Тбілісі",
-        "continent": "Азія"
+        "capital": "Tbilisi",
+        "continent": "Asia"
     },
     {
-        "flagId": "Данія",
+        "flagId": "Denmark",
         "imageUrl": "https://flagcdn.com/w320/dk.png",
-        "capital": "Копенгаген",
-        "continent": "Європа"
+        "capital": "Copenhagen",
+        "continent": "Europe"
     },
     {
-        "flagId": "Демократична Республіка Конго",
+        "flagId": "Democratic Republic of the Congo",
         "imageUrl": "https://flagcdn.com/w320/cd.png",
-        "capital": "Кіншаса",
-        "continent": "Африка"
+        "capital": "Kinshasa",
+        "continent": "Africa"
     },
     {
-        "flagId": "Джибуті",
+        "flagId": "Djibouti",
         "imageUrl": "https://flagcdn.com/w320/dj.png",
-        "capital": "Джибуті",
-        "continent": "Африка"
+        "capital": "Djibouti",
+        "continent": "Africa"
     },
     {
-        "flagId": "Домініка",
+        "flagId": "Dominica",
         "imageUrl": "https://flagcdn.com/w320/dm.png",
-        "capital": "Розо",
-        "continent": "Пн. Америка"
+        "capital": "Roseau",
+        "continent": "North America"
     },
     {
-        "flagId": "Домініканська Республіка",
+        "flagId": "Dominican Republic",
         "imageUrl": "https://flagcdn.com/w320/do.png",
-        "capital": "Санто-Домінго",
-        "continent": "Пн. Америка"
+        "capital": "Santo Domingo",
+        "continent": "North America"
     },
     {
-        "flagId": "Еквадор",
+        "flagId": "Ecuador",
         "imageUrl": "https://flagcdn.com/w320/ec.png",
-        "capital": "Кіто",
-        "continent": "Пд. Америка"
+        "capital": "Quito",
+        "continent": "South America"
     },
     {
-        "flagId": "Екваторіальна Гвінея",
+        "flagId": "Equatorial Guinea",
         "imageUrl": "https://flagcdn.com/w320/gq.png",
-        "capital": "Малабо",
-        "continent": "Африка"
+        "capital": "Malabo",
+        "continent": "Africa"
     },
     {
-        "flagId": "Еритрея",
+        "flagId": "Eritrea",
         "imageUrl": "https://flagcdn.com/w320/er.png",
-        "capital": "Асмара",
-        "continent": "Африка"
+        "capital": "Asmara",
+        "continent": "Africa"
     },
     {
-        "flagId": "Есватіні",
+        "flagId": "Eswatini",
         "imageUrl": "https://flagcdn.com/w320/sz.png",
-        "capital": "Лобамба/Мбабане",
-        "continent": "Африка"
+        "capital": "Lobamba/Mbabane",
+        "continent": "Africa"
     },
     {
-        "flagId": "Естонія",
+        "flagId": "Estonia",
         "imageUrl": "https://flagcdn.com/w320/ee.png",
-        "capital": "Таллінн",
-        "continent": "Європа"
+        "capital": "Tallinn",
+        "continent": "Europe"
     },
     {
-        "flagId": "Ефіопія",
+        "flagId": "Ethiopia",
         "imageUrl": "https://flagcdn.com/w320/et.png",
-        "capital": "Аддис-Абеба",
-        "continent": "Африка"
+        "capital": "Addis Ababa",
+        "continent": "Africa"
     },
     {
-        "flagId": "Єгипет",
+        "flagId": "Egypt",
         "imageUrl": "https://flagcdn.com/w320/eg.png",
-        "capital": "Каїр",
-        "continent": "Африка"
+        "capital": "Cairo",
+        "continent": "Africa"
     },
     {
-        "flagId": "Ємен",
+        "flagId": "Yemen",
         "imageUrl": "https://flagcdn.com/w320/ye.png",
-        "capital": "Сана",
-        "continent": "Азія"
+        "capital": "Sanaa",
+        "continent": "Asia"
     },
     {
-        "flagId": "Замбія",
+        "flagId": "Zambia",
         "imageUrl": "https://flagcdn.com/w320/zm.png",
-        "capital": "Лусака",
-        "continent": "Африка"
+        "capital": "Lusaka",
+        "continent": "Africa"
     },
     {
-        "flagId": "Зімбабве",
+        "flagId": "Zimbabwe",
         "imageUrl": "https://flagcdn.com/w320/zw.png",
-        "capital": "Хараре",
-        "continent": "Африка"
+        "capital": "Harare",
+        "continent": "Africa"
     },
     {
-        "flagId": "Ізраїль",
+        "flagId": "Israel",
         "imageUrl": "https://flagcdn.com/w320/il.png",
-        "capital": "Єрусалим",
-        "continent": "Азія"
+        "capital": "Jerusalem",
+        "continent": "Asia"
     },
     {
-        "flagId": "Індія",
+        "flagId": "India",
         "imageUrl": "https://flagcdn.com/w320/in.png",
-        "capital": "Нью-Делі",
-        "continent": "Азія"
+        "capital": "New Delhi",
+        "continent": "Asia"
     },
     {
-        "flagId": "Індонезія",
+        "flagId": "Indonesia",
         "imageUrl": "https://flagcdn.com/w320/id.png",
-        "capital": "Джакарта",
-        "continent": "Азія"
+        "capital": "Jakarta",
+        "continent": "Asia"
     },
     {
-        "flagId": "Ірак",
+        "flagId": "Iraq",
         "imageUrl": "https://flagcdn.com/w320/iq.png",
-        "capital": "Багдад",
-        "continent": "Азія"
+        "capital": "Baghdad",
+        "continent": "Asia"
     },
     {
-        "flagId": "Іран",
+        "flagId": "Iran",
         "imageUrl": "https://flagcdn.com/w320/ir.png",
-        "capital": "Тегеран",
-        "continent": "Азія"
+        "capital": "Tehran",
+        "continent": "Asia"
     },
     {
-        "flagId": "Ірландія",
+        "flagId": "Ireland",
         "imageUrl": "https://flagcdn.com/w320/ie.png",
-        "capital": "Дублін",
-        "continent": "Європа"
+        "capital": "Dublin",
+        "continent": "Europe"
     },
     {
-        "flagId": "Ісландія",
+        "flagId": "Iceland",
         "imageUrl": "https://flagcdn.com/w320/is.png",
-        "capital": "Рейк'явік",
-        "continent": "Європа"
+        "capital": "Reykjavik",
+        "continent": "Europe"
     },
     {
-        "flagId": "Іспанія",
+        "flagId": "Spain",
         "imageUrl": "https://flagcdn.com/w320/es.png",
-        "capital": "Мадрид",
-        "continent": "Європа"
+        "capital": "Madrid",
+        "continent": "Europe"
     },
     {
-        "flagId": "Італія",
+        "flagId": "Italy",
         "imageUrl": "https://flagcdn.com/w320/it.png",
-        "capital": "Рим",
-        "continent": "Європа"
+        "capital": "Rome",
+        "continent": "Europe"
     },
     {
-        "flagId": "Йорданія",
+        "flagId": "Jordan",
         "imageUrl": "https://flagcdn.com/w320/jo.png",
-        "capital": "Амман",
-        "continent": "Азія"
+        "capital": "Amman",
+        "continent": "Asia"
     },
     {
-        "flagId": "Кабо-Верде",
+        "flagId": "Cape Verde",
         "imageUrl": "https://flagcdn.com/w320/cv.png",
-        "capital": "Прая",
-        "continent": "Африка"
+        "capital": "Praia",
+        "continent": "Africa"
     },
     {
-        "flagId": "Казахстан",
+        "flagId": "Kazakhstan",
         "imageUrl": "https://flagcdn.com/w320/kz.png",
-        "capital": "Астана",
-        "continent": "Азія"
+        "capital": "Astana",
+        "continent": "Asia"
     },
     {
-        "flagId": "Камбоджа",
+        "flagId": "Cambodia",
         "imageUrl": "https://flagcdn.com/w320/kh.png",
-        "capital": "Пномпень",
-        "continent": "Азія"
+        "capital": "Phnom Penh",
+        "continent": "Asia"
     },
     {
-        "flagId": "Камерун",
+        "flagId": "Cameroon",
         "imageUrl": "https://flagcdn.com/w320/cm.png",
-        "capital": "Яунде",
-        "continent": "Африка"
+        "capital": "Yaounde",
+        "continent": "Africa"
     },
     {
-        "flagId": "Канада",
+        "flagId": "Canada",
         "imageUrl": "https://flagcdn.com/w320/ca.png",
-        "capital": "Оттава",
-        "continent": "Пн. Америка"
+        "capital": "Ottawa",
+        "continent": "North America"
     },
     {
-        "flagId": "Катар",
+        "flagId": "Qatar",
         "imageUrl": "https://flagcdn.com/w320/qa.png",
-        "capital": "Доха",
-        "continent": "Азія"
+        "capital": "Doha",
+        "continent": "Asia"
     },
     {
-        "flagId": "Кенія",
+        "flagId": "Kenya",
         "imageUrl": "https://flagcdn.com/w320/ke.png",
-        "capital": "Найробі",
-        "continent": "Африка"
+        "capital": "Nairobi",
+        "continent": "Africa"
     },
     {
-        "flagId": "Киргизстан",
+        "flagId": "Kyrgyzstan",
         "imageUrl": "https://flagcdn.com/w320/kg.png",
-        "capital": "Бішкек",
-        "continent": "Азія"
+        "capital": "Bishkek",
+        "continent": "Asia"
     },
     {
-        "flagId": "Китай",
+        "flagId": "China",
         "imageUrl": "https://flagcdn.com/w320/cn.png",
-        "capital": "Пекін",
-        "continent": "Азія"
+        "capital": "Beijing",
+        "continent": "Asia"
     },
     {
-        "flagId": "Кіпр",
+        "flagId": "Cyprus",
         "imageUrl": "https://flagcdn.com/w320/cy.png",
-        "capital": "Нікосія",
-        "continent": "Азія"
+        "capital": "Nicosia",
+        "continent": "Asia"
     },
     {
-        "flagId": "Кірибаті",
+        "flagId": "Kiribati",
         "imageUrl": "https://flagcdn.com/w320/ki.png",
-        "capital": "Південна Тарава",
-        "continent": "Океанія"
+        "capital": "South Tarawa",
+        "continent": "Oceania"
     },
     {
-        "flagId": "Колумбія",
+        "flagId": "Colombia",
         "imageUrl": "https://flagcdn.com/w320/co.png",
-        "capital": "Богота",
-        "continent": "Пд. Америка"
+        "capital": "Bogota",
+        "continent": "South America"
     },
     {
-        "flagId": "Коморські Острови",
+        "flagId": "Comoros",
         "imageUrl": "https://flagcdn.com/w320/km.png",
-        "capital": "Мороні",
-        "continent": "Африка"
+        "capital": "Moroni",
+        "continent": "Africa"
     },
     {
-        "flagId": "Коста-Рика",
+        "flagId": "Costa Rica",
         "imageUrl": "https://flagcdn.com/w320/cr.png",
-        "capital": "Сан-Хосе",
-        "continent": "Пн. Америка"
+        "capital": "San Jose",
+        "continent": "North America"
     },
     {
-        "flagId": "Кот-д'Івуар",
+        "flagId": "Ivory Coast",
         "imageUrl": "https://flagcdn.com/w320/ci.png",
-        "capital": "Ямусукро/Абіджан",
-        "continent": "Африка"
+        "capital": "Yamoussoukro/Abidjan",
+        "continent": "Africa"
     },
     {
-        "flagId": "Куба",
+        "flagId": "Cuba",
         "imageUrl": "https://flagcdn.com/w320/cu.png",
-        "capital": "Гавана",
-        "continent": "Пн. Америка"
+        "capital": "Havana",
+        "continent": "North America"
     },
     {
-        "flagId": "Кувейт",
+        "flagId": "Kuwait",
         "imageUrl": "https://flagcdn.com/w320/kw.png",
-        "capital": "Ель-Кувейт",
-        "continent": "Азія"
+        "capital": "Kuwait City",
+        "continent": "Asia"
     },
     {
-        "flagId": "Лаос",
+        "flagId": "Laos",
         "imageUrl": "https://flagcdn.com/w320/la.png",
-        "capital": "В'єнтьян",
-        "continent": "Азія"
+        "capital": "Vientiane",
+        "continent": "Asia"
     },
     {
-        "flagId": "Латвія",
+        "flagId": "Latvia",
         "imageUrl": "https://flagcdn.com/w320/lv.png",
-        "capital": "Рига",
-        "continent": "Європа"
+        "capital": "Riga",
+        "continent": "Europe"
     },
     {
-        "flagId": "Лесото",
+        "flagId": "Lesotho",
         "imageUrl": "https://flagcdn.com/w320/ls.png",
-        "capital": "Масеру",
-        "continent": "Африка"
+        "capital": "Maseru",
+        "continent": "Africa"
     },
     {
-        "flagId": "Литва",
+        "flagId": "Lithuania",
         "imageUrl": "https://flagcdn.com/w320/lt.png",
-        "capital": "Вільнюс",
-        "continent": "Європа"
+        "capital": "Vilnius",
+        "continent": "Europe"
     },
     {
-        "flagId": "Ліберія",
+        "flagId": "Liberia",
         "imageUrl": "https://flagcdn.com/w320/lr.png",
-        "capital": "Монровія",
-        "continent": "Африка"
+        "capital": "Monrovia",
+        "continent": "Africa"
     },
     {
-        "flagId": "Ліван",
+        "flagId": "Lebanon",
         "imageUrl": "https://flagcdn.com/w320/lb.png",
-        "capital": "Бейрут",
-        "continent": "Азія"
+        "capital": "Beirut",
+        "continent": "Asia"
     },
     {
-        "flagId": "Лівія",
+        "flagId": "Libya",
         "imageUrl": "https://flagcdn.com/w320/ly.png",
-        "capital": "Триполі",
-        "continent": "Африка"
+        "capital": "Tripoli",
+        "continent": "Africa"
     },
     {
-        "flagId": "Ліхтенштейн",
+        "flagId": "Liechtenstein",
         "imageUrl": "https://flagcdn.com/w320/li.png",
-        "capital": "Вадуц",
-        "continent": "Європа"
+        "capital": "Vaduz",
+        "continent": "Europe"
     },
     {
-        "flagId": "Люксембург",
+        "flagId": "Luxembourg",
         "imageUrl": "https://flagcdn.com/w320/lu.png",
-        "capital": "Люксембург",
-        "continent": "Європа"
+        "capital": "Luxembourg",
+        "continent": "Europe"
     },
     {
-        "flagId": "М'янма",
+        "flagId": "Myanmar",
         "imageUrl": "https://flagcdn.com/w320/mm.png",
-        "capital": "Найп'їдо",
-        "continent": "Азія"
+        "capital": "Naypyidaw",
+        "continent": "Asia"
     },
     {
-        "flagId": "Маврикій",
+        "flagId": "Mauritius",
         "imageUrl": "https://flagcdn.com/w320/mu.png",
-        "capital": "Порт-Луї",
-        "continent": "Африка"
+        "capital": "Port Louis",
+        "continent": "Africa"
     },
     {
-        "flagId": "Мавританія",
+        "flagId": "Mauritania",
         "imageUrl": "https://flagcdn.com/w320/mr.png",
-        "capital": "Нуакшот",
-        "continent": "Африка"
+        "capital": "Nouakchott",
+        "continent": "Africa"
     },
     {
-        "flagId": "Мадагаскар",
+        "flagId": "Madagascar",
         "imageUrl": "https://flagcdn.com/w320/mg.png",
         "capital": "Антананариву",
-        "continent": "Африка"
+        "continent": "Africa"
     },
     {
-        "flagId": "Малаві",
+        "flagId": "Malawi",
         "imageUrl": "https://flagcdn.com/w320/mw.png",
-        "capital": "Лілонгве",
-        "continent": "Африка"
+        "capital": "Lilongwe",
+        "continent": "Africa"
     },
     {
-        "flagId": "Малайзія",
+        "flagId": "Malaysia",
         "imageUrl": "https://flagcdn.com/w320/my.png",
-        "capital": "Куала-Лумпур",
-        "continent": "Азія"
+        "capital": "Kuala Lumpur",
+        "continent": "Asia"
     },
     {
-        "flagId": "Малі",
+        "flagId": "Mali",
         "imageUrl": "https://flagcdn.com/w320/ml.png",
-        "capital": "Бамако",
-        "continent": "Африка"
+        "capital": "Bamako",
+        "continent": "Africa"
     },
     {
-        "flagId": "Мальдіви",
+        "flagId": "Maldives",
         "imageUrl": "https://flagcdn.com/w320/mv.png",
-        "capital": "Мале",
-        "continent": "Азія"
+        "capital": "Male",
+        "continent": "Asia"
     },
     {
-        "flagId": "Мальта",
+        "flagId": "Malta",
         "imageUrl": "https://flagcdn.com/w320/mt.png",
-        "capital": "Валлетта",
-        "continent": "Європа"
+        "capital": "Valletta",
+        "continent": "Europe"
     },
     {
-        "flagId": "Марокко",
+        "flagId": "Morocco",
         "imageUrl": "https://flagcdn.com/w320/ma.png",
-        "capital": "Рабат",
-        "continent": "Африка"
+        "capital": "Rabat",
+        "continent": "Africa"
     },
     {
-        "flagId": "Маршаллові Острови",
+        "flagId": "Marshall Islands",
         "imageUrl": "https://flagcdn.com/w320/mh.png",
-        "capital": "Маджуро",
-        "continent": "Океанія"
+        "capital": "Majuro",
+        "continent": "Oceania"
     },
     {
-        "flagId": "Мексика",
+        "flagId": "Mexico",
         "imageUrl": "https://flagcdn.com/w320/mx.png",
-        "capital": "Мехіко",
-        "continent": "Пн. Америка"
+        "capital": "Mexico City",
+        "continent": "North America"
     },
     {
-        "flagId": "Мозамбік",
+        "flagId": "Mozambique",
         "imageUrl": "https://flagcdn.com/w320/mz.png",
-        "capital": "Мапуту",
-        "continent": "Африка"
+        "capital": "Maputo",
+        "continent": "Africa"
     },
     {
-        "flagId": "Молдова",
+        "flagId": "Moldova",
         "imageUrl": "https://flagcdn.com/w320/md.png",
-        "capital": "Кишинів",
-        "continent": "Європа"
+        "capital": "Chisinau",
+        "continent": "Europe"
     },
     {
-        "flagId": "Монако",
+        "flagId": "Monaco",
         "imageUrl": "https://flagcdn.com/w320/mc.png",
-        "capital": "Монако",
-        "continent": "Європа"
+        "capital": "Monaco",
+        "continent": "Europe"
     },
     {
-        "flagId": "Монголія",
+        "flagId": "Mongolia",
         "imageUrl": "https://flagcdn.com/w320/mn.png",
-        "capital": "Улан-Батор",
-        "continent": "Азія"
+        "capital": "Ulaanbaatar",
+        "continent": "Asia"
     },
     {
-        "flagId": "Намібія",
+        "flagId": "Namibia",
         "imageUrl": "https://flagcdn.com/w320/na.png",
-        "capital": "Віндгук",
-        "continent": "Африка"
+        "capital": "Windhoek",
+        "continent": "Africa"
     },
     {
-        "flagId": "Науру",
+        "flagId": "Nauru",
         "imageUrl": "https://flagcdn.com/w320/nr.png",
-        "capital": "Ярен",
-        "continent": "Океанія"
+        "capital": "Yaren",
+        "continent": "Oceania"
     },
     {
-        "flagId": "Непал",
+        "flagId": "Nepal",
         "imageUrl": "https://flagcdn.com/w320/np.png",
-        "capital": "Катманду",
-        "continent": "Азія"
+        "capital": "Kathmandu",
+        "continent": "Asia"
     },
     {
-        "flagId": "Нігер",
+        "flagId": "Niger",
         "imageUrl": "https://flagcdn.com/w320/ne.png",
-        "capital": "Ніамей",
-        "continent": "Африка"
+        "capital": "Niamey",
+        "continent": "Africa"
     },
     {
-        "flagId": "Нігерія",
+        "flagId": "Nigeria",
         "imageUrl": "https://flagcdn.com/w320/ng.png",
-        "capital": "Абуджа",
-        "continent": "Африка"
+        "capital": "Abuja",
+        "continent": "Africa"
     },
     {
-        "flagId": "Нідерланди",
+        "flagId": "Netherlands",
         "imageUrl": "https://flagcdn.com/w320/nl.png",
-        "capital": "Амстердам",
-        "continent": "Європа"
+        "capital": "Amsterdam",
+        "continent": "Europe"
     },
     {
-        "flagId": "Нікарагуа",
+        "flagId": "Nicaragua",
         "imageUrl": "https://flagcdn.com/w320/ni.png",
-        "capital": "Манагуа",
-        "continent": "Пн. Америка"
+        "capital": "Managua",
+        "continent": "North America"
     },
     {
-        "flagId": "Німеччина",
+        "flagId": "Germany",
         "imageUrl": "https://flagcdn.com/w320/de.png",
-        "capital": "Берлін",
-        "continent": "Європа"
+        "capital": "Berlin",
+        "continent": "Europe"
     },
     {
-        "flagId": "Нова Зеландія",
+        "flagId": "New Zealand",
         "imageUrl": "https://flagcdn.com/w320/nz.png",
-        "capital": "Веллінгтон",
-        "continent": "Океанія"
+        "capital": "Wellington",
+        "continent": "Oceania"
     },
     {
-        "flagId": "Норвегія",
+        "flagId": "Norway",
         "imageUrl": "https://flagcdn.com/w320/no.png",
-        "capital": "Осло",
-        "continent": "Європа"
+        "capital": "Oslo",
+        "continent": "Europe"
     },
     {
-        "flagId": "ОАЕ",
+        "flagId": "United Arab Emirates",
         "imageUrl": "https://flagcdn.com/w320/ae.png",
-        "capital": "Абу-дабі",
-        "continent": "Азія"
+        "capital": "Abu Dhabi",
+        "continent": "Asia"
     },
     {
-        "flagId": "Оман",
+        "flagId": "Oman",
         "imageUrl": "https://flagcdn.com/w320/om.png",
-        "capital": "Маскат",
-        "continent": "Азія"
+        "capital": "Muscat",
+        "continent": "Asia"
     },
     {
-        "flagId": "Пакистан",
+        "flagId": "Pakistan",
         "imageUrl": "https://flagcdn.com/w320/pk.png",
-        "capital": "Ісламабад",
-        "continent": "Азія"
+        "capital": "Islamabad",
+        "continent": "Asia"
     },
     {
-        "flagId": "Палау",
+        "flagId": "Palau",
         "imageUrl": "https://flagcdn.com/w320/pw.png",
-        "capital": "Нгерулмуд",
-        "continent": "Океанія"
+        "capital": "Ngerulmud",
+        "continent": "Oceania"
     },
     {
-        "flagId": "Панама",
+        "flagId": "Panama",
         "imageUrl": "https://flagcdn.com/w320/pa.png",
-        "capital": "Панама",
-        "continent": "Пн. Америка"
+        "capital": "Panama",
+        "continent": "North America"
     },
     {
-        "flagId": "Папуа Нова Гвінея",
+        "flagId": "Papua New Guinea",
         "imageUrl": "https://flagcdn.com/w320/pg.png",
-        "capital": "Порт-Морсбі",
-        "continent": "Океанія"
+        "capital": "Port Moresby",
+        "continent": "Oceania"
     },
     {
-        "flagId": "Парагвай",
+        "flagId": "Paraguay",
         "imageUrl": "https://flagcdn.com/w320/py.png",
-        "capital": "Асунсьйон",
-        "continent": "Пд. Америка"
+        "capital": "Asuncion",
+        "continent": "South America"
     },
     {
-        "flagId": "Перу",
+        "flagId": "Peru",
         "imageUrl": "https://flagcdn.com/w320/pe.png",
-        "capital": "Ліма",
-        "continent": "Пд. Америка"
+        "capital": "Lima",
+        "continent": "South America"
     },
     {
-        "flagId": "Південна Корея",
+        "flagId": "South Korea",
         "imageUrl": "https://flagcdn.com/w320/kr.png",
-        "capital": "Сеул",
-        "continent": "Азія"
+        "capital": "Seoul",
+        "continent": "Asia"
     },
     {
-        "flagId": "Південний Судан",
+        "flagId": "South Sudan",
         "imageUrl": "https://flagcdn.com/w320/ss.png",
-        "capital": "Джуба",
-        "continent": "Африка"
+        "capital": "Juba",
+        "continent": "Africa"
     },
     {
-        "flagId": "ПАР",
+        "flagId": "South Africa",
         "imageUrl": "https://flagcdn.com/w320/za.png",
-        "capital": "Кейптаун/Преторія",
-        "continent": "Африка"
+        "capital": "Cape Town/Pretoria",
+        "continent": "Africa"
     },
     {
-        "flagId": "Північна Корея",
+        "flagId": "North Korea",
         "imageUrl": "https://flagcdn.com/w320/kp.png",
-        "capital": "Пхеньян",
-        "continent": "Азія"
+        "capital": "Pyongyang",
+        "continent": "Asia"
     },
     {
-        "flagId": "Північна Македонія",
+        "flagId": "North Macedonia",
         "imageUrl": "https://flagcdn.com/w320/mk.png",
-        "capital": "Скоп'є",
-        "continent": "Європа"
+        "capital": "Skopje",
+        "continent": "Europe"
     },
     {
-        "flagId": "Польща",
+        "flagId": "Poland",
         "imageUrl": "https://flagcdn.com/w320/pl.png",
-        "capital": "Варшава",
-        "continent": "Європа"
+        "capital": "Warsaw",
+        "continent": "Europe"
     },
     {
-        "flagId": "Португалія",
+        "flagId": "Portugal",
         "imageUrl": "https://flagcdn.com/w320/pt.png",
-        "capital": "Лісабон",
-        "continent": "Європа"
+        "capital": "Lisbon",
+        "continent": "Europe"
     },
     {
-        "flagId": "Республіка Конго",
+        "flagId": "Republic of the Congo",
         "imageUrl": "https://flagcdn.com/w320/cg.png",
-        "capital": "Браззавіль",
-        "continent": "Африка"
+        "capital": "Brazzaville",
+        "continent": "Africa"
     },
     {
-        "flagId": "Руанда",
+        "flagId": "Rwanda",
         "imageUrl": "https://flagcdn.com/w320/rw.png",
-        "capital": "Кігалі",
-        "continent": "Африка"
+        "capital": "Kigali",
+        "continent": "Africa"
     },
     {
-        "flagId": "Румунія",
+        "flagId": "Romania",
         "imageUrl": "https://flagcdn.com/w320/ro.png",
-        "capital": "Бухарест",
-        "continent": "Європа"
+        "capital": "Bucharest",
+        "continent": "Europe"
     },
     {
-        "flagId": "США",
+        "flagId": "United States",
         "imageUrl": "https://flagcdn.com/w320/us.png",
-        "capital": "Вашингтон",
-        "continent": "Пн. Америка"
+        "capital": "Washington, D.C.",
+        "continent": "North America"
     },
     {
-        "flagId": "Сальвадор",
+        "flagId": "El Salvador",
         "imageUrl": "https://flagcdn.com/w320/sv.png",
-        "capital": "Сан-Сальвадор",
-        "continent": "Пн. Америка"
+        "capital": "San Salvador",
+        "continent": "North America"
     },
     {
-        "flagId": "Самоа",
+        "flagId": "Samoa",
         "imageUrl": "https://flagcdn.com/w320/ws.png",
-        "capital": "Апіа",
-        "continent": "Океанія"
+        "capital": "Apia",
+        "continent": "Oceania"
     },
     {
-        "flagId": "Сан-Марино",
+        "flagId": "San Marino",
         "imageUrl": "https://flagcdn.com/w320/sm.png",
-        "capital": "Сан-Марино",
-        "continent": "Європа"
+        "capital": "San Marino",
+        "continent": "Europe"
     },
     {
-        "flagId": "Сан-Томе і Принсіпі",
+        "flagId": "Sao Tome and Principe",
         "imageUrl": "https://flagcdn.com/w320/st.png",
-        "capital": "Сан-Томе",
-        "continent": "Африка"
+        "capital": "Sao Tome",
+        "continent": "Africa"
     },
     {
-        "flagId": "Саудівська Аравія",
+        "flagId": "Saudi Arabia",
         "imageUrl": "https://flagcdn.com/w320/sa.png",
-        "capital": "Ер-Ріяд",
-        "continent": "Азія"
+        "capital": "Riyadh",
+        "continent": "Asia"
     },
     {
-        "flagId": "Сейшельські Острови",
+        "flagId": "Seychelles",
         "imageUrl": "https://flagcdn.com/w320/sc.png",
-        "capital": "Вікторія",
-        "continent": "Африка"
+        "capital": "Victoria",
+        "continent": "Africa"
     },
     {
-        "flagId": "Сенегал",
+        "flagId": "Senegal",
         "imageUrl": "https://flagcdn.com/w320/sn.png",
-        "capital": "Дакар",
-        "continent": "Африка"
+        "capital": "Dakar",
+        "continent": "Africa"
     },
     {
-        "flagId": "Сент-Вінсент і Гренадини",
+        "flagId": "Saint Vincent and the Grenadines",
         "imageUrl": "https://flagcdn.com/w320/vc.png",
-        "capital": "Кінгстаун",
-        "continent": "Пн. Америка"
+        "capital": "Kingstown",
+        "continent": "North America"
     },
     {
-        "flagId": "Сент-Кіттс і Невіс",
+        "flagId": "Saint Kitts and Nevis",
         "imageUrl": "https://flagcdn.com/w320/kn.png",
-        "capital": "Бастер",
-        "continent": "Пн. Америка"
+        "capital": "Basseterre",
+        "continent": "North America"
     },
     {
-        "flagId": "Сент-Люсія",
+        "flagId": "Saint Lucia",
         "imageUrl": "https://flagcdn.com/w320/lc.png",
-        "capital": "Кастрі",
-        "continent": "Пн. Америка"
+        "capital": "Castries",
+        "continent": "North America"
     },
     {
-        "flagId": "Сербія",
+        "flagId": "Serbia",
         "imageUrl": "https://flagcdn.com/w320/rs.png",
-        "capital": "Белград",
-        "continent": "Європа"
+        "capital": "Belgrade",
+        "continent": "Europe"
     },
     {
-        "flagId": "Сирія",
+        "flagId": "Syria",
         "imageUrl": "https://flagcdn.com/w320/sy.png",
-        "capital": "Дамаск",
-        "continent": "Азія"
+        "capital": "Damascus",
+        "continent": "Asia"
     },
     {
-        "flagId": "Сінгапур",
+        "flagId": "Singapore",
         "imageUrl": "https://flagcdn.com/w320/sg.png",
-        "capital": "Сінгапур",
-        "continent": "Азія"
+        "capital": "Singapore",
+        "continent": "Asia"
     },
     {
-        "flagId": "Словаччина",
+        "flagId": "Slovakia",
         "imageUrl": "https://flagcdn.com/w320/sk.png",
-        "capital": "Братислава",
-        "continent": "Європа"
+        "capital": "Bratislava",
+        "continent": "Europe"
     },
     {
-        "flagId": "Словенія",
+        "flagId": "Slovenia",
         "imageUrl": "https://flagcdn.com/w320/si.png",
-        "capital": "Любляна",
-        "continent": "Європа"
+        "capital": "Ljubljana",
+        "continent": "Europe"
     },
     {
-        "flagId": "Соломонові Острови",
+        "flagId": "Solomon Islands",
         "imageUrl": "https://flagcdn.com/w320/sb.png",
-        "capital": "Хоніара",
-        "continent": "Океанія"
+        "capital": "Honiara",
+        "continent": "Oceania"
     },
     {
-        "flagId": "Сомалі",
+        "flagId": "Somalia",
         "imageUrl": "https://flagcdn.com/w320/so.png",
-        "capital": "Могадішо",
-        "continent": "Африка"
+        "capital": "Mogadishu",
+        "continent": "Africa"
     },
     {
-        "flagId": "Судан",
+        "flagId": "Sudan",
         "imageUrl": "https://flagcdn.com/w320/sd.png",
-        "capital": "Хартум",
-        "continent": "Африка"
+        "capital": "Khartoum",
+        "continent": "Africa"
     },
     {
-        "flagId": "Суринам",
+        "flagId": "Suriname",
         "imageUrl": "https://flagcdn.com/w320/sr.png",
-        "capital": "Парамарибо",
-        "continent": "Пд. Америка"
+        "capital": "Paramaribo",
+        "continent": "South America"
     },
     {
-        "flagId": "Східний Тимор",
+        "flagId": "East Timor",
         "imageUrl": "https://flagcdn.com/w320/tl.png",
-        "capital": "Ділі",
-        "continent": "Азія"
+        "capital": "Dili",
+        "continent": "Asia"
     },
     {
-        "flagId": "Сьєрра-Леоне",
+        "flagId": "Sierra Leone",
         "imageUrl": "https://flagcdn.com/w320/sl.png",
-        "capital": "Фрітаун",
-        "continent": "Африка"
+        "capital": "Freetown",
+        "continent": "Africa"
     },
     {
-        "flagId": "Таджикистан",
+        "flagId": "Tajikistan",
         "imageUrl": "https://flagcdn.com/w320/tj.png",
-        "capital": "Душанбе",
-        "continent": "Азія"
+        "capital": "Dushanbe",
+        "continent": "Asia"
     },
     {
-        "flagId": "Таїланд",
+        "flagId": "Thailand",
         "imageUrl": "https://flagcdn.com/w320/th.png",
-        "capital": "Бангкок",
-        "continent": "Азія"
+        "capital": "Bangkok",
+        "continent": "Asia"
     },
     {
-        "flagId": "Танзанія",
+        "flagId": "Tanzania",
         "imageUrl": "https://flagcdn.com/w320/tz.png",
-        "capital": "Додома",
-        "continent": "Африка"
+        "capital": "Dodoma",
+        "continent": "Africa"
     },
     {
-        "flagId": "Того",
+        "flagId": "Togo",
         "imageUrl": "https://flagcdn.com/w320/tg.png",
-        "capital": "Ломе",
-        "continent": "Африка"
+        "capital": "Lome",
+        "continent": "Africa"
     },
     {
-        "flagId": "Тонга",
+        "flagId": "Tonga",
         "imageUrl": "https://flagcdn.com/w320/to.png",
-        "capital": "Нукуалофа",
-        "continent": "Океанія"
+        "capital": "Nuku'alofa",
+        "continent": "Oceania"
     },
     {
-        "flagId": "Тринідад і Тобаго",
+        "flagId": "Trinidad and Tobago",
         "imageUrl": "https://flagcdn.com/w320/tt.png",
-        "capital": "Порт-оф-Спейн",
-        "continent": "Пн. Америка"
+        "capital": "Port of Spain",
+        "continent": "North America"
     },
     {
-        "flagId": "Тувалу",
+        "flagId": "Tuvalu",
         "imageUrl": "https://flagcdn.com/w320/tv.png",
-        "capital": "Фунафуті",
-        "continent": "Океанія"
+        "capital": "Funafuti",
+        "continent": "Oceania"
     },
     {
-        "flagId": "Туніс",
+        "flagId": "Tunisia",
         "imageUrl": "https://flagcdn.com/w320/tn.png",
-        "capital": "Туніс",
-        "continent": "Африка"
+        "capital": "Tunisia",
+        "continent": "Africa"
     },
     {
-        "flagId": "Туреччина",
+        "flagId": "Turkey",
         "imageUrl": "https://flagcdn.com/w320/tr.png",
-        "capital": "Анкара",
-        "continent": "Азія"
+        "capital": "Ankara",
+        "continent": "Asia"
     },
     {
-        "flagId": "Туркменістан",
+        "flagId": "Turkmenistan",
         "imageUrl": "https://flagcdn.com/w320/tm.png",
-        "capital": "Ашгабат",
-        "continent": "Азія"
+        "capital": "Ashgabat",
+        "continent": "Asia"
     },
     {
-        "flagId": "Уганда",
+        "flagId": "Uganda",
         "imageUrl": "https://flagcdn.com/w320/ug.png",
-        "capital": "Кампала",
-        "continent": "Африка"
+        "capital": "Kampala",
+        "continent": "Africa"
     },
     {
-        "flagId": "Угорщина",
+        "flagId": "Hungary",
         "imageUrl": "https://flagcdn.com/w320/hu.png",
-        "capital": "Будапешт",
-        "continent": "Європа"
+        "capital": "Budapest",
+        "continent": "Europe"
     },
     {
-        "flagId": "Узбекистан",
+        "flagId": "Uzbekistan",
         "imageUrl": "https://flagcdn.com/w320/uz.png",
-        "capital": "Ташкент",
-        "continent": "Азія"
+        "capital": "Tashkent",
+        "continent": "Asia"
     },
     {
-        "flagId": "Україна",
+        "flagId": "Ukraine",
         "imageUrl": "https://flagcdn.com/w320/ua.png",
-        "capital": "Київ",
-        "continent": "Європа"
+        "capital": "Kyiv",
+        "continent": "Europe"
     },
     {
-        "flagId": "Уругвай",
+        "flagId": "Uruguay",
         "imageUrl": "https://flagcdn.com/w320/uy.png",
-        "capital": "Монтевідео",
-        "continent": "Пд. Америка"
+        "capital": "Montevideo",
+        "continent": "South America"
     },
     {
-        "flagId": "Мікронезія",
+        "flagId": "Micronesia",
         "imageUrl": "https://flagcdn.com/w320/fm.png",
-        "capital": "Палікір",
-        "continent": "Океанія"
+        "capital": "Palikir",
+        "continent": "Oceania"
     },
     {
-        "flagId": "Фіджі",
+        "flagId": "Fiji",
         "imageUrl": "https://flagcdn.com/w320/fj.png",
-        "capital": "Сува",
-        "continent": "Океанія"
+        "capital": "Suva",
+        "continent": "Oceania"
     },
     {
-        "flagId": "Філіппіни",
+        "flagId": "Philippines",
         "imageUrl": "https://flagcdn.com/w320/ph.png",
-        "capital": "Маніла",
-        "continent": "Азія"
+        "capital": "Manila",
+        "continent": "Asia"
     },
     {
-        "flagId": "Фінляндія",
+        "flagId": "Finland",
         "imageUrl": "https://flagcdn.com/w320/fi.png",
-        "capital": "Гельсінкі",
-        "continent": "Європа"
+        "capital": "Helsinki",
+        "continent": "Europe"
     },
     {
-        "flagId": "Франція",
+        "flagId": "France",
         "imageUrl": "https://flagcdn.com/w320/fr.png",
-        "capital": "Париж",
-        "continent": "Європа"
+        "capital": "Paris",
+        "continent": "Europe"
     },
     {
-        "flagId": "Хорватія",
+        "flagId": "Croatia",
         "imageUrl": "https://flagcdn.com/w320/hr.png",
-        "capital": "Загреб",
-        "continent": "Європа"
+        "capital": "Zagreb",
+        "continent": "Europe"
     },
     {
-        "flagId": "ЦАР",
+        "flagId": "Central African Republic",
         "imageUrl": "https://flagcdn.com/w320/cf.png",
-        "capital": "Бангі",
-        "continent": "Африка"
+        "capital": "Bangui",
+        "continent": "Africa"
     },
     {
-        "flagId": "Чад",
+        "flagId": "Chad",
         "imageUrl": "https://flagcdn.com/w320/td.png",
-        "capital": "Нджамена",
-        "continent": "Африка"
+        "capital": "N'Djamena",
+        "continent": "Africa"
     },
     {
-        "flagId": "Чехія",
+        "flagId": "Czech Republic",
         "imageUrl": "https://flagcdn.com/w320/cz.png",
-        "capital": "Прага",
-        "continent": "Європа"
+        "capital": "Prague",
+        "continent": "Europe"
     },
     {
-        "flagId": "Чилі",
+        "flagId": "Chile",
         "imageUrl": "https://flagcdn.com/w320/cl.png",
-        "capital": "Сантьяго",
-        "continent": "Пд. Америка"
+        "capital": "Santiago",
+        "continent": "South America"
     },
     {
-        "flagId": "Чорногорія",
+        "flagId": "Montenegro",
         "imageUrl": "https://flagcdn.com/w320/me.png",
-        "capital": "Подгориця",
-        "continent": "Європа"
+        "capital": "Podgorica",
+        "continent": "Europe"
     },
     {
-        "flagId": "Швейцарія",
+        "flagId": "Switzerland",
         "imageUrl": "https://flagcdn.com/w320/ch.png",
-        "capital": "Берн",
-        "continent": "Європа"
+        "capital": "Bern",
+        "continent": "Europe"
     },
     {
-        "flagId": "Швеція",
+        "flagId": "Sweden",
         "imageUrl": "https://flagcdn.com/w320/se.png",
-        "capital": "Стокгольм",
-        "continent": "Європа"
+        "capital": "Stockholm",
+        "continent": "Europe"
     },
     {
-        "flagId": "Шрі-Ланка",
+        "flagId": "Sri Lanka",
         "imageUrl": "https://flagcdn.com/w320/lk.png",
-        "capital": "Коломбо, Шрі-Джаяварденепура-Котте",
-        "continent": "Азія"
+        "capital": "Colombo, Sri Jayawardenepura Kotte",
+        "continent": "Asia"
     },
     {
-        "flagId": "Ямайка",
+        "flagId": "Jamaica",
         "imageUrl": "https://flagcdn.com/w320/jm.png",
-        "capital": "Кінгстон",
-        "continent": "Пн. Америка"
+        "capital": "Kingston",
+        "continent": "North America"
     },
     {
-        "flagId": "Японія",
+        "flagId": "Japan",
         "imageUrl": "https://flagcdn.com/w320/jp.png",
-        "capital": "Токіо",
-        "continent": "Азія"
+        "capital": "Tokyo",
+        "continent": "Asia"
     }
 ]
