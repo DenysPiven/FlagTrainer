@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlagTrainer</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+<div class="header">
+    <div id="stats">
+        <p><span id="userIdDisplay"></span></p>
+        <p>Correct: <span id="correctCount">0</span></p>
+        <p>Incorrect: <span id="incorrectCount">0</span></p>
+    </div>
+    <div id="logout">
+        <a href="login.html">Logout</a>
+    </div>
+</div>
+<div id="containerMain">
+    <div id="flagContainer">
+        <img id="flagImage" alt="Flag">
+    </div>
+    <div id="flagIdContainer">
+        <p id="flagId" style="display: none;"></p>
+        <p id="flagCapital" style="display: none;"></p>
+        <p id="flagContinent" style="display: none;"></p>
+    </div>
+    <div class="buttonsContainer">
+        <div id="incorrectBtn" class="disabled">✗</div>
+        <div id="correctBtn" class="disabled">✓</div>
+    </div>
+</div>
+
+<script src="js/app.js"></script>
+</body>
+</html>

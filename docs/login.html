@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FlagTrainer</title>
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+<div id="login-container">
+  <form id="login-form">
+    <div id="userId-group">
+      <label for="userId" class="visually-hidden">userId</label>
+      <input id="userId" type="text" name="userId" placeholder="Enter" pattern="[A-Za-z]+" title="Username should only contain Latin letters. No spaces allowed." required autocomplete="off">
+    </div>
+    <button type="submit" id="login-button">Login</button>
+  </form>
+</div>
+<script src="js/login.js"></script>
+</body>
+</html>

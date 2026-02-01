@@ -1,0 +1,143 @@
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body {
+  background-color: #343a40;
+  color: white;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.header {
+  height: 10%;
+  display: flex;
+  justify-content: space-between;
+  background-color: #6c757d;
+  padding: 0px 30px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+#stats {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+p {
+  font-size: 2vh;
+  margin: 1px;
+}
+
+#logout {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  padding: 5px 10px;
+  background-color: #dc3545;
+  border-radius: 5px;
+  font-size: 2vh;
+}
+
+#containerMain {
+  width: 100%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#flagContainer {
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  cursor: pointer;
+
+  width: 100%;
+  max-width: 800px;
+  height: 40%;
+  margin-top: 10px;
+}
+
+#flagImage {
+  width: 100%;
+  object-fit: contain;
+}
+
+#flagIdContainer {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  width: 100%;
+  height: 30%;
+  margin: 10px 0;
+}
+
+#flagId, #flagCapital, #flagContinent {
+  text-align: center;
+  font-size: 4vh;
+  margin: 10px 1px;
+}
+
+#flagId {
+  font-weight: bold;
+  font-size: 5vh;
+}
+
+.buttonsContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 30%;
+}
+
+#correctBtn, #incorrectBtn {
+  width: 50%;
+  height: 100%;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 20vh;
+  text-align: center;
+  border: 2px solid #343a40;
+}
+
+#incorrectBtn {
+  background-color: #dc3545;
+  color: white;
+}
+
+#correctBtn {
+  background-color: #28a745;
+  color: white;
+}
+
+#correctBtn.disabled,
+#incorrectBtn.disabled {
+  background-color: #6c757d;
+  color: #aaa;
+  pointer-events: none;
+}
+
+#correctBtn:active, #incorrectBtn:active {
+  background-color: inherit;
+  outline: none;
+}
+
+#correctBtn:focus, #incorrectBtn:focus {
+  outline: none;
+}
+
+
