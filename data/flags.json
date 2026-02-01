@@ -30,7 +30,7 @@
         "continent": "Africa"
     },
     {
-        "flagId": "Ангола",
+        "flagId": "Angola",
         "imageUrl": "https://flagcdn.com/w320/ao.png",
         "capital": "Luanda",
         "continent": "Africa"
@@ -596,7 +596,7 @@
     {
         "flagId": "Madagascar",
         "imageUrl": "https://flagcdn.com/w320/mg.png",
-        "capital": "Антананариву",
+        "capital": "Antananarivo",
         "continent": "Africa"
     },
     {

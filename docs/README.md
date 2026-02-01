@@ -1,26 +1,26 @@
 # FlagTrainer - Static Version for GitHub Pages
 
-Ця папка містить статичну версію додатку FlagTrainer для деплою на GitHub Pages.
+This folder contains the static version of the FlagTrainer application for deployment on GitHub Pages.
 
-## Як задеплоїти на GitHub Pages:
+## How to Deploy to GitHub Pages:
 
-1. Зайдіть в налаштування репозиторію на GitHub
-2. Перейдіть в розділ "Pages" (Settings → Pages)
-3. В розділі "Source" виберіть "GitHub Actions"
-4. Після push в main/master гілку, GitHub Actions автоматично задеплоїть сайт
+1. Go to your repository settings on GitHub
+2. Navigate to the "Pages" section (Settings → Pages)
+3. In the "Source" section, select "GitHub Actions"
+4. After pushing to the main/master branch, GitHub Actions will automatically deploy the site
 
-Або використайте налаштування:
+Or use these settings:
 - Source: Deploy from a branch
 - Branch: main/master
 - Folder: /docs
 
-## Структура:
+## Structure:
 
-- `index.html` - головна сторінка з прапорами
-- `login.html` - сторінка входу
-- `js/app.js` - основна логіка додатку
-- `js/login.js` - логіка входу
-- `css/` - стилі
-- `data/flags.json` - дані про прапори
+- `index.html` - main page with flags
+- `login.html` - login page
+- `js/app.js` - main application logic
+- `js/login.js` - login logic
+- `css/` - stylesheets
+- `data/flags.json` - flag data
 
-Статистика користувачів зберігається в localStorage браузера.
+User statistics are stored in the browser's localStorage.
