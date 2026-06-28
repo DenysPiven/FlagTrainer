@@ -1,6 +1,6 @@
-const userId = sessionStorage.getItem('userId');
+const userId = Profiles.getCurrent();
 if (!userId) {
-    window.location.href = 'login.html';
+    window.location.href = Paths.route('login');
 }
 
 let allFlags = [];
@@ -56,7 +56,7 @@ async function init() {
     try {
         await I18n.init();
 
-        const response = await fetch('../data/flags.json');
+        const response = await fetch(Paths.asset('data/flags.json'));
         allFlags = await response.json();
         allFlags.sort((a, b) => I18n.getCountry(a).name.localeCompare(I18n.getCountry(b).name, I18n.getLang()));
 

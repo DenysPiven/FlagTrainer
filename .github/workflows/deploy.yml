@@ -32,8 +32,7 @@ jobs:
       - name: Prepare site
         run: |
           mkdir -p _site
-          cp -r html css js data locales _site/
-          printf '%s\n' '<!DOCTYPE html>' '<html lang="en">' '<head>' '<meta charset="UTF-8">' '<meta http-equiv="refresh" content="0;url=html/index.html">' '<title>FlagTrainer</title>' '</head>' '<body></body>' '</html>' > _site/index.html
+          cp -r css js data locales login countries settings icons index.html manifest.webmanifest sw.js _site/
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3

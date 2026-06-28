@@ -1,6 +1,6 @@
-const userId = sessionStorage.getItem('userId');
+const userId = Profiles.getCurrent();
 if (!userId) {
-    window.location.href = 'login.html';
+    window.location.href = Paths.route('login');
 }
 
 let flags = [];
@@ -25,7 +25,7 @@ async function init() {
     try {
         await I18n.init();
 
-        const response = await fetch('../data/flags.json');
+        const response = await fetch(Paths.asset('data/flags.json'));
         flags = await response.json();
 
         flags = flags.map(flag => ({

@@ -1,32 +1,40 @@
 const I18n = (function() {
-    const STORAGE_KEY = 'lang';
     const SUPPORTED = ['en', 'uk'];
 
     let locale = {};
     let currentLang = 'en';
     let readyPromise = null;
 
-    function getStoredLang() {
-        const stored = localStorage.getItem(STORAGE_KEY);
-        if (stored && SUPPORTED.includes(stored)) {
-            return stored;
-        }
-
+    function getBrowserLang() {
         const browserLang = (navigator.language || 'en').toLowerCase();
         if (browserLang.startsWith('uk')) {
             return 'uk';
         }
-
         return 'en';
+    }
+
+    function getStoredLang() {
+        if (typeof Profiles !== 'undefined') {
+            const profile = Profiles.getCurrent();
+            if (profile) {
+                const lang = Profiles.getLang(profile);
+                if (lang && SUPPORTED.includes(lang)) {
+                    return lang;
+                }
+            }
+        }
+
+        return getBrowserLang();
     }
 
     function getNested(obj, key) {
         return key.split('.').reduce((value, part) => value?.[part], obj);
     }
 
-    async function load(lang) {
+    async function load(lang, options = {}) {
+        const persist = options.persist !== false;
         const targetLang = SUPPORTED.includes(lang) ? lang : 'en';
-        const response = await fetch(`../locales/${targetLang}.json`);
+        const response = await fetch(Paths.asset(`locales/${targetLang}.json`));
 
         if (!response.ok) {
             throw new Error(`Failed to load locale: ${targetLang}`);
@@ -34,13 +42,20 @@ const I18n = (function() {
 
         locale = await response.json();
         currentLang = targetLang;
-        localStorage.setItem(STORAGE_KEY, targetLang);
         document.documentElement.lang = targetLang;
+
+        if (persist && typeof Profiles !== 'undefined') {
+            const profile = Profiles.getCurrent();
+            if (profile) {
+                Profiles.setLang(profile, targetLang);
+            }
+        }
     }
 
-    function init(lang) {
+    function init(options = {}) {
         if (!readyPromise) {
-            readyPromise = load(lang || getStoredLang());
+            const lang = options.guest ? getBrowserLang() : getStoredLang();
+            readyPromise = load(lang, { persist: !options.guest });
         }
         return readyPromise;
     }
@@ -101,25 +116,12 @@ const I18n = (function() {
         document.dispatchEvent(new CustomEvent('languagechange', { detail: { lang: currentLang } }));
     }
 
-    function setupLanguageSwitcher() {
-        document.querySelectorAll('[data-lang]').forEach((element) => {
-            element.addEventListener('click', function(event) {
-                event.preventDefault();
-                const lang = this.getAttribute('data-lang');
-                if (lang && lang !== currentLang) {
-                    setLang(lang);
-                }
-            });
-        });
-    }
-
     return {
         init,
         t,
         getCountry,
         getLang,
         applyPage,
-        setLang,
-        setupLanguageSwitcher
+        setLang
     };
 })();

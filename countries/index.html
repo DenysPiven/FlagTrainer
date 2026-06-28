@@ -1,10 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-depth="1">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FlagTrainer — Countries</title>
-    <link rel="icon" type="image/x-icon" href="../favicon.ico">
+    <meta name="theme-color" content="#343a40">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="Flag Trainer">
+    <title>Flag Trainer — Countries</title>
+    <link rel="manifest" href="../manifest.webmanifest">
+    <link rel="apple-touch-icon" href="../icons/icon-192.png">
+    <link rel="icon" type="image/png" href="../icons/icon-192.png">
     <link rel="stylesheet" href="../css/styles.css">
     <link rel="stylesheet" href="../css/menu.css">
     <link rel="stylesheet" href="../css/countries.css">
@@ -23,10 +30,10 @@
             <span></span>
         </button>
         <nav id="menuPanel" class="menu-panel" aria-label="Main menu">
-            <a href="index.html" data-i18n="training">Training</a>
-            <a href="countries.html" data-i18n="countries">Countries</a>
-            <a href="settings.html" data-i18n="settings">Settings</a>
-            <a href="login.html" id="logoutLink" class="logout-link" data-i18n="logout">Logout</a>
+            <a href="#" data-route="training" data-i18n="training">Training</a>
+            <a href="#" data-route="countries" data-i18n="countries">Countries</a>
+            <a href="#" data-route="settings" data-i18n="settings">Settings</a>
+            <a href="#" data-route="login" id="logoutLink" class="logout-link" data-i18n="logout">Logout</a>
         </nav>
     </div>
 </div>
@@ -37,6 +44,9 @@
     <div id="countriesList"></div>
 </div>
 
+<script src="../js/pwa.js"></script>
+<script src="../js/paths.js"></script>
+<script src="../js/profiles.js"></script>
 <script src="../js/i18n.js"></script>
 <script src="../js/menu.js"></script>
 <script src="../js/countries.js"></script>

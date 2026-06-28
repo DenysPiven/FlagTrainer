@@ -1,3 +1,10 @@
+function applyMenuRoutes() {
+    document.querySelectorAll('#menuPanel a[data-route]').forEach(function(link) {
+        const route = link.getAttribute('data-route');
+        link.href = Paths.route(route);
+    });
+}
+
 function initMenu() {
     const menuBtn = document.getElementById('menuBtn');
     const menuPanel = document.getElementById('menuPanel');
@@ -7,6 +14,8 @@ function initMenu() {
     if (!menuBtn || !menuPanel) {
         return;
     }
+
+    applyMenuRoutes();
 
     function closeMenu() {
         menuPanel.classList.remove('open');
@@ -51,7 +60,7 @@ function initMenu() {
 
     if (logoutLink) {
         logoutLink.addEventListener('click', function() {
-            sessionStorage.removeItem('userId');
+            Profiles.clearCurrent();
         });
     }
 
@@ -59,11 +68,10 @@ function initMenu() {
 }
 
 function highlightCurrentPage() {
-    const page = window.location.pathname.split('/').pop() || 'index.html';
+    const currentRoute = Paths.getCurrentRoute();
 
-    document.querySelectorAll('#menuPanel a[href]').forEach(function(link) {
-        const href = link.getAttribute('href');
-        link.classList.toggle('current', href === page);
+    document.querySelectorAll('#menuPanel a[data-route]').forEach(function(link) {
+        link.classList.toggle('current', link.getAttribute('data-route') === currentRoute);
     });
 }
 

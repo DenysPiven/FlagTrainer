@@ -5,55 +5,153 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+  min-height: 100vh;
   margin: 0;
+  padding: 20px;
+  box-sizing: border-box;
 }
 
 #login-container {
   width: 100%;
-  max-width: 660px;
+  max-width: 420px;
 }
 
 #login-title {
   text-align: center;
-  margin: 20px 0;
+  margin: 0 0 8px;
+  font-size: 2rem;
 }
 
-#login-form {
-  display: flex;
-  flex-direction: column;
+#login-subtitle {
+  text-align: center;
+  margin: 0 0 24px;
+  color: #adb5bd;
+  font-size: 0.95rem;
 }
 
-#userId-group {
-  margin-bottom: 15px;
+.login-section {
+  margin-bottom: 24px;
+}
+
+.login-section.hidden {
+  display: none;
+}
+
+.login-section-title {
+  margin: 0 0 12px;
+  font-size: 0.85rem;
+  font-weight: bold;
+  color: #ced4da;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.login-secondary-btn,
+.profile-select-btn {
+  width: 100%;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+
+.login-secondary-btn {
+  padding: 14px 18px;
+  background-color: #007bff;
+  color: white;
+}
+
+.login-secondary-btn:hover {
+  background-color: #0056b3;
 }
 
 #userId {
-  width:100%;
-  padding: 10px;
-  margin-bottom: 15px;
-  border: 1px solid #ddd;
-  border-radius: 5px;
-  background-color: #fff;
-  color: #333;
-  box-sizing: border-box;
-  font-size: 6rem;
-  border-radius: 1.5rem;
-}
-
-#login-button {
-  padding: 10px;
-  background-color: #007bff;
+  width: 100%;
+  padding: 14px 16px;
+  margin-bottom: 8px;
+  border: 1px solid #6c757d;
+  border-radius: 10px;
+  background-color: #495057;
   color: white;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  font-size: 6rem;
-  border-radius: 1.5rem
+  box-sizing: border-box;
+  font-size: 1rem;
 }
 
-#login-button:hover {
-  background-color: #0056b3;
+#userId::placeholder {
+  color: #adb5bd;
+}
+
+#userId:focus {
+  outline: 2px solid #007bff;
+}
+
+.login-error {
+  margin: 0 0 12px;
+  color: #ffadb5;
+  font-size: 0.9rem;
+}
+
+.login-error.hidden {
+  display: none;
+}
+
+.profiles-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.profile-item {
+  display: flex;
+  gap: 8px;
+  align-items: stretch;
+}
+
+.profile-select-btn {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+  padding: 14px 16px;
+  background-color: #495057;
+  color: white;
+  text-align: left;
+}
+
+.profile-select-btn:hover {
+  background-color: #5a6268;
+}
+
+.profile-name {
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.profile-stats {
+  font-size: 0.85rem;
+  color: #adb5bd;
+}
+
+.profile-delete-btn {
+  width: 44px;
+  flex-shrink: 0;
+  border: none;
+  border-radius: 10px;
+  background-color: #495057;
+  color: #ffadb5;
+  font-size: 1.5rem;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.profile-delete-btn:hover {
+  background-color: #dc3545;
+  color: white;
 }
 
 .visually-hidden {
@@ -65,19 +163,4 @@ body {
   overflow: hidden;
   clip: rect(0, 0, 0, 0);
   border: 0;
-}
-
-.login-settings-link {
-  margin-top: 24px;
-  text-align: center;
-  font-size: 1.25rem;
-}
-
-.login-settings-link a {
-  color: #adb5bd;
-  text-decoration: none;
-}
-
-.login-settings-link a:hover {
-  color: white;
 }

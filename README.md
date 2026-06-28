@@ -1,20 +1,16 @@
-# FlagTrainer
+# Flag Trainer
 
-FlagTrainer is a static web app for learning country flags through an interactive quiz. Progress is saved in the browser.
+Flag Trainer is a static web app for learning country flags through an interactive quiz. Progress is saved in the browser.
 
 ## Project Structure
 
 ```
-html/           — pages (incl. settings.html)
-css/            — styles
-js/             — logic (incl. i18n.js)
-data/           — flags.json
-locales/
-├── en.json     — English
-└── uk.json     — Ukrainian
+index.html          — training (/)
+login/              — profile selection (/login/)
+countries/          — country reference (/countries/)
+settings/           — per-profile settings (/settings/)
+css/  js/  data/  locales/
 ```
-
-User statistics are stored in the browser (`localStorage`).
 
 ## Run Locally
 
@@ -22,8 +18,12 @@ User statistics are stored in the browser (`localStorage`).
 python3 -m http.server 8080
 ```
 
-Open `http://localhost:8080/html/index.html`.
+Open `http://localhost:8080/` — training, `/login/`, `/countries/`, `/settings/`.
+
+## Install as app (PWA)
+
+After deploying to HTTPS (GitHub Pages), open the site on your phone and use **Add to Home Screen**. The app works offline after the first visit — pages, data, and flag images are cached.
 
 ## Deploy to GitHub Pages
 
-Push to `main` or `master` — GitHub Actions builds the site from `html/`, `css/`, `js/`, and `data/`, then deploys automatically.
+Push to `main` or `master` — GitHub Actions deploys automatically.

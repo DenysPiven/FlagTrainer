@@ -40,6 +40,12 @@ p {
   font-weight: bold;
 }
 
+.settings-profile {
+  margin: 0 0 20px;
+  color: #adb5bd;
+  font-size: 14px;
+}
+
 #settingsMain {
   flex: 1;
   padding: 24px 20px;

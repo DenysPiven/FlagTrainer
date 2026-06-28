@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" data-depth="1">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#343a40">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Flag Trainer">
+  <title>Flag Trainer</title>
+  <link rel="manifest" href="../manifest.webmanifest">
+  <link rel="apple-touch-icon" href="../icons/icon-192.png">
+  <link rel="icon" type="image/png" href="../icons/icon-192.png">
+  <link rel="stylesheet" href="../css/styles.css">
+  <link rel="stylesheet" href="../css/login.css">
+</head>
+<body data-i18n-title="appTitle">
+<div id="login-container">
+  <h1 id="login-title">Flag Trainer</h1>
+  <p id="login-subtitle" data-i18n="loginSubtitle">Choose a profile to save your progress</p>
+
+  <div id="profiles-section" class="login-section hidden">
+    <h2 class="login-section-title" data-i18n="profilesTitle">Your profiles</h2>
+    <ul id="profiles-list" class="profiles-list"></ul>
+  </div>
+
+  <div class="login-section">
+    <h2 class="login-section-title" data-i18n="newProfile">New profile</h2>
+    <form id="login-form">
+      <div id="userId-group">
+        <label for="userId" class="visually-hidden">userId</label>
+        <input id="userId" type="text" name="userId" maxlength="20" data-i18n-placeholder="loginPlaceholder" data-i18n-title="loginHint" pattern="[A-Za-z0-9]+" required autocomplete="off">
+        <p id="login-error" class="login-error hidden" role="alert"></p>
+      </div>
+      <button type="submit" id="login-button" class="login-secondary-btn" data-i18n="createProfile">Create</button>
+    </form>
+  </div>
+</div>
+<script src="../js/pwa.js"></script>
+<script src="../js/paths.js"></script>
+<script src="../js/i18n.js"></script>
+<script src="../js/profiles.js"></script>
+<script src="../js/login.js"></script>
+</body>
+</html>
