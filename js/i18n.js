@@ -1,16 +1,13 @@
 const I18n = (function() {
     const SUPPORTED = ['en', 'uk'];
+    const DEFAULT_LANG = 'uk';
 
     let locale = {};
-    let currentLang = 'en';
+    let currentLang = DEFAULT_LANG;
     let readyPromise = null;
 
-    function getBrowserLang() {
-        const browserLang = (navigator.language || 'en').toLowerCase();
-        if (browserLang.startsWith('uk')) {
-            return 'uk';
-        }
-        return 'en';
+    function getDefaultLang() {
+        return DEFAULT_LANG;
     }
 
     function getStoredLang() {
@@ -24,7 +21,7 @@ const I18n = (function() {
             }
         }
 
-        return getBrowserLang();
+        return getDefaultLang();
     }
 
     function getNested(obj, key) {
@@ -33,7 +30,7 @@ const I18n = (function() {
 
     async function load(lang, options = {}) {
         const persist = options.persist !== false;
-        const targetLang = SUPPORTED.includes(lang) ? lang : 'en';
+        const targetLang = SUPPORTED.includes(lang) ? lang : DEFAULT_LANG;
         const response = await fetch(Paths.asset(`locales/${targetLang}.json`));
 
         if (!response.ok) {
@@ -54,7 +51,7 @@ const I18n = (function() {
 
     function init(options = {}) {
         if (!readyPromise) {
-            const lang = options.guest ? getBrowserLang() : getStoredLang();
+            const lang = options.guest ? getDefaultLang() : getStoredLang();
             readyPromise = load(lang, { persist: !options.guest });
         }
         return readyPromise;
