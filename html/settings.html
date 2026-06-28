@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlagTrainer — Settings</title>
+    <link rel="icon" type="image/x-icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/menu.css">
+    <link rel="stylesheet" href="../css/settings.css">
+</head>
+<body data-i18n-title="appTitleSettings">
+<div class="menu-overlay" id="menuOverlay"></div>
+
+<div class="header">
+    <div id="pageTitle">
+        <p data-i18n="settings">Settings</p>
+    </div>
+    <div class="menu-wrapper">
+        <button id="menuBtn" class="menu-btn" type="button" aria-label="Menu" aria-expanded="false" aria-controls="menuPanel">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <nav id="menuPanel" class="menu-panel" aria-label="Main menu">
+            <a href="index.html" data-i18n="training">Training</a>
+            <a href="countries.html" data-i18n="countries">Countries</a>
+            <a href="settings.html" data-i18n="settings">Settings</a>
+            <a href="login.html" id="logoutLink" class="logout-link" data-i18n="logout">Logout</a>
+        </nav>
+    </div>
+</div>
+
+<div id="settingsMain">
+    <section class="settings-section">
+        <h2 data-i18n="language">Language</h2>
+        <div class="lang-options">
+            <button type="button" class="lang-option" data-lang="en" data-i18n="langEn">English</button>
+            <button type="button" class="lang-option" data-lang="uk" data-i18n="langUk">Українська</button>
+        </div>
+    </section>
+</div>
+
+<script src="../js/i18n.js"></script>
+<script src="../js/menu.js"></script>
+<script src="../js/settings.js"></script>
+</body>
+</html>

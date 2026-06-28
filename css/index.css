@@ -36,20 +36,6 @@ p {
   margin: 1px;
 }
 
-#logout {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-a {
-  color: white;
-  text-decoration: none;
-  padding: 5px 10px;
-  background-color: #dc3545;
-  border-radius: 5px;
-  font-size: 2vh;
-}
 
 #containerMain {
   width: 100%;

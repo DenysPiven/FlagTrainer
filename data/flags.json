@@ -26,7 +26,7 @@
     {
         "flagId": "Algeria",
         "imageUrl": "https://flagcdn.com/w320/dz.png",
-        "capital": "Algeria",
+        "capital": "Algiers",
         "continent": "Africa"
     },
     {
@@ -176,7 +176,7 @@
     {
         "flagId": "Vatican",
         "imageUrl": "https://flagcdn.com/w320/va.png",
-        "capital": "Vatican",
+        "capital": "Vatican City",
         "continent": "Europe"
     },
     {
@@ -230,7 +230,7 @@
     {
         "flagId": "Guatemala",
         "imageUrl": "https://flagcdn.com/w320/gt.png",
-        "capital": "Guatemala",
+        "capital": "Guatemala City",
         "continent": "North America"
     },
     {
@@ -758,7 +758,7 @@
     {
         "flagId": "Panama",
         "imageUrl": "https://flagcdn.com/w320/pa.png",
-        "capital": "Panama",
+        "capital": "Panama City",
         "continent": "North America"
     },
     {
@@ -1016,7 +1016,7 @@
     {
         "flagId": "Tunisia",
         "imageUrl": "https://flagcdn.com/w320/tn.png",
-        "capital": "Tunisia",
+        "capital": "Tunis",
         "continent": "Africa"
     },
     {

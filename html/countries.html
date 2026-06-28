@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlagTrainer — Countries</title>
+    <link rel="icon" type="image/x-icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/menu.css">
+    <link rel="stylesheet" href="../css/countries.css">
+</head>
+<body data-i18n-title="appTitleCountries">
+<div class="menu-overlay" id="menuOverlay"></div>
+
+<div class="header">
+    <div id="pageTitle">
+        <p data-i18n="countries">Countries</p>
+    </div>
+    <div class="menu-wrapper">
+        <button id="menuBtn" class="menu-btn" type="button" aria-label="Menu" aria-expanded="false" aria-controls="menuPanel">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <nav id="menuPanel" class="menu-panel" aria-label="Main menu">
+            <a href="index.html" data-i18n="training">Training</a>
+            <a href="countries.html" data-i18n="countries">Countries</a>
+            <a href="settings.html" data-i18n="settings">Settings</a>
+            <a href="login.html" id="logoutLink" class="logout-link" data-i18n="logout">Logout</a>
+        </nav>
+    </div>
+</div>
+
+<div id="countriesMain">
+    <input type="search" id="countrySearch" data-i18n-placeholder="searchPlaceholder" autocomplete="off">
+    <p id="countriesCount"></p>
+    <div id="countriesList"></div>
+</div>
+
+<script src="../js/i18n.js"></script>
+<script src="../js/menu.js"></script>
+<script src="../js/countries.js"></script>
+</body>
+</html>

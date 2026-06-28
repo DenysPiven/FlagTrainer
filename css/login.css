@@ -66,3 +66,18 @@ body {
   clip: rect(0, 0, 0, 0);
   border: 0;
 }
+
+.login-settings-link {
+  margin-top: 24px;
+  text-align: center;
+  font-size: 1.25rem;
+}
+
+.login-settings-link a {
+  color: #adb5bd;
+  text-decoration: none;
+}
+
+.login-settings-link a:hover {
+  color: white;
+}

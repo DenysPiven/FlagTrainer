@@ -1,0 +1,1002 @@
+{
+    "ui": {
+        "appTitle": "FlagTrainer",
+        "appTitleCountries": "FlagTrainer — Країни",
+        "appTitleSettings": "FlagTrainer — Налаштування",
+        "settings": "Налаштування",
+        "menu": "Меню",
+        "menuMain": "Головне меню",
+        "countries": "Країни",
+        "training": "Тренування",
+        "logout": "Вийти",
+        "language": "Мова",
+        "langEn": "English",
+        "langUk": "Українська",
+        "correct": "Правильно",
+        "incorrect": "Неправильно",
+        "flagAlt": "Прапор",
+        "login": "Увійти",
+        "loginPlaceholder": "Введіть ім'я",
+        "loginHint": "Ім'я лише латиницею, без пробілів.",
+        "searchPlaceholder": "Пошук країни, столиці чи континенту...",
+        "countriesCount": "{count} країн",
+        "countriesEmpty": "Країн не знайдено.",
+        "countriesError": "Не вдалося завантажити країни.",
+        "flagAltCountry": "Прапор {country}"
+    },
+    "continents": {
+        "Africa": "Африка",
+        "Asia": "Азія",
+        "Europe": "Європа",
+        "North America": "Північна Америка",
+        "South America": "Південна Америка",
+        "Oceania": "Океанія"
+    },
+    "countries": {
+        "Australia": {
+            "name": "Австралія",
+            "capital": "Канберра",
+            "continent": "Океанія"
+        },
+        "Austria": {
+            "name": "Австрія",
+            "capital": "Відень",
+            "continent": "Європа"
+        },
+        "Azerbaijan": {
+            "name": "Азербайджан",
+            "capital": "Баку",
+            "continent": "Азія"
+        },
+        "Albania": {
+            "name": "Албанія",
+            "capital": "Тирана",
+            "continent": "Європа"
+        },
+        "Algeria": {
+            "name": "Алжир",
+            "capital": "Алжир",
+            "continent": "Африка"
+        },
+        "Angola": {
+            "name": "Ангола",
+            "capital": "Луанда",
+            "continent": "Африка"
+        },
+        "Andorra": {
+            "name": "Андорра",
+            "capital": "Андорра-ла-Велья",
+            "continent": "Європа"
+        },
+        "Antigua and Barbuda": {
+            "name": "Антигуа і Барбуда",
+            "capital": "Сент-Джонс",
+            "continent": "Північна Америка"
+        },
+        "Argentina": {
+            "name": "Аргентина",
+            "capital": "Буенос-Айрес",
+            "continent": "Південна Америка"
+        },
+        "Afghanistan": {
+            "name": "Афганістан",
+            "capital": "Кабул",
+            "continent": "Азія"
+        },
+        "Bahamas": {
+            "name": "Багамські Острови",
+            "capital": "Нассау",
+            "continent": "Північна Америка"
+        },
+        "Bangladesh": {
+            "name": "Бангладеш",
+            "capital": "Дакка",
+            "continent": "Азія"
+        },
+        "Barbados": {
+            "name": "Барбадос",
+            "capital": "Бриджтаун",
+            "continent": "Північна Америка"
+        },
+        "Bahrain": {
+            "name": "Бахрейн",
+            "capital": "Манама",
+            "continent": "Азія"
+        },
+        "Belize": {
+            "name": "Беліз",
+            "capital": "Бельмопан",
+            "continent": "Північна Америка"
+        },
+        "Belgium": {
+            "name": "Бельгія",
+            "capital": "Брюссель",
+            "continent": "Європа"
+        },
+        "Benin": {
+            "name": "Бенін",
+            "capital": "Порто-Ново",
+            "continent": "Африка"
+        },
+        "Belarus": {
+            "name": "Білорусь",
+            "capital": "Мінськ",
+            "continent": "Європа"
+        },
+        "Bulgaria": {
+            "name": "Болгарія",
+            "capital": "Софія",
+            "continent": "Європа"
+        },
+        "Bolivia": {
+            "name": "Болівія",
+            "capital": "Сукре",
+            "continent": "Південна Америка"
+        },
+        "Bosnia and Herzegovina": {
+            "name": "Боснія і Герцеговина",
+            "capital": "Сараєво",
+            "continent": "Європа"
+        },
+        "Botswana": {
+            "name": "Ботсвана",
+            "capital": "Габороне",
+            "continent": "Африка"
+        },
+        "Brazil": {
+            "name": "Бразилія",
+            "capital": "Бразиліа",
+            "continent": "Південна Америка"
+        },
+        "Brunei": {
+            "name": "Бруней",
+            "capital": "Бандар-Сері-Бегаван",
+            "continent": "Азія"
+        },
+        "Burkina Faso": {
+            "name": "Буркіна-Фасо",
+            "capital": "Уагадугу",
+            "continent": "Африка"
+        },
+        "Burundi": {
+            "name": "Бурунді",
+            "capital": "Гітега",
+            "continent": "Африка"
+        },
+        "Bhutan": {
+            "name": "Бутан",
+            "capital": "Тхімпху",
+            "continent": "Азія"
+        },
+        "Vietnam": {
+            "name": "В'єтнам",
+            "capital": "Ханой",
+            "continent": "Азія"
+        },
+        "Vanuatu": {
+            "name": "Вануату",
+            "capital": "Порт-Віла",
+            "continent": "Океанія"
+        },
+        "Vatican": {
+            "name": "Ватикан",
+            "capital": "Ватикан",
+            "continent": "Європа"
+        },
+        "United Kingdom": {
+            "name": "Великобританія",
+            "capital": "Лондон",
+            "continent": "Європа"
+        },
+        "Venezuela": {
+            "name": "Венесуела",
+            "capital": "Каракас",
+            "continent": "Південна Америка"
+        },
+        "Armenia": {
+            "name": "Вірменія",
+            "capital": "Єреван",
+            "continent": "Азія"
+        },
+        "Gabon": {
+            "name": "Габон",
+            "capital": "Лібревіль",
+            "continent": "Африка"
+        },
+        "Haiti": {
+            "name": "Гаїті",
+            "capital": "Порт-о-Пренс",
+            "continent": "Північна Америка"
+        },
+        "Gambia": {
+            "name": "Гамбія",
+            "capital": "Банжул",
+            "continent": "Африка"
+        },
+        "Ghana": {
+            "name": "Гана",
+            "capital": "Аккра",
+            "continent": "Африка"
+        },
+        "Guyana": {
+            "name": "Гаяна",
+            "capital": "Джорджтаун",
+            "continent": "Південна Америка"
+        },
+        "Guatemala": {
+            "name": "Гватемала",
+            "capital": "Ґватемала-Сіті",
+            "continent": "Північна Америка"
+        },
+        "Guinea": {
+            "name": "Гвінея",
+            "capital": "Конакрі",
+            "continent": "Африка"
+        },
+        "Guinea-Bissau": {
+            "name": "Гвінея-Бісау",
+            "capital": "Бісау",
+            "continent": "Африка"
+        },
+        "Honduras": {
+            "name": "Гондурас",
+            "capital": "Тегусігальпа",
+            "continent": "Північна Америка"
+        },
+        "Grenada": {
+            "name": "Гренада",
+            "capital": "Сент-Джорджес",
+            "continent": "Північна Америка"
+        },
+        "Greece": {
+            "name": "Греція",
+            "capital": "Афіни",
+            "continent": "Європа"
+        },
+        "Georgia": {
+            "name": "Грузія",
+            "capital": "Тбілісі",
+            "continent": "Азія"
+        },
+        "Denmark": {
+            "name": "Данія",
+            "capital": "Копенгаген",
+            "continent": "Європа"
+        },
+        "Democratic Republic of the Congo": {
+            "name": "ДР Конго",
+            "capital": "Кіншаса",
+            "continent": "Африка"
+        },
+        "Djibouti": {
+            "name": "Джибуті",
+            "capital": "Джибуті",
+            "continent": "Африка"
+        },
+        "Dominica": {
+            "name": "Домініка",
+            "capital": "Розо",
+            "continent": "Північна Америка"
+        },
+        "Dominican Republic": {
+            "name": "Домініканська Республіка",
+            "capital": "Санто-Домінго",
+            "continent": "Північна Америка"
+        },
+        "Ecuador": {
+            "name": "Еквадор",
+            "capital": "Кіто",
+            "continent": "Південна Америка"
+        },
+        "Equatorial Guinea": {
+            "name": "Екваторіальна Гвінея",
+            "capital": "Малабо",
+            "continent": "Африка"
+        },
+        "Eritrea": {
+            "name": "Еритрея",
+            "capital": "Асмара",
+            "continent": "Африка"
+        },
+        "Eswatini": {
+            "name": "Есватіні",
+            "capital": "Мбабане",
+            "continent": "Африка"
+        },
+        "Estonia": {
+            "name": "Естонія",
+            "capital": "Таллінн",
+            "continent": "Європа"
+        },
+        "Ethiopia": {
+            "name": "Ефіопія",
+            "capital": "Аддис-Абеба",
+            "continent": "Африка"
+        },
+        "Egypt": {
+            "name": "Єгипет",
+            "capital": "Каїр",
+            "continent": "Африка"
+        },
+        "Yemen": {
+            "name": "Ємен",
+            "capital": "Сана",
+            "continent": "Азія"
+        },
+        "Zambia": {
+            "name": "Замбія",
+            "capital": "Лусака",
+            "continent": "Африка"
+        },
+        "Zimbabwe": {
+            "name": "Зімбабве",
+            "capital": "Хараре",
+            "continent": "Африка"
+        },
+        "Israel": {
+            "name": "Ізраїль",
+            "capital": "Єрусалим",
+            "continent": "Азія"
+        },
+        "India": {
+            "name": "Індія",
+            "capital": "Нью-Делі",
+            "continent": "Азія"
+        },
+        "Indonesia": {
+            "name": "Індонезія",
+            "capital": "Джакарта",
+            "continent": "Азія"
+        },
+        "Iraq": {
+            "name": "Ірак",
+            "capital": "Багдад",
+            "continent": "Азія"
+        },
+        "Iran": {
+            "name": "Іран",
+            "capital": "Тегеран",
+            "continent": "Азія"
+        },
+        "Ireland": {
+            "name": "Ірландія",
+            "capital": "Дублін",
+            "continent": "Європа"
+        },
+        "Iceland": {
+            "name": "Ісландія",
+            "capital": "Рейк'явік",
+            "continent": "Європа"
+        },
+        "Spain": {
+            "name": "Іспанія",
+            "capital": "Мадрид",
+            "continent": "Європа"
+        },
+        "Italy": {
+            "name": "Італія",
+            "capital": "Рим",
+            "continent": "Європа"
+        },
+        "Jordan": {
+            "name": "Йорданія",
+            "capital": "Амман",
+            "continent": "Азія"
+        },
+        "Cape Verde": {
+            "name": "Кабо-Верде",
+            "capital": "Прайя",
+            "continent": "Африка"
+        },
+        "Kazakhstan": {
+            "name": "Казахстан",
+            "capital": "Астана",
+            "continent": "Азія"
+        },
+        "Cambodia": {
+            "name": "Камбоджа",
+            "capital": "Пномпень",
+            "continent": "Азія"
+        },
+        "Cameroon": {
+            "name": "Камерун",
+            "capital": "Яунде",
+            "continent": "Африка"
+        },
+        "Canada": {
+            "name": "Канада",
+            "capital": "Оттава",
+            "continent": "Північна Америка"
+        },
+        "Qatar": {
+            "name": "Катар",
+            "capital": "Доха",
+            "continent": "Азія"
+        },
+        "Kenya": {
+            "name": "Кенія",
+            "capital": "Найробі",
+            "continent": "Африка"
+        },
+        "Kyrgyzstan": {
+            "name": "Киргизстан",
+            "capital": "Бішкек",
+            "continent": "Азія"
+        },
+        "China": {
+            "name": "Китай",
+            "capital": "Пекін",
+            "continent": "Азія"
+        },
+        "Cyprus": {
+            "name": "Кіпр",
+            "capital": "Нікосія",
+            "continent": "Азія"
+        },
+        "Kiribati": {
+            "name": "Кірибаті",
+            "capital": "Південна Тарава",
+            "continent": "Океанія"
+        },
+        "Colombia": {
+            "name": "Колумбія",
+            "capital": "Богота",
+            "continent": "Південна Америка"
+        },
+        "Comoros": {
+            "name": "Комори",
+            "capital": "Мороні",
+            "continent": "Африка"
+        },
+        "Costa Rica": {
+            "name": "Коста-Рика",
+            "capital": "Сан-Хосе",
+            "continent": "Північна Америка"
+        },
+        "Ivory Coast": {
+            "name": "Кот-д'Івуар",
+            "capital": "Ямусукро",
+            "continent": "Африка"
+        },
+        "Cuba": {
+            "name": "Куба",
+            "capital": "Гавана",
+            "continent": "Північна Америка"
+        },
+        "Kuwait": {
+            "name": "Кувейт",
+            "capital": "Ель-Кувейт",
+            "continent": "Азія"
+        },
+        "Laos": {
+            "name": "Лаос",
+            "capital": "В'єнтьян",
+            "continent": "Азія"
+        },
+        "Latvia": {
+            "name": "Латвія",
+            "capital": "Рига",
+            "continent": "Європа"
+        },
+        "Lesotho": {
+            "name": "Лесото",
+            "capital": "Масеру",
+            "continent": "Африка"
+        },
+        "Lithuania": {
+            "name": "Литва",
+            "capital": "Вільнюс",
+            "continent": "Європа"
+        },
+        "Liberia": {
+            "name": "Ліберія",
+            "capital": "Монровія",
+            "continent": "Африка"
+        },
+        "Lebanon": {
+            "name": "Ліван",
+            "capital": "Бейрут",
+            "continent": "Азія"
+        },
+        "Libya": {
+            "name": "Лівія",
+            "capital": "Триполі",
+            "continent": "Африка"
+        },
+        "Liechtenstein": {
+            "name": "Ліхтенштейн",
+            "capital": "Вадуц",
+            "continent": "Європа"
+        },
+        "Luxembourg": {
+            "name": "Люксембург",
+            "capital": "Люксембург",
+            "continent": "Європа"
+        },
+        "Myanmar": {
+            "name": "М'янма",
+            "capital": "Нейп'їдо",
+            "continent": "Азія"
+        },
+        "Mauritius": {
+            "name": "Маврикій",
+            "capital": "Порт-Луї",
+            "continent": "Африка"
+        },
+        "Mauritania": {
+            "name": "Мавританія",
+            "capital": "Нуакшот",
+            "continent": "Африка"
+        },
+        "Madagascar": {
+            "name": "Мадагаскар",
+            "capital": "Антананаріву",
+            "continent": "Африка"
+        },
+        "Malawi": {
+            "name": "Малаві",
+            "capital": "Лілонгве",
+            "continent": "Африка"
+        },
+        "Malaysia": {
+            "name": "Малайзія",
+            "capital": "Куала-Лумпур",
+            "continent": "Азія"
+        },
+        "Mali": {
+            "name": "Малі",
+            "capital": "Бамако",
+            "continent": "Африка"
+        },
+        "Maldives": {
+            "name": "Мальдіви",
+            "capital": "Мале",
+            "continent": "Азія"
+        },
+        "Malta": {
+            "name": "Мальта",
+            "capital": "Валлетта",
+            "continent": "Європа"
+        },
+        "Morocco": {
+            "name": "Марокко",
+            "capital": "Рабат",
+            "continent": "Африка"
+        },
+        "Marshall Islands": {
+            "name": "Маршаллові Острови",
+            "capital": "Маджуро",
+            "continent": "Океанія"
+        },
+        "Mexico": {
+            "name": "Мексика",
+            "capital": "Мехіко",
+            "continent": "Північна Америка"
+        },
+        "Mozambique": {
+            "name": "Мозамбік",
+            "capital": "Мапуту",
+            "continent": "Африка"
+        },
+        "Moldova": {
+            "name": "Молдова",
+            "capital": "Кишинів",
+            "continent": "Європа"
+        },
+        "Monaco": {
+            "name": "Монако",
+            "capital": "Монако",
+            "continent": "Європа"
+        },
+        "Mongolia": {
+            "name": "Монголія",
+            "capital": "Улан-Батор",
+            "continent": "Азія"
+        },
+        "Namibia": {
+            "name": "Намібія",
+            "capital": "Віндгук",
+            "continent": "Африка"
+        },
+        "Nauru": {
+            "name": "Науру",
+            "capital": "Ярен",
+            "continent": "Океанія"
+        },
+        "Nepal": {
+            "name": "Непал",
+            "capital": "Катманду",
+            "continent": "Азія"
+        },
+        "Niger": {
+            "name": "Нігер",
+            "capital": "Ніамей",
+            "continent": "Африка"
+        },
+        "Nigeria": {
+            "name": "Нігерія",
+            "capital": "Абуджа",
+            "continent": "Африка"
+        },
+        "Netherlands": {
+            "name": "Нідерланди",
+            "capital": "Амстердам",
+            "continent": "Європа"
+        },
+        "Nicaragua": {
+            "name": "Нікарагуа",
+            "capital": "Манагуа",
+            "continent": "Північна Америка"
+        },
+        "Germany": {
+            "name": "Німеччина",
+            "capital": "Берлін",
+            "continent": "Європа"
+        },
+        "New Zealand": {
+            "name": "Нова Зеландія",
+            "capital": "Веллінгтон",
+            "continent": "Океанія"
+        },
+        "Norway": {
+            "name": "Норвегія",
+            "capital": "Осло",
+            "continent": "Європа"
+        },
+        "United Arab Emirates": {
+            "name": "ОАЕ",
+            "capital": "Абу-Дабі",
+            "continent": "Азія"
+        },
+        "Oman": {
+            "name": "Оман",
+            "capital": "Маскат",
+            "continent": "Азія"
+        },
+        "Pakistan": {
+            "name": "Пакистан",
+            "capital": "Ісламабад",
+            "continent": "Азія"
+        },
+        "Palau": {
+            "name": "Палау",
+            "capital": "Нгерулмуд",
+            "continent": "Океанія"
+        },
+        "Panama": {
+            "name": "Панама",
+            "capital": "Панама-Сіті",
+            "continent": "Північна Америка"
+        },
+        "Papua New Guinea": {
+            "name": "Папуа Нова Гвінея",
+            "capital": "Порт-Морсбі",
+            "continent": "Океанія"
+        },
+        "Paraguay": {
+            "name": "Парагвай",
+            "capital": "Асунсьйон",
+            "continent": "Південна Америка"
+        },
+        "Peru": {
+            "name": "Перу",
+            "capital": "Ліма",
+            "continent": "Південна Америка"
+        },
+        "South Korea": {
+            "name": "Південна Корея",
+            "capital": "Сеул",
+            "continent": "Азія"
+        },
+        "South Sudan": {
+            "name": "Південний Судан",
+            "capital": "Джуба",
+            "continent": "Африка"
+        },
+        "South Africa": {
+            "name": "ПАР",
+            "capital": "Преторія",
+            "continent": "Африка"
+        },
+        "North Korea": {
+            "name": "Північна Корея",
+            "capital": "Пхеньян",
+            "continent": "Азія"
+        },
+        "North Macedonia": {
+            "name": "Північна Македонія",
+            "capital": "Скоп'є",
+            "continent": "Європа"
+        },
+        "Poland": {
+            "name": "Польща",
+            "capital": "Варшава",
+            "continent": "Європа"
+        },
+        "Portugal": {
+            "name": "Португалія",
+            "capital": "Лісабон",
+            "continent": "Європа"
+        },
+        "Republic of the Congo": {
+            "name": "Республіка Конго",
+            "capital": "Браззавіль",
+            "continent": "Африка"
+        },
+        "Rwanda": {
+            "name": "Руанда",
+            "capital": "Кігалі",
+            "continent": "Африка"
+        },
+        "Romania": {
+            "name": "Румунія",
+            "capital": "Бухарест",
+            "continent": "Європа"
+        },
+        "United States": {
+            "name": "США",
+            "capital": "Вашингтон",
+            "continent": "Північна Америка"
+        },
+        "El Salvador": {
+            "name": "Сальвадор",
+            "capital": "Сан-Сальвадор",
+            "continent": "Північна Америка"
+        },
+        "Samoa": {
+            "name": "Самоа",
+            "capital": "Апіа",
+            "continent": "Океанія"
+        },
+        "San Marino": {
+            "name": "Сан-Марино",
+            "capital": "Сан-Марино",
+            "continent": "Європа"
+        },
+        "Sao Tome and Principe": {
+            "name": "Сан-Томе і Принсіпі",
+            "capital": "Сан-Томе",
+            "continent": "Африка"
+        },
+        "Saudi Arabia": {
+            "name": "Саудівська Аравія",
+            "capital": "Ер-Ріяд",
+            "continent": "Азія"
+        },
+        "Seychelles": {
+            "name": "Сейшельські Острови",
+            "capital": "Вікторія",
+            "continent": "Африка"
+        },
+        "Senegal": {
+            "name": "Сенегал",
+            "capital": "Дакар",
+            "continent": "Африка"
+        },
+        "Saint Vincent and the Grenadines": {
+            "name": "Сент-Вінсент і Гренадини",
+            "capital": "Кінгстаун",
+            "continent": "Північна Америка"
+        },
+        "Saint Kitts and Nevis": {
+            "name": "Сент-Кітс і Невіс",
+            "capital": "Бастер",
+            "continent": "Північна Америка"
+        },
+        "Saint Lucia": {
+            "name": "Сент-Люсія",
+            "capital": "Кастрі",
+            "continent": "Північна Америка"
+        },
+        "Serbia": {
+            "name": "Сербія",
+            "capital": "Белград",
+            "continent": "Європа"
+        },
+        "Syria": {
+            "name": "Сирія",
+            "capital": "Дамаск",
+            "continent": "Азія"
+        },
+        "Singapore": {
+            "name": "Сінгапур",
+            "capital": "Сінгапур",
+            "continent": "Азія"
+        },
+        "Slovakia": {
+            "name": "Словаччина",
+            "capital": "Братислава",
+            "continent": "Європа"
+        },
+        "Slovenia": {
+            "name": "Словенія",
+            "capital": "Любляна",
+            "continent": "Європа"
+        },
+        "Solomon Islands": {
+            "name": "Соломонові Острови",
+            "capital": "Хоніара",
+            "continent": "Океанія"
+        },
+        "Somalia": {
+            "name": "Сомалі",
+            "capital": "Могадішо",
+            "continent": "Африка"
+        },
+        "Sudan": {
+            "name": "Судан",
+            "capital": "Хартум",
+            "continent": "Африка"
+        },
+        "Suriname": {
+            "name": "Суринам",
+            "capital": "Парамарибо",
+            "continent": "Південна Америка"
+        },
+        "East Timor": {
+            "name": "Східний Тимор",
+            "capital": "Ділі",
+            "continent": "Азія"
+        },
+        "Sierra Leone": {
+            "name": "Сьєрра-Леоне",
+            "capital": "Фрітаун",
+            "continent": "Африка"
+        },
+        "Tajikistan": {
+            "name": "Таджикистан",
+            "capital": "Душанбе",
+            "continent": "Азія"
+        },
+        "Thailand": {
+            "name": "Таїланд",
+            "capital": "Бангкок",
+            "continent": "Азія"
+        },
+        "Tanzania": {
+            "name": "Танзанія",
+            "capital": "Додома",
+            "continent": "Африка"
+        },
+        "Togo": {
+            "name": "Того",
+            "capital": "Ломе",
+            "continent": "Африка"
+        },
+        "Tonga": {
+            "name": "Тонга",
+            "capital": "Нукуалофа",
+            "continent": "Океанія"
+        },
+        "Trinidad and Tobago": {
+            "name": "Тринідад і Тобаго",
+            "capital": "Порт-оф-Спейн",
+            "continent": "Північна Америка"
+        },
+        "Tuvalu": {
+            "name": "Тувалу",
+            "capital": "Фунафуті",
+            "continent": "Океанія"
+        },
+        "Tunisia": {
+            "name": "Туніс",
+            "capital": "Туніс",
+            "continent": "Африка"
+        },
+        "Turkey": {
+            "name": "Туреччина",
+            "capital": "Анкара",
+            "continent": "Азія"
+        },
+        "Turkmenistan": {
+            "name": "Туркменістан",
+            "capital": "Ашхабад",
+            "continent": "Азія"
+        },
+        "Uganda": {
+            "name": "Уганда",
+            "capital": "Кампала",
+            "continent": "Африка"
+        },
+        "Hungary": {
+            "name": "Угорщина",
+            "capital": "Будапешт",
+            "continent": "Європа"
+        },
+        "Uzbekistan": {
+            "name": "Узбекистан",
+            "capital": "Ташкент",
+            "continent": "Азія"
+        },
+        "Ukraine": {
+            "name": "Україна",
+            "capital": "Київ",
+            "continent": "Європа"
+        },
+        "Uruguay": {
+            "name": "Уругвай",
+            "capital": "Монтевідео",
+            "continent": "Південна Америка"
+        },
+        "Micronesia": {
+            "name": "Мікронезія",
+            "capital": "Палікір",
+            "continent": "Океанія"
+        },
+        "Fiji": {
+            "name": "Фіджі",
+            "capital": "Сува",
+            "continent": "Океанія"
+        },
+        "Philippines": {
+            "name": "Філіппіни",
+            "capital": "Маніла",
+            "continent": "Азія"
+        },
+        "Finland": {
+            "name": "Фінляндія",
+            "capital": "Гельсінкі",
+            "continent": "Європа"
+        },
+        "France": {
+            "name": "Франція",
+            "capital": "Париж",
+            "continent": "Європа"
+        },
+        "Croatia": {
+            "name": "Хорватія",
+            "capital": "Загреб",
+            "continent": "Європа"
+        },
+        "Central African Republic": {
+            "name": "ЦАР",
+            "capital": "Бангі",
+            "continent": "Африка"
+        },
+        "Chad": {
+            "name": "Чад",
+            "capital": "Нджамена",
+            "continent": "Африка"
+        },
+        "Czech Republic": {
+            "name": "Чехія",
+            "capital": "Прага",
+            "continent": "Європа"
+        },
+        "Chile": {
+            "name": "Чилі",
+            "capital": "Сантьяго",
+            "continent": "Південна Америка"
+        },
+        "Montenegro": {
+            "name": "Чорногорія",
+            "capital": "Подгориця",
+            "continent": "Європа"
+        },
+        "Switzerland": {
+            "name": "Швейцарія",
+            "capital": "Берн",
+            "continent": "Європа"
+        },
+        "Sweden": {
+            "name": "Швеція",
+            "capital": "Стокгольм",
+            "continent": "Європа"
+        },
+        "Sri Lanka": {
+            "name": "Шрі-Ланка",
+            "capital": "Шрі-Джаяварденепура-Котте",
+            "continent": "Азія"
+        },
+        "Jamaica": {
+            "name": "Ямайка",
+            "capital": "Кінгстон",
+            "continent": "Північна Америка"
+        },
+        "Japan": {
+            "name": "Японія",
+            "capital": "Токіо",
+            "continent": "Азія"
+        }
+    }
+}
