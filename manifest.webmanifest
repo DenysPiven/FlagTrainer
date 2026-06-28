@@ -1,12 +1,12 @@
 {
     "name": "Flag Trainer",
-    "short_name": "Flags",
+    "short_name": "Flag Trainer",
     "description": "Learn country flags through practice",
     "start_url": "./",
     "scope": "./",
     "display": "standalone",
-    "background_color": "#343a40",
-    "theme_color": "#343a40",
+    "background_color": "#0057B7",
+    "theme_color": "#0057B7",
     "orientation": "any",
     "icons": [
         {
